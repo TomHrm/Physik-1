@@ -1,0 +1,203 @@
+
+\documentclass[11pt]{article}
+
+%Menge: \mathbb{R}
+
+\usepackage[ngerman]{babel}
+\usepackage{amsmath} %align, für = untereinander einfach &=
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{listings}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{esvect}
+\graphicspath{ {./images/} }
+\usepackage{tikz}         % For arrow and dots in \xvec
+\usepackage[left=2.30cm, right=2.30cm, top=1.70cm, bottom=2.00cm]{geometry}
+
+% --- Macro \xvec
+\makeatletter
+\newlength\xvec@height%
+\newlength\xvec@depth%
+\newlength\xvec@width%
+\newcommand{\xvec}[2][]{%
+	\ifmmode%
+	\settoheight{\xvec@height}{$#2$}%
+	\settodepth{\xvec@depth}{$#2$}%
+	\settowidth{\xvec@width}{$#2$}%
+	\else%
+	\settoheight{\xvec@height}{#2}%
+	\settodepth{\xvec@depth}{#2}%
+	\settowidth{\xvec@width}{#2}%
+	\fi%
+	\def\xvec@arg{#1}%
+	\def\xvec@dd{:}%
+	\def\xvec@d{.}%
+	\raisebox{.2ex}{\raisebox{\xvec@height}{\rlap{%
+				\kern.05em%  (Because left edge of drawing is at .05em)
+				\begin{tikzpicture}[scale=1]
+				\pgfsetroundcap
+				\draw (.05em,0)--(\xvec@width-.05em,0);
+				\draw (\xvec@width-.05em,0)--(\xvec@width-.15em, .075em);
+				\draw (\xvec@width-.05em,0)--(\xvec@width-.15em,-.075em);
+				\ifx\xvec@arg\xvec@d%
+				\fill(\xvec@width*.45,.5ex) circle (.5pt);%
+				\else\ifx\xvec@arg\xvec@dd%
+				\fill(\xvec@width*.30,.5ex) circle (.5pt);%
+				\fill(\xvec@width*.65,.5ex) circle (.5pt);%
+				\fi\fi%
+				\end{tikzpicture}%
+	}}}%
+	#2%
+}
+\makeatother
+
+% --- Override \vec with an invocation of \xvec.
+\let\stdvec\vec
+\renewcommand{\vec}[1]{\xvec[]{#1}}
+% --- Define \dvec and \ddvec for dotted and double-dotted vectors.
+\newcommand{\dvec}[1]{\xvec[.]{#1}}
+\newcommand{\ddvec}[1]{\xvec[:]{#1}}
+
+%eigene Befehle:
+\newcommand{\R}{$\mathbb{R}$}
+
+\title{Physik 1 Skript}
+\date{\today}
+\begin{document}
+\lstset{language=Java}
+\author{Tom Herrmann}
+
+\maketitle
+
+\section{Einführung}
+	peter.schleper@physik.uni-hamburg.de
+	\subsection{Übungsgruppen}
+		Es gibt 4 Übungsgruppe und eine davon ist auf Englisch.
+	\subsection{Klausurbonus}
+		Es müssen 50\%  der Aufgaben richtig abgegeben worden sein des jeweiligen Teils (Experimantal und theoretische Physik) um einen Klausurbonus zu erhalten.
+		Der Klausurbonus ermöglicht es mit nur 30\% der benötigten Punktzahl die Klausur zu bestehen.
+	\subsection{Buchempfehlungen}
+		\textbf{Gerthsen} "Physik" Verlag Springer ist das Buch mit dem er gelernt hat.
+\part{Vorlesung 1}
+	\section{Was ist Experimentalpyhsik?}
+	Die ersten Leute die sich gedanken in Richtung Physik gemacht haben waren Philosophen und erst ab dem 17 Jahrhundert fing der Umschwung an. 
+	Dabei war der Gedanke einfach Erkenntnisse über die Natur zu erlangen und dies wenn möglich zu vereinfachen. Wie Einstein aber sagte: "Dinge zu vereinfachen ist gut, sie einfacher zu machen als sie eigentlich sind aber nicht"
+ 	\section{Was macht ein gutes Experiment aus?}
+ 		\begin{itemize}
+ 			\item Naturbeobachtung
+ 			\item reproduzierbar
+ 			\item Naturgesetzte daraus ableiten
+ 		\end{itemize}
+	\section{SI-Einheiten}
+		x = $1.307 m$ $\rightarrow$ Einheit $[x] \Rightarrow$ = Meter ; dim x = Länge definieren Standards
+		\begin{itemize}
+			\item $[$Zeit$]$ = SI: s - cgs: s
+			\item $[$Längen$]$ = SI: m - cgs: cm
+			\item $[$Masse$]$ = SI: kg - cgs: g
+		\end{itemize}
+		\subsection{Dimension}
+	$[$Länge$] = 1m$\\
+	$[$Fläche$] = 1m^2$\\
+	$[$Volumen$] = 1m^3$\\
+	$[$Geschwindigkeit$] = 1\frac{m}{s}$\\
+	$[$Zeit$] = 1s$\\
+	$[$Kraft$] = 1N = 1\frac{kg\times m}{s^2}$\\
+	$[$Leistung$] = 1W = 1\frac{N}{s^2} = 1\frac{kg\times m}{s^3}$\\
+	Sämtliche Terme einer Gleichung müssen dem entsprechend die gleiche Dimension haben
+\part{Vorlesung 2}
+	\section{Wiederholung}
+	Wichtige Faktoren für ein gutes Experiment
+		\begin{itemize}
+			\item Reduzierung von Naturerscheinungen
+			\item Vereinfachung
+			\item Systematisch
+			\item Qualitativ
+			\item Reproduzierbar
+		\end{itemize}
+\subsection{Definitionen}
+ 	Eine Sekunde wird am besten über die Atomphysik definiert und zwar über die Cs Atome.\\
+ 	Ein Meter ist über die Lichtgeschwindigkeit Definition. 1m = c * $\frac{1s}{299792458 m}$\\
+ 	Die Masse wird definiert über ein sogenanntes Urkilogramm. Sprich über eine Masse werden alle anderen Massen definiert.\\
+ 	Stromstärke: A wird ebenfalls über ein Experiment definiert.\\
+ 	Stoffmenge: mol\\
+ 	Temperatur: Kelvin \quad k\\
+ 	\textbf{Alle Naturkonstanten wurden letztes Jahr (2018) dabei neu definiert um eine höhere Genauigkeit zu gewährleisten}
+\section{Kinematik des Massenpunktes}
+ 	Ein realer Körper:
+ 	\begin{itemize}
+ 		\item Translation
+ 		\item Rotation
+ 		\item Deformation
+ 	\end{itemize}
+ Aber nun reden wir über einen starren Körper also einen Körper bei dem alle Abstände innerhalb des Körpers unabhängig von der Zeit gleich bleiben \textbf{(keine Deformation)}.\\
+ Auf den Massepunkt wirkt ebenfalls keine Rotation in diesem Beispiel. Was allerdings nicht heißt dass man in der realen Welt die Rotation (SPIN) einfach vernachlässigen kann egal wie klein dieses Teilchen auch sein möge.\\
+  \subsection{Behauptung}
+  Man kann 2-Dimensionale Bewegungen beschreiben.
+  	\begin{center}
+  		\includegraphics[scale=0.3]{20190411_073844099_iOS.png}
+  		\includegraphics[scale=0.3]{20190411_074045495_iOS.png}
+  		\includegraphics[scale=0.3]{20190411_074437642_iOS.png}
+  		\includegraphics[scale=0.3]{20190411_074619898_iOS.png}\\
+  	\textit{x-Achse = Zeit t; y-Achse= Position x}
+  	\end{center}
+ \subsection{1-dimensionale Bewegung}
+ 	\begin{center}
+ 			\includegraphics[scale=0.3]{20190411_073844099_iOS.png}
+ 	\end{center}
+ \[ v = \frac{x_2 - x_1}{t_2 - t_1} = \frac{\Delta x}{\Delta t} \Leftrightarrow \lim_{\Delta t\to\ 0} \]
+ Die Geschwindigkeit ist natürlich immer eine Durchschnittsangabe da es über eine gewisse Zeitspanne angeben wird. 
+ 
+ \newpage
+ \part{Vorlesung 3}
+ 			v = $\dot{x}$ \qquad v = $\frac{dx}{dt}$ \\
+ 			a = $\dot{v}$ = $\ddot{x}$ \qquad  a = $\frac{dv}{dt} = \frac{d^2x}{dt^2}$ \\
+ 			Mittelwerbeschleunigung = $\frac{\Delta x}{\Delta t} = \frac{\frac{x_4 - x_3}{t_4 - t_3} - \frac{x_2 - x_1}{t_2 - t_1}}{t_3 - t_1}$
+  	\begin{center}
+ 	\includegraphics[scale=0.3]{IMG_EFF187166B54-1.jpeg}
+ 	\end{center}
+ \[ v = \frac{dx}{dt} \rightarrow x_(t) = x_0 + \int_{t}^{t_0} v dt \]
+\[ a = \frac{dv}{dt} \rightarrow v_(t)  = v_0 + \int_{t}^{t_0} a dt \]
+	$x_(t)$ bei gegebenen $a(t)$ \\
+		$x(t) = x_0 + \int_{t}^{t_0} (v_0 + \int_{t´´}^{t_0} a_(_t_) dt) dt´´$ \\
+		
+		$v(t)$ aus $a(x)$: \\
+		v = $\frac{dx}{dt}$ \qquad dt = $\frac{dx}{v}$ \\
+		a = $\frac{dv}{dt} $ \qquad dt = $\frac{dv}{a}$\\
+		darauf ergibt sich $\frac{dx}{v} = \frac{dv}{a}$ $\Leftrightarrow \int_{v_1}^{v_0} v dv = \int_{x_1)}^{x_2} a_(x)dx$ durch weiteres umformen kommt man zum ausdruck: \\
+		\[ \frac{1}{2} v^2 -\frac{1}{2} v_0^2 = \int_{x}^{x_0} a_(_x_)dx \]
+ Wenn man nun die Masse mit einbezieht kommt man zur klassischen kinetischen Energie\\
+  \[ \frac{1}{2} mv^2 - \frac{1}{2} mv^2 = \int_{x}^{x_0} a_(x) dx \]
+  
+  \section{3.3.4 Spezialfälle}
+  	\subsection{Gleichförmige Bewegung}
+  		a = 0  $\Leftrightarrow v = v_0$ \qquad $x_(_t_) = x_0 + v_0(t - t_0)$ \\
+  		Also ist die Geschwindigkeit konstant 
+	\subsection{konstante Beschleunigung}
+			a = const \qquad $v = v_0 + a(t - t_0)$ \\
+			$ x = x_0 + \int_{t_0}^{t} (v_0 + a(t - t_0))dt) \\
+				= x_0 + \int_{t_0}^{t} v_0 dt + a \int_{t_0}^{t} (t - t_0) dt\\
+				x = x_0 + v_0(t- t_0) + \frac{1}{2}a(t - t_0)^2 $ \\
+			\textbf{Wahl des Koordinaten Systems:\\ t=0 und x=0}
+			Gleichförmige Bewegung: $a = 0 ; v = v_0 \rightarrow x = v * t$ \\
+			\textbf{konstante Beschleungung:} $a = const ; v = v_0 + a t ; x = vt + \frac{1}{2} at^2 $
+\section{3.4 3-Dimensionale Bewegung (Vektoren)}
+	  	\begin{center}
+		\includegraphics[scale=0.3]{IMG_8E3512F499A3-1.jpeg}
+	\end{center}
+	Sofern es keinen Vektorpfeil über einem Vektor gibt ist meist die Länge des Vektors gemeint\\
+		$\vec{r} = \left(\begin{array}{cc}
+		x \\
+		y \\
+		z
+		\end{array} \right) $
+		\|\vec{r}\| = r = $\sqrt{x^2 + y^2 + z^2}$ \\
+		$\Leftrightarrow v_x = \frac{dx}{dt}$ \qquad $v_y = \frac{dy}{dt}$ \qquad $v_z = \frac{dz}{dt}$  \\
+		\textbf{Beschleunigung} a_x = $\frac{d\vec{r}}{dt} 	\vec{a} = \frac{d\vec{v}}{dt}$
+
+		\part{Vorlesung 4}
+		\includepdf[pages=-]{./images/PHY1-19.pdf}
+		
+
+\end{document}
