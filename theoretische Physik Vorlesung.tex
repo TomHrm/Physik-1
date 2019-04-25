@@ -72,8 +72,11 @@
 \begin{document}
 \lstset{language=Java}
 \author{Tom Herrmann}
-\linespread{2.05}
+\linespread{1.55}
 \maketitle
+\tableofcontents
+\newpage
+
 \section{Einleitung}
 	Gliederung:
 	\begin{itemize}
@@ -85,14 +88,15 @@
 		\textbf{Wenn man eine Fettgedruckte Größe in den Übungsaufgaben sieht ist damit ein Vektor gemeint}
 \part{Vorlesung 1}
 	$\#$ = Anzahl
-	\section{Vektorrechnung}
+	\section{Grundlagen}
+	\subsection{Vektorrechnung}
 		Vektoren sind gerichtete Größen deren Komponenten bei Drehung oder allgemeiner Koordinaten Transformationen gewisse transformationseigenschaften besitzen. \\
 		Skalare sind dabei invariant unter Koordinatentransformation. (z.B: Masse, Ladung, Temperatur)\\
 		Ortsvektor $\vec{r}$, Geschwindigkeit $\vec{v} = \frac{d\vec{r}}{dt} = \frac{d^2\vec{r}}{dt^2} $\\
 		Vektoren haben eine Richtung und eine Länge.
-	\section{Ableitung}
+	\subsection{Formale Schreibweise Ableitungen}
 		Ableitung können sowas als $f`$ geschrieben werden als auch als $\dot{f}$ somit kann die Geschwindigkeit $\vec{v}$ als die Ableitung der Position ausgedrückt werden $\vec{v}$ = $\vec{\dot{x}}$.
-	\section{Drehung}
+	\subsection{Drehung}
 	$\vec{a} = (a_x, a_y) = (x, y)$\\
 	$\vec{a} = (a_u, a_v) = (u, v)$ dabei ist für u und v das Koordinatensystem einfach nur um einen bestimmten Winken $\varphi$ gedreht.\\
 	\[u = x cos \varphi + y sin \varphi\]
@@ -101,7 +105,8 @@
 	\[	[x^2 cos^2 \varphi + y^2 sin^2\varphi+xy cis \varphi sin \varphi + x^2 sin^2 \varphi + y^2 cos^2 \varphi - 2xy sin \varphi cos \varphi]^\frac{1}{2}\]
 	\[ [x^2(cos^2\varphi + sin^2 \varphi) + y^2 sin^2\varphi + cos^2 \varphi]^\frac{1}{2} \]
 	\[ \sqrt{x^2 + y^2} \] \qed \\
-Drehung als Matrix Multiplikation: $\left( \begin{array}{c}
+\subsubsection{Drehung als Matrix Multiplikation:} 
+$\left( \begin{array}{c}
 	u \\ 
 	v
 \end{array} \right)
@@ -116,15 +121,15 @@ Drehung als Matrix Multiplikation: $\left( \begin{array}{c}
 = \frac{2}{2} = A_{ij} x_j $  
 
 \part{Vorlesung 2}
-	\section{Basis der Vektorrechnung}
+	\subsection{Basis der Vektorrechnung}
 	Mathematisch abstrakt ist ein linearer oder Vektorraum ein "Körper" von Elementen $\vec{a}, \vec{b}, \vec{c}$, im dem eine Addition und eine ultiplikation mit skalaren $\alpha$ definiert ist.
 		
-		\subsection{Basis ausrechnung}
+		\subsubsection{Basis ausrechnung}
 			\begin{itemize}
 				\item Die Anzahl der Vektoren stimmt überein mit der Dimension des Vektorraumes.
 				\item Die Vektoren sind linear unabhängig.
 			\end{itemize}
-		\subsection{Addition}
+		\subsubsection{Addition}
 		\[	\left(\begin{array}{c}
 				1\\ 
 				2
@@ -138,7 +143,7 @@ Drehung als Matrix Multiplikation: $\left( \begin{array}{c}
 	4\\ 
 	7
 \end{array} \right) \]
-		\subsection{Subtraktion}
+		\subsubsection{Subtraktion}
 		\[	\left(\begin{array}{c}
 				3\\ 
 				4
@@ -153,7 +158,7 @@ Drehung als Matrix Multiplikation: $\left( \begin{array}{c}
 	1\\ 
 	-1
 \end{array} \right) \]
-		\subsection{Multiplikation}
+		\subsubsection{Multiplikation}
 		\[	a * \vec{v} = 5 * \left(\begin{array}{c}
 				2\\ 
 				1\\
@@ -169,22 +174,22 @@ Drehung als Matrix Multiplikation: $\left( \begin{array}{c}
 			15
 			\end{array} \right) 	\]  
 			Bei der Division läuft das ganze dann fast genau so ab einfach nur 5 in den als zähler der jeweiligen Koordinate schreiben.
-		\subsection{Skalarprodukt}
+		\subsubsection{Skalarprodukt}
 			\[ \vec{a} \circ \vec{b} = |\vec{a}| \circ |\vec{b}| = \begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix} \circ \begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix} = a_1 \cdot b_1 + a_2 \cdot b_2 + a_3 \cdot b_3 \]
-		\section{Eigenschaften von Rechenoperationen}
+		\subsection{Eigenschaften von Rechenoperationen}
 		Kommutativität $\vec{a} + \vec{b} = \vec{b} + \vec{a}$\\
 		Distributivität $\lambda * (\vec{a} + \vec{b}) = (\vec{a} + \vec{b}) * \lambda$\\
 		Homogenität (gemischtes Assoziativgesetz) $\alpha(\vec{a} + \vec{b} = (\alpha \vec{a}) * \vec{b} =  \vec{a} * (\alpha \vec{b})$
 		
 		
-		\subsection{Schwarzsche Ungleichung}
+		\subsubsection{Schwarzsche Ungleichung}
 			$|\vec{a} * \vec{b}| \leq |\vec{a}| |\vec{b}|$
 			
-		\subsection{Projektion auf die Richtung \vec{b}}
+		\subsubsection{Projektion auf die Richtung \vec{b}}
 			$a_b := a cos(\varphi) = \vec{a} * \vec{b} \text{ wo } \vec{b} := \frac{\vec{b}}{|\vec{b}|}$ der Einheutsvektor in $\vec{b}$ Richtung ist. (Also soll hier b der Einheitsvektor sein)\\
 			Abstrake Definition eines Skalarproduktes mit obigen Eigenschaften und zusätzlichen $\vec{a}*\vec{a} > 0   \exists \vec{a} \neq 0 $ (positiv definiert)\\
 		\part{Vorlesung 3}
-			\subsection{Vektorprodukt}
+			\subsubsection{Vektorprodukt}
 				$\vec{c} = \vec{a} \times \vec{b}$ \qquad $|\vec{c}| = c = ab$  \;  $ |sin \varphi|$
 		\begin{center}
 			\includegraphics[scale=0.3]{vektorprodukt.png}
@@ -201,7 +206,7 @@ Drehung als Matrix Multiplikation: $\left( \begin{array}{c}
 	$ b(\vec{a}\times\vec{b}) \times (\vec{b}\times\vec{c})  = \vec{b} \cdot \det(\vec{a},\vec{b},\vec{c}) $\\
 	$ (\vec{a}\times\vec{b}) \times (\vec{a}\times\vec{c})  = \vec{a} \cdot \det(\vec{a},\vec{b},\vec{c}) $\\
 	$ (\vec{a}\times\vec{b}) \times (\vec{a}\times\vec{b})  = \vec{0}$
-	\subsection{Komonentendarstellung}
+	\subsubsection{Komonentendarstellung}
 		Definiere 3 \"orthogonale\" das heißt orthogonale Einheitsvektoren\\
 			$\vec{\hat{a}} , \vec{\hat{y}}, \vec{\hat{z}}$ \\der 
 			im 3-Dimensionalen euklidischen Raum, mit (Schreibregel: Der einfachheit wegen lasse ich in den 2 Zeilen das Zeichen für Einheitsvektor weg, es sollte eigentlich dabei stehen) \\
@@ -217,7 +222,7 @@ Drehung als Matrix Multiplikation: $\left( \begin{array}{c}
 				\begin{center}
 					I	\includegraphics[scale=0.4]{Komponentendarstellung2.png}
 				\end{center}
-\subsection{Spatprodukt}
+\subsubsection{Spatprodukt}
 \begin{center}
 	\includegraphics[scale=0.3]{1000px-Parallelepiped2.png}
 \end{center}
@@ -237,19 +242,19 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 				$(\vec{a} \times \vec{b}) * \vec{c} = (\vec{b} \times \vec{c}) * \vec{a} = (\vec{c} \times \vec{a} * \vec{b})$\\
 				Dies ist auch in 3-Dimensionen möglich, wie man am Beispiel der Determinante gesehen hat.
 			\end{itemize}
-		\subsection{Doppeltes Vektorprodukt}
+		\subsubsection{Doppeltes Vektorprodukt}
 			Im algemeinen nicht assoziativ\\
 			Es gibt die \textbf{bac-cab-Regel}\\
 			$\vec{a} \times (\vec{b} \times \vec{c})= \vec{b} (\vec{a} * \vec{c}) - \vec{c}(\vec{a} *\vec{b})$\\
 			Daraus folgt auch die  Jacobi-Identität \\
 			 	$\vec{a}\times(\vec{b}\times\vec{c}) +\vec{b}\times (\vec{c}\times\vec{a}) +\vec{c}\times (\vec{a}\times\vec{b}) = 0$
-	\section{Das Differential}
+	\subsection{Das Differential}
 		Ist $f(x)$ differenzierbar bei x, so nennt man $f^\prime(x) h$ für beliebige h  Differential  von $f(x)$. Ma schreibt oft
 			\begin{center}
 				$dy = df(x) = f^\prime(x)dx$
 			\end{center}
 			In der Mathematik wird dies Differentialform genannt, die man formal als dual zum Vektorraum bestehend aus Koordinaten $x, ...$ definiert.
-	\section{Vektorfunktionen}
+	\subsection{Vektorfunktionen}
 		z.B. Kurve eines Massenpunktes wird beschrieben durch $\vec{r}|t| = (x(t), y(t), z(t))$ wobei t die Zeit ist.\\
 				\begin{figure}[htbp]
 					\begin{minipage}[t]{10cm}
@@ -268,7 +273,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 				z.B.\\
 				\[\frac{d}{dt}(\vec{a} \times \vec{b}) = \frac{d\vec{a}}{dt} \times \vec{b} \vec{a} \times \frac{d\vec{b}}{dt}\]
 				\[ \frac{d}{dt}\vec{r} (f(t^\prime)) = \frac{d\vec{r}}{dt}(f(t^\prime)) * \frac{df}{dt^\prime}(t^\prime) \]
-	\section{Integration}
+	\subsection{Integration}
 	\includegraphics[scale=0.05]{integral.png}
 	Die Integralrechnung ist aus dem Problem der Flächen- und Volumenberechnung entstanden.
 	Dabei kann die Funktion auch ein komplett random geformter klotz in einem koordinaten System sein.\\
@@ -285,13 +290,15 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 			Eine der am  häufigsten genutzen Regeln in der Physik ist, dass Konstanten vor das Integral gezogen werden können.
 		\end{minipage}
 	\end{figure}
-\section{Differentialrechnung}
+\subsection{Differentialrechnung}
 	\begin{center}
 		$dy = df(x) = f^\prime(x)dx$
 	\end{center}
 	In der Mathematik wird dies Differentialform genannt, die man formal als dual zum Vektorraum bestehend aus Koordinaten $x, ...$ definiert.
 	\newpage
-	\section{Vektorfunktionen}
+	
+	\part{Vorlesung 4}
+	\subsection{Vektorfunktionen}
 	z.B. Kurve eines Massenpunktes wird beschrieben durch $\vec{r}|t| = (x(t), y(t), z(t))$ wobei t die Zeit ist.\\
 	\begin{figure}[htbp]
 		\begin{minipage}[t]{10cm}
@@ -305,20 +312,22 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 			$f^\prime(x_0) = \frac{df}{dx} |_{x_0}$$ \\ = lim_{\Delta x \to\ 0} \frac{\Delta f}{\Delta x}\\ = lim_{x \to\ x_0} \frac{f(x) - f(x_0)}{x - x_0}$
 		\end{minipage}
 	\end{figure}
-\section{Taylor Entwicklung}
+\subsection{Taylor Entwicklung}
 	Im 1. Ordnung: $f(x) \approx f(x_0) + f^\prime(x_0)(x-x_0)$\\
 \textbf{Verallgemeinerung}:\
 	\[ f(x)= \sum_{n=0}^{\infty}\frac{f^(^n^) (x_0)}{n!} (x-x_0)^n = f(x_0) + f^\prime (x_0) (x - x_0) + \frac{f^\prime ^\prime (x_0)}{2} (x-x_0)^2 + ... \]
-	Jede \textbf{Potenzreihe} $\sum_{n=0}^{\infty}a_n(x-x_0)^n$ und damit auch jede \textbf{Taylor-Reihe} hat einen Konvergenzradius $\lambda$, so daß $\sum_{n=0}^{\infty}a_n(x-x_0)^n$ für alle $|x-x_0| < r$ konvergiert. Im allgemeinen ist r durch den Abstand zur nöchsten Singularität von $f(x)$ gegeben, diese Tatsache gilt aber nur allgemein im Raum der komplexen Zahlen.\\
+	\subsubsection{Potenzreihe}
+	Jede \textbf{Potenzreihe} 
+	$\sum_{n=0}^{\infty}a_n(x-x_0)^n$ und damit auch jede \textbf{Taylor-Reihe} hat einen Konvergenzradius $\lambda$, so daß $\sum_{n=0}^{\infty}a_n(x-x_0)^n$ für alle $|x-x_0| < r$ konvergiert. Im allgemeinen ist r durch den Abstand zur nöchsten Singularität von $f(x)$ gegeben, diese Tatsache gilt aber nur allgemein im Raum der komplexen Zahlen.\\
 	\textbf{Beispiel}:\\ 
 	$f(x) = \frac{1}{1 + x^2} = \sum_{n=0}^{\infty} (-1)^n x^2^n = \sum_{n=0}^{\infty} a_nx^n $ hat den Konvergenzradius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n} = -x^2$ obwohl $\frac{1}{1+x^2}$ für alle $x \in \R$ wohldefiniert und unendlich oft differenzierbar ist. \\
 	Der tiefere Grund ist daß $ \frac{1 }{1 + x^2} $ bei $x = \pm i$ singulär ist. 
-	\section{Partielle Differentiation}
+	\subsection{Partielle Differentiation}
 		Funktionen mehrerer Variablen, z.B. f(x,y,z), können nach den einzelnen Variablen differenziert werden, wobei man sich die anderen Variablen konstant vorstellt.\\
 		\[ \frac{\partial f}{\partial x}(x,y,z) =  lim_{\Delta x \to\ 0} \frac{f(x+\Delta x,y,z - f(x,y,z))}{x,y,z} \]
 		und analog für die anderen Variablen.\\ \textbf{Kurzschreibweise}:\\
 		\[ f_x = \frac{\partial f}{\partial x} \quad f_y = \frac{\partial f}{\partial y} \quad f_z = \frac{\partial f}{\partial z} \] \\
-		\textbf{Höhere Ableitungen}:\\
+		\subsubsection{Höhere Ableitungen}
 		\[  f_x_x = \frac{\partial}{\partial x}(\frac{\partial f}{\partial x}) = \frac{\partial^2f}{\partial x^2} \]
 	\[  f_x_y = \frac{\partial}{\partial y} (\frac{\partial f}{\partial x}) = \frac{\partial^2 f}{\partial_y \partial_x} \]
 		 übrigens gilt: $\frac{\partial^2 f}{\partial y \partial x } = \frac{\partial^2 f}{\partial_x \partial_y}$ (Symmetrie)\\
@@ -328,18 +337,19 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 		 Kann auch für die 1. Ordnung einer multi-dimensionalen Taylor-Entwicklung verwendet werden: \\
 		 $ f(x,y,z) = f(x_0, y_0, z_0) + \frac{\partial f}{\partial x} (x_0, y_0, t_0)(x-x_0) + \frac{\partial f}{\partial y} (x_0, y_0, t_0)(y-y_0) + \frac{\partial f}{\partial z} (x_0, y_0, t_0)(z-z_0) + ... $
 	
-		\section{Vektoranalysis: Gradient, Divergenz, Rotation}
+		\subsection{Vektoranalysis: Gradient, Divergenz, Rotation}
 			Ein \textbf{Vektorfeld} ist eine Vektor-wertige Funktion mehrerer Variablen:
 			\[ \vec{F}(\vec{r}) = (F_x(x,y,z), F_y(x,y,z), F_z(x,y,z) ) \]
 			\textbf{Beispiele:} Geschwindkeitsfeld (e.g. Windgeschwindigkeit), Kraftfeld\\
 			Ein \textbf{Skalarfeld} hat nur eine (skalare) Komponente:
 				\[ f(\vec{r}) = f(x,y,z) \]\\
-				\textbf{Gradient:}\\
+				\subsubsection{Gradient}
 				
 				\[ f \rightarrow \vec{\nabla} f = grad f = \vec{\nabla} f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right) \text{\qquad} Skalarfeld \rightarrow Vektorfeld \] 
 				Es gelten die üblichen Produkt- und Summenregeln:
 					\[ \vec{\nabla}(f+g) = \vec{\nabla }f + \vec{\nabla}g; \vec{\nabla}(f+g)= g\vec{\nabla}f + f\vec{\nabla}g \]
-				\textbf{Beispiel:} f sei Funktion der Abstand $|\vec{r} - \vec{r}_0| = f^\prime (| \vec{r}-\vec{r}_0|) \frac{x-x_0}{| \vec{r} - \vec{r}_0 |}$ \\
+				\subsubsection{Beispiel}
+				 f sei Funktion der Abstand $|\vec{r} - \vec{r}_0| = f^\prime (| \vec{r}-\vec{r}_0|) \frac{x-x_0}{| \vec{r} - \vec{r}_0 |}$ \\
 				\textit{Dabei gilt:} $|\vec{r} - \vec{r}_0| = \sqrt{(x-x_0)^2 + (y-y_0)^2 + (z-z_0)^2}$\\
 				Dabei ist das ganze dann logischer weise nur vom Abstand abhängig\\
 				$\Rightarrow \vec{\nabla} (\vec{r}) =   \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right) = \frac{1}{|\vec{r} - \vec{r}_0|} ( x-x_0, y- y_0, z- z_0 )    \frac{\vec{r} - \vec{r}_0}{| \vec{r}-\vec{r}_0 |} = \vec{e}_{\vec{r} - \vec{r}_0}$ \\
@@ -353,37 +363,100 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 				 Nebenrechnung: $\phi^\partial (r) = + \frac{G_N m_1 m_2}{r^2}\\
 				 \vec{F}_1_2 = - \vec{\nabla} \phi = - \frac{G_N m_1 m_2}{| \vec{r}-\vec{r}_0 |}(\vec{r} - \vec{r}_0)$ = Die Kraft die Teilchen 2 auf Teilchen 2 ausübt.
 				
-				\section{Rotation}
+				\subsection{Rotation}
 				Hierbei muss extrem auf die Vorzeichen aufgepasst werden. Es gibt zudem nur 2 Kombinationen wie man im laufe sehen wird die sich nicht wegkürzen.\\
 					rot($\vec{F} (\vec{r}) = \vec{\nabla} \times \vec{F} = \sum_{i, j, k}^{}$ $\frac{\partial f_j}{\partial x_i}  \vec{e}_{i,j} = (\frac{\partial f_z}{\partial y} - \frac{\partial f_y}{\partial z}, \frac{\partial f_x}{\partial z} - \frac{\partial f_z}{\partial x}, \frac{\partial f_z}{\partial x} - \frac{\partial f_x}{\partial y}$)\\
 					Es sind 3 da wir uns im 3 Dimensionalen befinden.  \quad  Vektorfeld $\Rightarrow$ Vektorfeld ; Wirbelstärke\\
 					
-					\textbf{Summe und Rotation:}\\
+					\subsubsection{Summe und Rotation}
 						$\vec{\nabla} \times(\vec{F} + \vec{G}) = \vec{\nabla} \times \vec{F} + \vec{\nabla} \times \vec{G}$\\
 						$ \vec{\nabla} \times(f \vec{F} )= f \vec{\nabla} \times \vec{F} (\vec{\nabla} f) \times \vec{F} $\\
-						\textbf{Beispiele:}
+					\subsubsection{Beispiel:}
 							$f (\vec{r}) = \vec{F} = f(r) \vec{\nabla} \times \vec{r} + (\vec{\nabla} f) \times \vec{r}$\\
 							$\vec{f} (\vec{r}) = (\frac{\partial f_z}{\partial y} - \frac{\partial f_y}{\partial z}, \frac{\partial f_x}{\partial z} - \frac{\partial f_z}{\partial x}, \frac{\partial f_z}{\partial x} - \frac{\partial f_x}{\partial y)} = \vec{0}  $ \qquad $\vec{r} = (x,y,z)$\\
 							$\vec{\nabla}f = f^\prime \frac{\vec{r}}{|\vec{r}|} \Rightarrow (\vec{\nabla}f) \times \vec{r} = \frac{f^\prime}{|\vec{r}|} \times \vec{r} = 0$\\
 							
-							\textbf{Beispiel B:}\\
+							\subsubsection{Beispiel B}
 							$\vec{F}(\vec{r}) = \vec{w} \times \vec{r}$\\
 							$| \vec{F}(\vec{r})| = |\vec{w}| \sqrt{x^2+y^2}$\\
 							$(\vec{\nabla}  \times \vec{F})_x = \frac{\partial f_z}{\partial y} - \frac{\partial f_y }{\partial z}  = \frac{\partial}{\partial y} (w_x y - w_y x) - \frac{\partial}{\partial z}(w_y x - w_x y)$ \\
 							Damit gilt: $\vec{F} = \vec{w} \times \vec{a} \Rightarrow F_z = w_xy - w_yx$ und $F_y = w_zx - w_xz$\\
-							Also ist es am ende: $\Rightarrow \vec{\nabla} \times \vec{F} = 2\vec{w}$
+							Also ist es am ende: $\Rightarrow \vec{\nabla} \times \vec{F} = 2\vec{w}$\\
+							
 							
 							$\Leftrightarrow \vec{\nabla} \times (\vec{w} \times \vec{r})= 2\vec{w}$
 							
-					\section{Divergenz}
+					\subsection{Divergenz}
 						div $\vec{f} = \vec{\nabla}, \vec{F} = (\frac{\partial}{\partial x}, \frac{\partial }{\partial y} , \frac{\partial }{\partial z}) * F_x , F_y, F_z = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y}+ \frac{\partial F_z}{\partial z}$\\
 						Vektorfunktion $\rightarrow$ Sklarafunktion\\
 						$\vec{\nabla } (\vec{F} + \vec{G}) = \vec{\nabla} \vec{F} + \vec{\nabla} \vec{G} $ \quad $ \vec{\nabla}+ (f \vec{f}) = f \vec{\nabla} * \vec{F} +(\vec{\nabla f}) * \vec{F} $\\
-						\textbf{Beispiele:}\\
+						\subsubsection{Beispiele}
 						$\vec{F} (\vec{r}) = \vec{r}$ \quad $\vec{\nabla} * \vec{r} = 3 $\\
 						anderes Beispiel: $\vec{F} (\vec{r}) = \vec{w} \times \vec{r}$ \quad $\vec{w} = const.$\\
 						wähle deine Einschränkungen: $\vec{w} = w\vec{e}_z = (0,0,w) \rightarrow \vec{w} \times \vec{r} = (-wy, wx, 0)$\\
 						$\vec{\nabla} * (\vec{w} \times \vec{ r}) = \frac{\partial}{\partial x} (wx) + \frac{\partial}{\partial z} 0 = 0$\\
-						Weitere Beispiele im im Skript.\\						
-					
+						Weitere Beispiele im im Skript.\\		
+						\part{Vorlesung 5}				
+					\subsection{Gradient und totales Differential}
+						$f(x,y,z) \Rightarrow df = \frac{\partial f}{\partial x} dx +\frac{\partial f}{\partial y} dy+ \frac{\partial f}{\partial z} dz = (\vec{\nabla} f) * d\vec{ r}$\\
+						$\vec{\nabla} f = \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} , \frac{\partial f}{\partial z}  \quad d\vec{ r} = (dx,dy,dz)$\\
+						$\frac{df}{dt} = (\vec{\nabla} f) * \frac{d\vec{ r}}{dt} $\\
+						$\Rightarrow$ $\int_{\vec{ r}_0}^{\vec{ r}_1} \frac{df}{dt} dt = \int_{\vec{ r}_0}^{\vec{ r}_1} (\vec{\nabla } f) d\vec{ r} = f(\vec{ r}_1) - f(\vec{ r}_0)$\\
+						\subsubsection{Wegintegral eines Vektorfeldes $\vec{ F}(\vec{ r})$}
+							Angenoimmen wir haben eine Kurve und wollen ein Kurvenintergral bilden und nennen dies dann c. Dabei ist der eine Endpun kt $\vec{ r}_0$ und $\vec{ r}_1$\\
+							$\int_{c}^{} \vec{ F}(\vec{ r}) *d\vec{ r} = \int_{c}^{} [ F_x dx + F_y dy + F_z dz ] :=  \\ \lim_{N \to\ \infty}
+							\sum_{i =1}^{N} \vec{ F}(\vec{ r}_i) * \Delta\vec{ r}_i = \lim_{N \to\ \infty} \sum_{i =1}^{N}\vec{ F}(\vec{ r}_i) * \frac{ \Delta \vec{ r}_i}{\Delta t} \Delta t$\\
+							$\lim_{\Delta t\to\ 0} \Delta t_i = \lim_{N \to\ \infty} \Delta \vec{ r}_i = 0$\\
+							Also zum Beispiel eine Arbeit, die durch einer Kraft $\vec{ F}(\vec{ r}) * d\vec{ r}$ verrichtet wird
+								\[ W = \int \vec{ F}(\vec{ r}) * d\vec{ r} \]
+								Dabei muss man sich immer den Kontext klar machen da sich dadurch ganz einfach Vorzeichen ändern können also der unterschied ob Arbeit verrichtet werden muss oder nicht. \textit{Zum Beispiel das Skalarprodukt würde sich daruch komplett ändern}\\
+								\[ \int_{c_1} \vec{ F}(\vec{ r}) * d\vec{ r} \]
+								\[ \int_{c_2} \vec{ F}(\vec{ r}) * d\vec{ r} \]
+								diese Intergrale sind wegunabhängig $\Leftrightarrow \vec{ F} = \vec{\nabla } f \Leftrightarrow \vec{\nabla } \times \vec{ F} = 0$ \\
+								\subsubsection{Eigenschaften:}
+								$ \int_{-c} \vec{ F}* d\vec{ r} = -\int_{c} \vec{ F}*d\vec{ r}  $\\
+								$ c = c_1 + c_2 \Rightarrow \int_{c}\vec{ F}*d\vec{ r} + \int_{c_2}\vec{ F}* d\vec{ r} $ 
+					\subsection{Grundlagen der Dynamik}
+						\textbf{Axiome der Newtonschen Mechanik}\\
+						\begin{itemize}
+							\item \textbf{1. Trägheitsgesetz:} Körper, auf den keine Kräte wirken, bewegt sich geleichförmig und gleichlinig, das heißt $ \vec{v} = const , \vec{v} = \vec{0}$ ist ein Spezialfall.
+							\item \textbf{2. Aktionsprinzip} Die Zeitliche Änderung des Impulses $\vec{p}$ eines Körpers ist gleich der auf ihn einwirkenden Gesammtkraft
+							\[ Impuls = m*\vec{v} = m\frac{d\vec{ r}}{dt} = \vec{p} \]
+							\[ \vec{ F}_{total} = \frac{d\vec{p}}{dt} = \dot{\vec{p}} = m \dot{\vec{v}} = m \ddot{\vec{ r}} = m \vec{a} \]
+							\item \textbf{3. Actio= Reactio} die von Körper 1 auf Körper 2 ausgeübte Kraft $\vec{ F}_{21}$ ist gleich dem negativen der von Körper 2 auf Körper 1 ausgeübte Kraft 
+							\[ \vec{ F}_{21} = - \vec{ F}_{12} \]
+							\item \textbf{Superpositionsprinzip} Kräfte addieren sich vektoriel.
+						\end{itemize}
+							In Newton´s Mechanik sind \textbf{Raum} und \textbf{Zeit} absolute Begriffe und die Zeit läuft immer gleich ab unabhängig vom Inertialsystem,  was natürlich in konflikt mit der Relativitätstheorie steht.\\
+							Newtons Axiome gelten zunächst nur in unbeschleunigten, sog. Inertialsystemen. Intertialsysteme bewegen sich relativ zueinander mit konstanter Geschwindigkeit\\
+							\subsubsection{Allgemeine Galilei- Transformation zwischen Inertialsystemen}
+								\[ \vec{ r}^\prime = \vec{ r} + \vec{v}_0 * t + \vec{ r}_0 \qquad \vec{v}_0 = const ; \vec{ r}_0 = const \]
+								Wie man sieht transformieren sich damit die Ortskoordinaten aber die Zeit bleibt offensichtlicherweise gleich.$t^\prime = t $ \
+								\[ \vec{v}^\prime = \frac{d\vec{ r}^\prime}{dt} = \frac{d\vec{ r}}{dr} + \vec{v}_0 = \vec{v} + \vec{ v}_0 \]\
+								\[ \vec{ a}^\prime = \frac{d^2\vec{ r}^\prime}{dt^2} = \frac{d^2\vec{ r}}{dt^2} = \vec{ a} \]
+							\subsubsection{Galileisches Relativitätsprinzip}
+								Newtonsche Bewegungsgleichung ist forinvariant unter Galileitransformation.
+								\subsubsection{Exkurs Kosmologie}
+									In der Kosmologie gibt es als \textit{bevorzugtes} Bezugssystem das Rugesystem der thermischen Mikrowellenhintergrundstrahlung.
+									\subsubsection{Exkurs Machsches Prinzip}
+										Existenz von Raum, Zeit und Intertialsystem ist beinflusst durch die Massenverteilung auf sehr großen (kosmologischen) Skalen.
+									\subsubsection{Ausblick}
+										\textbf{spezielle Relativitätstheorie:} Raum und Zeit werden relativ und die Galileitransofrmation werden durch Lorentztransformation ersetzt.\\
+										\textbf{allgemeine Relativität}  Raum und Zeit (Geometrie) sind an die Materieverteilung gekoppelt. Das hat dann die Folge, dass die Teilchenbewegung bestimmt wird durchd ie Geometrie von Raum und Zeit. Die Massenverteilung bestimmt dann aber erst die Geometrie von Raum und Zeit.
+							\subsubsection{Koordinatentransformationen - Krumlinige (räunliche) Koordinaten}
+								Man habe n-Dimensionen $ (x_i) (y_i) \qquad |\leq i,y \leq n  $	
+								\[ x_i = x_i(y_{y_1, ..., y_n}) = x_i(y_i) \]
+								\[ dx_i = \sum_{j = 1}^{n} \frac{\partial x_i}{\partial y_y} dy_i \]
+								\subsubsection{Beispiel}
+									$ n=3$ mit $x_i =(x,y,z)$ Euklidische Kooridnaten; und $y_i = (u,v,w)$\\
+									$x= x(u,v,w) \qquad dx = \frac{\partial x}{\partial u}du + \frac{\partial x}{\partial v} dv + \frac{\partial x}{\partial w} dw$\\
+									$y = y(u,v,w) \qquad dy = \frac{\partial y}{\partial u}du + \frac{\partial y}{\partial v} dv + \frac{\partial y}{\partial w} dw$ und das gleiche für z.\\
+									$\vec{r} = (x_1, ... , x_n) = (x_i) d\vec{ r}= (dx, ... , dx_n) = (dx_i) = \sum_{i} dx_i \vec{e}_i$ mit $ \vec{e}_i, \vec{e}_j = \delta_{i,j}$
+							
+							
+							
+							
+							
+							
+							
 \end{document}

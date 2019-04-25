@@ -71,6 +71,11 @@
 
 \maketitle
 
+%Inhaltsverzeichnis
+\tableofcontents
+
+\newpage
+
 \section{Einführung}
 	peter.schleper@physik.uni-hamburg.de
 	\subsection{Übungsgruppen}
@@ -94,12 +99,12 @@
 		x = $1.307 m$ $\rightarrow$ Einheit $[x] \Rightarrow$ = Meter ; dim x = Länge definieren Standards
 		\begin{itemize}
 			\item $[$Zeit$]$ = SI: s - cgs: s
-			\item $[$Längen$]$ = SI: m - cgs: cm
+			\item $[$L\ddot{a}ngen$]$ = SI: m - cgs: cm
 			\item $[$Masse$]$ = SI: kg - cgs: g
 		\end{itemize}
 		\subsection{Dimension}
 	$[$Länge$] = 1m$\\
-	$[$Fläche$] = 1m^2$\\
+	$[$Fl\ddot{a}che$] = 1m^2$\\
 	$[$Volumen$] = 1m^3$\\
 	$[$Geschwindigkeit$] = 1\frac{m}{s}$\\
 	$[$Zeit$] = 1s$\\
@@ -192,14 +197,64 @@
 		y \\
 		z
 		\end{array} \right) $
-		\|\vec{r}\| = r = $\sqrt{x^2 + y^2 + z^2}$ \\
+		$\|\vec{r}\| = r = \sqrt{x^2 + y^2 + z^2}$ \\
 		$\Leftrightarrow v_x = \frac{dx}{dt}$ \qquad $v_y = \frac{dy}{dt}$ \qquad $v_z = \frac{dz}{dt}$  \\
-		\textbf{Beschleunigung} a_x = $\frac{d\vec{r}}{dt} 	\vec{a} = \frac{d\vec{v}}{dt}$
+		\textbf{Beschleunigung} $a_x = \frac{d\vec{r}}{dt} 	\vec{a} = \frac{d\vec{v}}{dt}$
 
 		\part{Vorlesung 4}
 		\includepdf[pages=-]{./images/PHY1-19.pdf}
 		
 		\part{Vorlesung 5}
-			
+			\section{Newton Axiome}
+				\begin{itemize}
+					\item \textbf{Trägheitsprinzip} Ein Körper bleibt in Ruhe oder gleichförmiger Bewegungn wenn keine resultierende äußere Kraft wirkt.
+					\item \textbf{Aktionsprinzip} Ein Körper wird in Richtung der resultierenden äußeren Kraft beschleunigt und es gilt \[ \vec{F} = m * \vec{a} \], mit m = Masse des Körpers (Konstant) und $\vec{a}$ der resultierender Beschleunigungsvektor.\\ \textbf{$\vec{F} = \sum \vec{F}_i$}
+					\item \textbf{actio = reactio} Die Kräfte treten immer Paarweise auf: Wenn der Körper A eine Kraft $\vec{F}^{(B)}_A$ auf einen Körper B ausübt, dann wirkt eine gleichgroße, aber entgegengesetzte gerichtete Kraft $\vec{F}^{(A)}_B$ von B auf A.\\
+					\textbf{$\vec{F}^{(B)}_A =  - \vec{F}^{(A)}_B$}
+				\end{itemize}
+			\section{Inertialsysteme}
+				In einem Intertialsystem gilt \textbf{$F= m * a$} in seiner reinsten Form. Es ist damit ein Bezugssystem, in welchem sich ein kräftefreier Körper gradlinig gleichförmig bewegt. Die \textbf{Newton´schen Axiome} gelten damit \textbf{nur in Intertialsystemen}\\
+			\section{Gravitation}
+				$ \vec{F}_{1 2} = G \frac{m_1 m_2}{r^2_{12}} \frac{\vec{r}_{21}}{\vec{r_{21}}} $
+				$$\vec F_G=m\cdot\vec a_G$$
+				$$F_G=m\cdot g$$
+				\[ \vec F_{12}=-G\cdot\frac{m_1\cdot m_2}{r^2}\cdot\hat e_{21} \]
+				$g$ ist ortsabh\ddot{a}ngig, $m$ ist eine intrinsische Eigenschaft.\\
+				Dabei ist $ G = 6,67 * 10^{11} \frac{m^3}{kg s^2}$
+					\subsection{Erdbeschleunigung}
+				Die Annahme zum Ausrechnen der Erdbeschleunigung ist dass der Masseschwerpunkt im Mittelpunkt der Masse ist.\\
+				\[ F_k = G \frac{M_E * m_k}{( r_E + h)12}  \quad h << r_E \]
+				\[ F = G \frac{M_E}{r_E^2} * m_k  = g * m_k\]
+				$\Rightarrow g = 9.81 \frac{m}{s^2}$\\
+				Zum Momentananen Stand besprechen wir dabei nicht die Fluchtgeschwindigkeit. Diese wird aber zu einem späteren Zeitpunkt noch besprochen.\\
+				Da die Erde eine so große Masse hat ist die beschleunigung dem entsprechend für uns klein $1 >> a$ wie aus $F = m * a$ folgt.
+				\section{Tr\ddot{a}ge und schwere Masse}	
+					$ \vec{F} = \frac{d\vec{p}}{dt} = \frac{d}{dt}(m_{tr\ddot{a}ge} * \vec{v}) $\\
+					G mit $ \vec{F}_G  = G \frac{m_{1,schwer} * m_{2,schwer}}{r^2} * \frac{\vec{r}_{12}}{r_{12}} = g * m_{schwer}$\\
+		Durch Experimente durchgeführt von \textbf{Eötvös }folge $m_{schwer} = m_{tr\ddot{a}ge}$ für alle Stoffe\\
+		\[ G \frac{m_{tr\ddot{a}ge} * a}{\frac{m:E m_{schwer}}{r^2}} = konst = \frac{m_{tr\ddot{a}ge}}{m_{schwer} }= \frac{a * r^2}{G * m_E} \]
+		\begin{figure}[htbp]
+			\begin{minipage}[t]{6cm}
+				\vspace{0pt}
+				\centering
+				\includegraphics[scale=0.35]{IMG_E8A9C85E8431-1.jpeg}
+			\end{minipage}
+			\hfill
+			\begin{minipage}[t]{6cm}
+				\vspace{0pt}
+				$ m_1 a_1 = F_1 $ (träge)\\
+				$ m_2 a_2 = F_2 + F_G $ (träge)\\
+				$ F_1 = - F_2 $\\
+				Der Faden muss gespannt bleiben.\\
+				$ a_1 = a_2 $\\
+				$\Rightarrow m_1 a = - m_2 a $\\
+				$ F_1 = -F_2 $\\
+				$ m_{1, tr\ddot{a}ge} a_1 = F_1 = - F_2 = -(m_{2, tr\ddot{a}ge} a_2 -F_G) $\\
+				mit $ F_G = -m_{2, schwer} g $\\
+				$m_{1, tr\ddot{a}ge} a = - m_{2, tr\ddot{a}ge} - m_{2, schwer} g$	\ddot a
+			\end{minipage}
+		\end{figure}
+	\[ a = \frac{m_{2, schwer}}{m_{1,tr\ddot{a}ge} + m_{2,tr\ddot{a}ge}} g \]
 		
+				
 \end{document}

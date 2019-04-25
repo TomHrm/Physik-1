@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  25 APR 2019 09:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  25 APR 2019 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -664,63 +664,72 @@ LaTeX Font Info:    Try loading font information for U+esvect on input line 76.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
+(./theoretische Physik Vorlesung.toc [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write4
+\openout4 = `"theoretische Physik Vorlesung.toc"'.
+
+ [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 
-Overfull \hbox (31.79877pt too wide) in paragraph at lines 82--83
+Overfull \hbox (31.79877pt too wide) in paragraph at lines 85--86
 []\OT1/cmr/bx/n/10.95 Spezielle Re-la-ti-vit[]atstheorie: \OT1/cmr/m/n/10.95 Lo
 rentz-Transformation und ki-ne-ma-ti-sche Kon-se-quen-zen, Minkowski-
  []
 
-[1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
  []
 
 [3]
-<./images/vektorprodukt.png, id=27, 193.72375pt x 132.495pt>
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 189--191
+
+ []
+
+<./images/vektorprodukt.png, id=29, 193.72375pt x 132.495pt>
 File: ./images/vektorprodukt.png Graphic file (type png)
 <use ./images/vektorprodukt.png>
-Package pdftex.def Info: ./images/vektorprodukt.png  used on input line 190.
+Package pdftex.def Info: ./images/vektorprodukt.png  used on input line 195.
 (pdftex.def)             Requested size: 58.11757pt x 39.7488pt.
-<./images/vektorprodukt2.png, id=29, 239.89626pt x 156.585pt>
+<./images/vektorprodukt2.png, id=31, 239.89626pt x 156.585pt>
 File: ./images/vektorprodukt2.png Graphic file (type png)
 <use ./images/vektorprodukt2.png>
-Package pdftex.def Info: ./images/vektorprodukt2.png  used on input line 194.
+Package pdftex.def Info: ./images/vektorprodukt2.png  used on input line 199.
 (pdftex.def)             Requested size: 71.96942pt x 46.97586pt.
-<./images/komponentendarstellung.png, id=30, 224.84pt x 171.64125pt>
+[5 <./images/vektorprodukt.png>]
+<./images/komponentendarstellung.png, id=37, 224.84pt x 171.64125pt>
 File: ./images/komponentendarstellung.png Graphic file (type png)
 <use ./images/komponentendarstellung.png>
 Package pdftex.def Info: ./images/komponentendarstellung.png  used on input lin
-e 214.
+e 219.
 (pdftex.def)             Requested size: 101.17706pt x 77.23784pt.
-<./images/Komponentendarstellung2.png, id=31, 663.47874pt x 342.27875pt>
+<./images/Komponentendarstellung2.png, id=38, 663.47874pt x 342.27875pt>
 File: ./images/Komponentendarstellung2.png Graphic file (type png)
 <use ./images/Komponentendarstellung2.png>
 Package pdftex.def Info: ./images/Komponentendarstellung2.png  used on input li
-ne 218.
+ne 223.
 (pdftex.def)             Requested size: 265.3868pt x 136.90906pt.
- [4 <./images/vektorprodukt.png> <./images/vektorprodukt2.png> <./images/kompon
-entendarstellung.png>]
 <./images/1000px-Parallelepiped2.png, id=39, 1003.75pt x 566.115pt>
 File: ./images/1000px-Parallelepiped2.png Graphic file (type png)
 <use ./images/1000px-Parallelepiped2.png>
 Package pdftex.def Info: ./images/1000px-Parallelepiped2.png  used on input lin
-e 222.
+e 227.
 (pdftex.def)             Requested size: 301.12732pt x 169.8358pt.
-
+ [6 <./images/vektorprodukt2.png> <./images/komponentendarstellung.png> <./imag
+es/Komponentendarstellung2.png>]
 
 ! LaTeX Error: \mathbb allowed only in math mode.
 
@@ -728,209 +737,261 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224 ...dimensionalen euklidischen Vektorraums \R
+l.229 ...dimensionalen euklidischen Vektorraums \R
                                                   $^3$ kann wie folgt defini...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[5 <./images/Komponentendarstellung2.png> <./images/1000px-Parallelepiped2.png>
-]
-<./images/Vektorfunktionen.png, id=46, 206.7725pt x 153.57375pt>
+[7 <./images/1000px-Parallelepiped2.png>]
+<./images/Vektorfunktionen.png, id=53, 206.7725pt x 153.57375pt>
 File: ./images/Vektorfunktionen.png Graphic file (type png)
 <use ./images/Vektorfunktionen.png>
-Package pdftex.def Info: ./images/Vektorfunktionen.png  used on input line 258.
+Package pdftex.def Info: ./images/Vektorfunktionen.png  used on input line 263.
 
 (pdftex.def)             Requested size: 103.38599pt x 76.78668pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
 
  []
 
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 255--266
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 260--271
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--269
+Underfull \hbox (badness 10000) in paragraph at lines 258--274
 
  []
 
-<./images/integral.png, id=47, 1927.2pt x 1694.33pt>
+<./images/integral.png, id=54, 1927.2pt x 1694.33pt>
 File: ./images/integral.png Graphic file (type png)
 <use ./images/integral.png>
-Package pdftex.def Info: ./images/integral.png  used on input line 272.
+Package pdftex.def Info: ./images/integral.png  used on input line 277.
 (pdftex.def)             Requested size: 96.36565pt x 84.72145pt.
-<./images/Integrationbeispiel.png, id=48, 677.53125pt x 466.74374pt>
+<./images/Integrationbeispiel.png, id=55, 677.53125pt x 466.74374pt>
 File: ./images/Integrationbeispiel.png Graphic file (type png)
 <use ./images/Integrationbeispiel.png>
 Package pdftex.def Info: ./images/Integrationbeispiel.png  used on input line 2
-80.
+85.
 (pdftex.def)             Requested size: 304.88625pt x 210.03275pt.
 
-Overfull \hbox (134.16972pt too wide) in paragraph at lines 280--281
+Overfull \hbox (134.16972pt too wide) in paragraph at lines 285--286
  [][] 
  []
 
-[6 <./images/Vektorfunktionen.png>] [7 <./images/integral.png> <./images/Integr
-ationbeispiel.png>]
-<./images/Differentialrechnung.png, id=59, 377.41pt x 231.86626pt>
+[8 <./images/Vektorfunktionen.png> <./images/integral.png>]
+<./images/Differentialrechnung.png, id=61, 377.41pt x 231.86626pt>
 File: ./images/Differentialrechnung.png Graphic file (type png)
 <use ./images/Differentialrechnung.png>
 Package pdftex.def Info: ./images/Differentialrechnung.png  used on input line 
-300.
+307.
 (pdftex.def)             Requested size: 150.96132pt x 92.74484pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 297--307
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 304--314
 [][]  [] 
  []
 
 ! Double superscript.
 <argument> f^(^
                n^) (x_0)
-l.311 ...um_{n=0}^{\infty}\frac{f^(^n^) (x_0)}{n!}
+l.318 ...um_{n=0}^{\infty}\frac{f^(^n^) (x_0)}{n!}
                                                    (x-x_0)^n = f(x_0) + f^\p...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> f^(^n^
                  ) (x_0)
-l.311 ...um_{n=0}^{\infty}\frac{f^(^n^) (x_0)}{n!}
+l.318 ...um_{n=0}^{\infty}\frac{f^(^n^) (x_0)}{n!}
                                                    (x-x_0)^n = f(x_0) + f^\p...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> f^\prime ^
                      \prime (x_0)
-l.311 ...- x_0) + \frac{f^\prime ^\prime (x_0)}{2}
+l.318 ...- x_0) + \frac{f^\prime ^\prime (x_0)}{2}
                                                    (x-x_0)^2 + ... \]
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
-l.314 ... + x^2} = \sum_{n=0}^{\infty} (-1)^n x^2^
+l.323 ... + x^2} = \sum_{n=0}^{\infty} (-1)^n x^2^
                                                   n = \sum_{n=0}^{\infty} a_...
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double subscript.
 <argument> a_2_
                n_+_2
-l.314 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
+l.323 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
                                                    = -x^2$ obwohl $\frac{1}{...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> a_2_n_
                  +_2
-l.314 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
+l.323 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
                                                    = -x^2$ obwohl $\frac{1}{...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> a_2_n_+_
                    2
-l.314 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
+l.323 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
                                                    = -x^2$ obwohl $\frac{1}{...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 <argument> a_2_
                n
-l.314 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
+l.323 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
                                                    = -x^2$ obwohl $\frac{1}{...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+[9 <./images/Integrationbeispiel.png> <./images/Differentialrechnung.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
+Underfull \hbox (badness 10000) in paragraph at lines 327--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
 ! Double subscript.
-l.322 		\[  f_x_
+l.331 		\[  f_x_
                 x = \frac{\partial}{\partial x}(\frac{\partial f}{\partial x...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.323 	\[  f_x_
+l.332 	\[  f_x_
                y = \frac{\partial}{\partial y} (\frac{\partial f}{\partial x...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-[8 <./images/Differentialrechnung.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 336--338
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 352--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--351
+Underfull \hbox (badness 10000) in paragraph at lines 356--361
 
  []
 
 ! Double subscript.
-l.354 				 \vec{F}_1_
+l.364 				 \vec{F}_1_
                      2 = - \vec{\nabla} \phi = - \frac{G_N m_1 m_2}{| \vec{r...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--360
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 361--368
+Underfull \hbox (badness 10000) in paragraph at lines 367--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--388
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 
  []
 
-[10] (./theoretische Physik Vorlesung.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--385
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 390--393
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--399
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--405
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 411--413
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+
+! Package inputenc Error: Unicode character ´ (U+B4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.430 							In Newton´
+                        s Mechanik sind \textbf{Raum} und \textbf{Zeit} abso...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
+
+ []
+
+[13] [14] (./theoretische Physik Vorlesung.aux) ) 
 Here is how much of TeX's memory you used:
- 15002 strings out of 492649
- 284007 string characters out of 6129622
- 390649 words of memory out of 5000000
- 18566 multiletter control sequences out of 15000+600000
+ 15007 strings out of 492649
+ 284090 string characters out of 6129622
+ 400649 words of memory out of 5000000
+ 18568 multiletter control sequences out of 15000+600000
  12345 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,56p,487b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb>
-Output written on "theoretische Physik Vorlesung.pdf" (10 pages, 777581 bytes).
+</usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on "theoretische Physik Vorlesung.pdf" (14 pages, 794079 bytes).
 
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
