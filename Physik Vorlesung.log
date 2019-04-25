@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  23 APR 2019 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  25 APR 2019 09:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,55 +828,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.175   		a = 0  $\Leftrightarrow$ v = v_
-                                         0 \qquad x_(_t_) = x_0 + v_0(t - t_...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 ! Double subscript.
-l.175 ... 0  $\Leftrightarrow$ v = v_0 \qquad x_(_
-                                                  t_) = x_0 + v_0(t - t_0) \\
+l.175 ...0  $\Leftrightarrow v = v_0$ \qquad $x_(_
+                                                  t_) = x_0 + v_0(t - t_0)$ \\
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.175 ...  $\Leftrightarrow$ v = v_0 \qquad x_(_t_
-                                                  ) = x_0 + v_0(t - t_0) \\
+l.175 ... $\Leftrightarrow v = v_0$ \qquad $x_(_t_
+                                                  ) = x_0 + v_0(t - t_0)$ \\
 I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.177 	\subsection
-                  {konstante Beschleunigung}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 [4 <./images/IMG_EFF187166B54-1.jpeg>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.178 			a = const \qquad v = v_
-                                0 + a(t - t_0)\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.179 			$ x = x_
-                 0 + \int_{t_0}^{t} (v_0 + a(t - t_0))dt) \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 <./images/IMG_8E3512F499A3-1.jpeg, id=43, 1505.625pt x 742.775pt>
 File: ./images/IMG_8E3512F499A3-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_8E3512F499A3-1.jpeg>
 Package pdftex.def Info: ./images/IMG_8E3512F499A3-1.jpeg  used on input line 1
 87.
 (pdftex.def)             Requested size: 451.691pt x 222.83421pt.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -920,86 +889,97 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+<./images/PHY1-19.pdf, id=44, 597.5067pt x 845.04588pt>
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf>
+Package pdftex.def Info: ./images/PHY1-19.pdf  used on input line 200.
+(pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf>
+Package pdftex.def Info: ./images/PHY1-19.pdf  used on input line 200.
+(pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
+<./images/PHY1-19.pdf, id=47, page=1, 597.5067pt x 845.04588pt>
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 1>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 200.
+(pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 1>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+[5 <./images/IMG_8E3512F499A3-1.jpeg>]
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 1>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 1>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 1>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+ [6 <./images/PHY1-19.pdf>]
+<./images/PHY1-19.pdf, id=66, page=2, 597.5067pt x 845.04588pt>
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 2>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 2>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 2>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+ [7 <./images/PHY1-19.pdf>]
+<./images/PHY1-19.pdf, id=71, page=3, 597.5067pt x 845.04588pt>
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 3>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 3>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 3>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 200.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+ [8 <./images/PHY1-19.pdf>] [9] (./Physik Vorlesung.aux) )
+(\end occurred inside a group at level 1)
 
-! Package pdfpages Error: Cannot find file `./images/PHY1-19.pdf'.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 		\includepdf[pages=-]{./images/PHY1-19.pdf}
-                                                  
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-! Undefined control sequence.
-\AM@checklast ...pii \\ \@tempcntb =\AM@pagecount 
-                                                  \relax \ifAM@DVIoutput \if...
-l.202 		\includepdf[pages=-]{./images/PHY1-19.pdf}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.202 		\includepdf[pages=-]{./images/PHY1-19.pdf}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-Runaway argument?
-\expandafter \AM@setphantomdoc \AM@doclist ,\END \ifthenelse {\boolean \ETC.
-! Paragraph ended before \AM@gobble was complete.
-<to be read again> 
-                   \par 
-l.203 		
-        
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[5 <./images/IMG_8E3512F499A3-1.jpeg>] (./Physik Vorlesung.aux) )
-(\end occurred inside a group at level 2)
-
-### semi simple group (level 2) entered at line 202 (\begingroup)
 ### simple group (level 1) entered at line 197 ({)
-### bottom level
-(\end occurred when \iftrue on line 202 was incomplete) 
+### bottom level 
 Here is how much of TeX's memory you used:
- 15621 strings out of 492649
- 293757 string characters out of 6129622
+ 15633 strings out of 492649
+ 294202 string characters out of 6129622
  368523 words of memory out of 5000000
- 19164 multiletter control sequences out of 15000+600000
+ 19177 multiletter control sequences out of 15000+600000
  12345 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,54p,474b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb>
-Output written on "Physik Vorlesung.pdf" (5 pages, 528267 bytes).
+ 55i,18n,54p,474b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Physik Vorlesung.pdf" (9 pages, 1088242 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
