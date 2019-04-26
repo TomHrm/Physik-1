@@ -56,8 +56,3 @@
 \contentsline {subsection}{\numberline {3.2}Ebene: Polarkoordianten}{15}
 \contentsline {subsubsection}{\numberline {3.2.1}Bahnkurve}{16}
 \contentsline {subsubsection}{\numberline {3.2.2}Beschleunigung}{16}
-\contentsline {subsubsection}{\numberline {3.2.3}Linien- und Fl\IeC {\"a}chenelemente:}{16}
-\contentsline {subsection}{\numberline {3.3}Zylinderkoordianten}{16}
-\contentsline {subsubsection}{\numberline {3.3.1}Geschwindkeit und Beschleunigung}{17}
-\contentsline {subsection}{\numberline {3.4}Kugelkoordinaten - sph\IeC {\"a}rische Polarkoordinaten}{17}
-\contentsline {subsection}{\numberline {3.5}rotierendes Bezugssystem und Scheinkr\IeC {\"a}fte}{17}

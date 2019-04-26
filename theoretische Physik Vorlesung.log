@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  25 APR 2019 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  26 APR 2019 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -961,37 +961,123 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--432
 
  []
 
-[13] [14] (./theoretische Physik Vorlesung.aux) ) 
-Here is how much of TeX's memory you used:
- 15007 strings out of 492649
- 284090 string characters out of 6129622
- 400649 words of memory out of 5000000
- 18568 multiletter control sequences out of 15000+600000
- 12345 words of font info for 49 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,12n,56p,487b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb>
-Output written on "theoretische Physik Vorlesung.pdf" (14 pages, 794079 bytes).
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 457--459
 
+ []
+
+[14]
+<./images/screenshot001.png, id=85, 389.455pt x 279.0425pt>
+File: ./images/screenshot001.png Graphic file (type png)
+<use ./images/screenshot001.png>
+Package pdftex.def Info: ./images/screenshot001.png  used on input line 478.
+(pdftex.def)             Requested size: 136.31128pt x 97.66634pt.
+
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 475--485
+[][]  [] 
+ []
+
+[15 <./images/screenshot001.png>]
+<./images/screenshot002.png, id=90, 225.84375pt x 176.66pt>
+File: ./images/screenshot002.png Graphic file (type png)
+<use ./images/screenshot002.png>
+Package pdftex.def Info: ./images/screenshot002.png  used on input line 508.
+(pdftex.def)             Requested size: 112.92159pt x 88.32977pt.
+
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 505--517
+[][]  [] 
+ []
+
+<./images/screenshot3.png, id=91, 216.81pt x 262.9825pt>
+File: ./images/screenshot3.png Graphic file (type png)
+<use ./images/screenshot3.png>
+Package pdftex.def Info: ./images/screenshot3.png  used on input line 526.
+(pdftex.def)             Requested size: 108.40472pt x 131.49092pt.
+
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 523--535
+[][]  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--539
+
+ []
+
+[16 <./images/screenshot002.png> <./images/screenshot3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+ []
+
+<./images/screenshot004.png, id=97, 579.16376pt x 448.67625pt>
+File: ./images/screenshot004.png Graphic file (type png)
+<use ./images/screenshot004.png>
+Package pdftex.def Info: ./images/screenshot004.png  used on input line 550.
+(pdftex.def)             Requested size: 289.58116pt x 224.33757pt.
+
+LaTeX Warning: Command \" invalid in math mode on input line 553.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.553 ...}{dt} \underbrace{\vec{e}_i}_{Zeitunabhä
+                                                  ngig} = \sum_{i} \frac{dbi...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \fontdimen 
+l.553 ...}{dt} \underbrace{\vec{e}_i}_{Zeitunabhä
+                                                  ngig} = \sum_{i} \frac{dbi...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.553 ...\prime-System} + \vec{w} \times \vec{b} $
+                                                   \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[17 <./images/screenshot004.png>] (./theoretische Physik Vorlesung.aux) ) 
+Here is how much of TeX's memory you used:
+ 15031 strings out of 492649
+ 284678 string characters out of 6129622
+ 399649 words of memory out of 5000000
+ 18586 multiletter control sequences out of 15000+600000
+ 12966 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,17n,56p,487b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "theoretische Physik Vorlesung.pdf" (17 pages, 1029073 bytes)
+.
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -416,7 +416,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 								\subsubsection{Eigenschaften:}
 								$ \int_{-c} \vec{ F}* d\vec{ r} = -\int_{c} \vec{ F}*d\vec{ r}  $\\
 								$ c = c_1 + c_2 \Rightarrow \int_{c}\vec{ F}*d\vec{ r} + \int_{c_2}\vec{ F}* d\vec{ r} $ 
-					\subsection{Grundlagen der Dynamik}
+					\section{Grundlagen der Dynamik}
 						\textbf{Axiome der Newtonschen Mechanik}\\
 						\begin{itemize}
 							\item \textbf{1. Trägheitsgesetz:} Körper, auf den keine Kräte wirken, bewegt sich geleichförmig und gleichlinig, das heißt $ \vec{v} = const , \vec{v} = \vec{0}$ ist ein Spezialfall.
@@ -443,20 +443,118 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 									\subsubsection{Ausblick}
 										\textbf{spezielle Relativitätstheorie:} Raum und Zeit werden relativ und die Galileitransofrmation werden durch Lorentztransformation ersetzt.\\
 										\textbf{allgemeine Relativität}  Raum und Zeit (Geometrie) sind an die Materieverteilung gekoppelt. Das hat dann die Folge, dass die Teilchenbewegung bestimmt wird durchd ie Geometrie von Raum und Zeit. Die Massenverteilung bestimmt dann aber erst die Geometrie von Raum und Zeit.
-							\subsubsection{Koordinatentransformationen - Krumlinige (räunliche) Koordinaten}
+							\subsection{Koordinatentransformationen - Krumlinige (räunliche) Koordinaten}
 								Man habe n-Dimensionen $ (x_i) (y_i) \qquad |\leq i,y \leq n  $	
 								\[ x_i = x_i(y_{y_1, ..., y_n}) = x_i(y_i) \]
 								\[ dx_i = \sum_{j = 1}^{n} \frac{\partial x_i}{\partial y_y} dy_i \]
 								\subsubsection{Beispiel}
 									$ n=3$ mit $x_i =(x,y,z)$ Euklidische Kooridnaten; und $y_i = (u,v,w)$\\
 									$x= x(u,v,w) \qquad dx = \frac{\partial x}{\partial u}du + \frac{\partial x}{\partial v} dv + \frac{\partial x}{\partial w} dw$\\
-									$y = y(u,v,w) \qquad dy = \frac{\partial y}{\partial u}du + \frac{\partial y}{\partial v} dv + \frac{\partial y}{\partial w} dw$ und das gleiche für z.\\
-									$\vec{r} = (x_1, ... , x_n) = (x_i) d\vec{ r}= (dx, ... , dx_n) = (dx_i) = \sum_{i} dx_i \vec{e}_i$ mit $ \vec{e}_i, \vec{e}_j = \delta_{i,j}$
-							
-							
-							
-							
-							
-							
+									$y = y(u,v,w) \qquad dy = \frac{\partial y}{\partial u}du + \frac{\partial y}{\partial v} dv + \frac{\partial y}{\partial w} dw$\\
+									$y = z(u,v,w) \qquad dz = \frac{\partial z}{\partial u}du + \frac{\partial z}{\partial v} dv + \frac{\partial z}{\partial w} dw$\\
+									$\vec{r} = (x_1, ... , x_n) = (x_i) d\vec{ r}= (dx, ... , dx_n) = (dx_i) = \sum_{i} dx_i \vec{e}_i$ mit $ \vec{e}_i, \vec{e}_j = \delta_{i,j}$\\
+									In allgemein krummlinigen Kooridianten $(y_i)$ wird die damit
+									\[ d\vec{r} = \sum_{i}\frac{\partial \vec{ r}}{\partial y_i} dy_i \]
+									z.B. in 3 Dimensional\\
+									\[ d\vec{ r} =  (dx,dy,dz) = \vec{e}_1 dx + \vec{e}_2dy + \vec{e}_3dz \]
+									\[ = \frac{\partial \vec{r}}{\partial u}du + \frac{\partial \vec{r}}{\partial v} dv + \frac{\partial \vec{r}}{\partial w}dw \text{mit} \frac{\partial \vec{r}}{\partial u} = \left( \frac{\partial x}{\partial u},  \frac{\partial y}{\partial u},  \frac{\partial z}{\partial u} \right) etc.  \]
+									Man kann neue Basis-Einheitsvektoren
+										\[ \vec{u}_{12} := \frac{1}{b_{12}} \frac{\partial \vec{r}}{\partial y_{12}} \quad \text{mit} b_{12} := \left| \frac{\partial \vec{r}}{\partial y_{12}} \right| \]
+										definieren, so daß
+										\[ d\vec{r} = \sum_{n} \vec{u}_nds_k \text{ mit den Längenelementen } ds_k = k_k dy_k \]
+										Man nennt $(y_i)$ ein orthogonales Koordiantensystem wenn:
+										\[ \vec{U}_i \times \vec{U}_j = 0 \text{für} i \neq j \text{und damit auch } \vec{U}_i * \vec{U}_j = \delta_{ij} \text{ an jedem Raumpunkt liegt. } \]
+										Dann ist das Flächenelement, da von zwei Seiten der Länge $ds_{i}, ds_j $ angespannt wird, gegeben durch: 
+										\[ dF_{ij} = ds_i, ds_j  = b_i b_j dy_i dj_j \]
+										Und das Volumenelement
+										\[ dV = \prod_{i=1}^{n} ds_i = \prod_{i'=1}^{n} b_i dy_i \]
+							\subsection{Ebene: Polarkoordianten}
+								Wir befinden uns als Beispiel zur besseren veranschaulichung nun im $\R^2$, also im 2 Dimensionalen Raum. $n=2$\\
+								$ x = r cos \varphi \qquad y = r sin \varphi $
+							\begin{figure}[htbp]
+								\begin{minipage}[t]{10cm}
+									\vspace{0pt}
+									\centering
+									\includegraphics[scale=0.35]{screenshot001.png}
+								\end{minipage}
+								\hfill
+								\begin{minipage}[t]{10cm}
+									\vspace{0pt}
+								$ \vec{r} = (r cos \varphi, r sin \varphi)$
+								\end{minipage}
+							\end{figure}\\
+							\textbf{Umdrehung:} $ r = \sqrt{x^2 + y^2}, \varphi = \pm arctan \frac{y}{x} \text{für} y  \neq 0$
+							\[ \frac{\partial \vec{r}}{\partial r} = (cos \varphi, sin \varphi) \quad |\frac{\partial \vec{r}}{\partial r}| = 1 \Rightarrow \vec{U}r = \vec{e}_r= (cos \varphi, sin \varphi) \]
+							\[ \frac{\partial \vec{r}}{\partial \varphi} = (-r sin \varphi, r cos \varphi) \quad |\frac{ \partial \vec{r}}{\partial \varphi}| = r \Rightarrow\vec{u}_\varphi = \vec{e}_\varphi = (- sin \varphi, cos \varphi) \]
+							\subsubsection{Bahnkurve}
+							$\vec{ r}(t) = r(t) \vec{e}_r(t) \Rightarrow \vec{v}(t) = \dot{\vec{r}}(t) = \dot{r}(t) \vec{e}(t) + r(t) \dot{\vec{e}_r(t)}$\\
+							$ \dot{\vec{e}}_r (t) = \frac{d \vec{e}_r}{d \varphi} \frac{d \varphi }{dt} = (-sin \varphi , cos \varphi) \dot{\varphi} = \dot{\varphi} \vec{e}_\varphi $\\
+							$\Rightarrow$ Wenn $\vec{ v} = v_r \vec{e}_r + v_\varphi \vec{e}_\varphi $ dann ist $v_r = \dot{r} ; v_\varphi = r \dot{\varphi}$ dabei ist $\varphi$ die Winkelgeschwindigkeit.
+							\subsubsection{Beschleunigung}	
+								$\vec{ a} = \ddot{\vec{ r}} = \dot{\vec{ v}} = \frac{d}{dt} (v_r \vec{e}_r + v_\varphi \vec{e}_\varphi) = \frac{d}{dt} (\dot{r} \vec{e}_r + r\dot{\varphi} \vec{e}_\varphi) $\\
+								$ \ddot{r} \vec{e}_r + \dot{r} \dot{\vec{e}}_r + \dot{r} \dot{\varphi} \vec{e}_\varphi + r \ddot{\varphi} \vec{e}_\varphi $
+								Nun nutzen wir folgende zuweisungen: 
+								\[ \dot{\vec{e}} = \dot{\varphi} \vec{e}_\varphi \text{und } \dot{\vec{e}}_\varphi  = \dot{\varphi} (- ocs \varphi, - sin \varphi) = - \dot{\varphi} \vec{e}_r \]  
+								Damit ergibt sich aus der oberen Gleichung: $ (\ddot{r} - r \dot{\varphi}^2)\vec{e}_r + (r\ddot{\varphi} + 2\dot{r} \dot{\varphi}) \vec{e}_\varphi $\\
+							mit $\vec{ a} = a_r \vec{e}_r + a_\varphi \vec{e}_\varphi$ also
+								\[ a_r = \ddot{r} - r \dot{\varphi}^2 \text{ \quad \textbf{Radialbeschleunigung}} \]
+								\[ a_\varphi = r \ddot{\varphi} + 2\dot{r} \dot{\varphi} \text{\quad \textbf{Winkelbeschleunigung}}\] 
+							\subsubsection{Linien- und Flächenelemente:}
+								
+								\begin{figure}[htbp]
+									\begin{minipage}[t]{10cm}
+										\vspace{0pt}
+										\centering
+										\includegraphics[scale=0.5]{screenshot002.png}
+									\end{minipage}
+									\hfill
+									\begin{minipage}[t]{10cm}
+										\vspace{0pt}
+										$ ds_r = dr \qquad ds_\varphi = r d_\varphi $\\
+										$ \Rightarrow dF = dxdy = ds_r ds_\varphi $\\
+										$ = rdrd_\varphi $
+									\end{minipage}
+								\end{figure}
+							\subsection{Zylinderkoordianten}
+								Für Zylinderkoordinaten befinden wir uns im 3 Dimensionalen wie der name bereits vermuten lässt, $n=3$
+								\[ x = \rho cos \varphi \quad y = \rho sin \varphi \quad z = z \]
+								$ \rightarrow$ Ebene Polarkoordianten $+$ dazu gedrehte z-Achse
+							\begin{figure}[htbp]
+								\begin{minipage}[t]{10cm}
+									\vspace{0pt}
+									\centering
+									\includegraphics[scale=0.5]{screenshot3.png}
+								\end{minipage}
+								\hfill
+								\begin{minipage}[t]{10cm}
+									\vspace{0pt}
+									Umdrehung:\\
+									$ \rho = \sqrt{x^2 + y^2} ; \varphi = \pm arctan \frac{y}{x}  \quad y \neq 0  $\\
+									$ z = z $
+								\end{minipage}
+							\end{figure}
+						Man findet die orthogonalen Einheitsvektoren
+						\[ \vec{e}_\rho = (cos \varphi, sin \varphi, 0) \quad \vec{e}_\varphi= (-sin \varphi, cos \varphi, 0) \quad \vec{e}_z = (0,0,1) \]
+						Ferner $dV = ds_\rho ds \varphi ds_z = \rho d\rho d\varphi dz$\\
+						\subsubsection{Geschwindkeit und Beschleunigung}
+							Für Geschwindkiet und Beschleunigung erhielt man
+							\[ \vec{ v} = \dot{\rho} \vec{e}_\rho + \rho\dot{\varphi} \vec{e}_\varphi + \dot{z} \vec{e}_z \]
+							\[ \vec{ a} = (\ddot{\rho} - \rho \dot{\varphi}^2) \vec{e}_\rho + (2 \dot{\rho} \dot{\varphi} + \rho \ddot{\varphi}) \vec{e}_\varphi + \ddot{z} \vec{e}_z \]
+					\subsection{Kugelkoordinaten - sphärische Polarkoordinaten}
+						Wir bleiben im 3 Dimensionalen, n=3 \\
+						\[ x = r sin \Theta cos \varphi \]
+						\[ y = r sin \theta sin \varphi \]
+						\[ z = r cos \theta \]
+					\subsection{rotierendes Bezugssystem und Scheinkräfte}
+						\begin{center}
+							\includegraphics[scale=0.5]{screenshot004.png}
+						\end{center}
+							Für jeden Vektor $\vec{b}$ gilt: $\vec{b} = \sum_{i} bi \vec{e}_i = \sum_{i} b_i^\prime \vec{e}_j^\prime$\\
+							$\Rightarrow \frac{d \vec{b}}{dt} = \sum_{i}\frac{db_i}{dt} \underbrace{\vec{e}_i}_{Zeitunabhängig} = \sum_{i} \frac{dbi^\prime}{dt} \vec{e}_i^\prime = \sum_{b_i}^\prime \underbrace{\frac{d\vec{e}_i^\prime}{dt}}_{ \vec{w} \times \vec{e}_i^\prime} = \underbrace{\left( \frac{d \vec{b}}{dt} \right)^\prime}_{Ableitung im \sum^\prime-System} + \vec{w} \times \vec{b} $ \\
+						\textbf{Ferner:}\\
+							$\vec{r}(t) = \vec{r}_0(t) + \vec{r}^\prime(t)$
+						
+						
+						
 							
 \end{document}
