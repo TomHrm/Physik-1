@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  26 APR 2019 10:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  27 APR 2019 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1045,39 +1045,390 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[17 <./images/screenshot004.png>] (./theoretische Physik Vorlesung.aux) ) 
+[17 <./images/screenshot004.png>]
+<./images/Weltkugel.png, id=104, 539.01375pt x 436.63126pt>
+File: ./images/Weltkugel.png Graphic file (type png)
+<use ./images/Weltkugel.png>
+Package pdftex.def Info: ./images/Weltkugel.png  used on input line 565.
+(pdftex.def)             Requested size: 269.50621pt x 218.3151pt.
+
+
+! Package inputenc Error: Unicode character ´ (U+B4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.568 ...	Galilei-Transformationen in der Newton´
+                                                  schen Mechanik fürhren zu...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+<./images/michelsan.png, id=105, 698.61pt x 224.84pt>
+File: ./images/michelsan.png Graphic file (type png)
+<use ./images/michelsan.png>
+Package pdftex.def Info: ./images/michelsan.png  used on input line 574.
+(pdftex.def)             Requested size: 349.30414pt x 112.41972pt.
+[18 <./images/Weltkugel.png> <./images/michelsan.png>]
+<./images/Inertialsystem1.png, id=111, 424.58624pt x 100.375pt>
+File: ./images/Inertialsystem1.png Graphic file (type png)
+<use ./images/Inertialsystem1.png>
+Package pdftex.def Info: ./images/Inertialsystem1.png  used on input line 591.
+(pdftex.def)             Requested size: 212.2926pt x 50.18736pt.
+<./images/Beobachterquelle.png, id=112, 370.38374pt x 89.33376pt>
+File: ./images/Beobachterquelle.png Graphic file (type png)
+<use ./images/Beobachterquelle.png>
+Package pdftex.def Info: ./images/Beobachterquelle.png  used on input line 596.
+
+(pdftex.def)             Requested size: 185.1914pt x 44.66676pt.
+<./images/Lichtgeschwindigkeit2.png, id=113, 169.63374pt x 136.51pt>
+File: ./images/Lichtgeschwindigkeit2.png Graphic file (type png)
+<use ./images/Lichtgeschwindigkeit2.png>
+Package pdftex.def Info: ./images/Lichtgeschwindigkeit2.png  used on input line
+ 608.
+(pdftex.def)             Requested size: 84.81665pt x 68.25482pt.
+
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 605--617
+[][]  [] 
+ []
+
+! Double superscript.
+l.619 					\[ (c_0t^\prime)^2 - x^\prime^
+                                         2 = (c_0t)^2 -x^2 \]
+I treat `x^1^2' essentially like `x^1{}^2'.
+
+[19 <./images/Inertialsystem1.png> <./images/Beobachterquelle.png>]
+! Double superscript.
+l.623 					$ (c_0t^\prime)^2 - x^\prime^
+                                        2 = c_0^2(cx + dt)^2 - \gamma^2(x -v...
+I treat `x^1^2' essentially like `x^1{}^2'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--634
+
+ []
+
+[20 <./images/Lichtgeschwindigkeit2.png>]
+! Extra }, or forgotten $.
+l.647 ...$ und verwende $u = \Delta x / \Delta t }
+                                                   \frac{u - v}{1 - \frac{v ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.665 ...Koordinaten: $E^2 = c_0^2 \vec{p}^2 + m_^
+                                                  2 c_0^4 \qquad [E] = [mv^2...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.665 ..._^2 c_0^4 \qquad [E] = [mv^2], [p]= [mv]$
+                                                  \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--678
+
+ []
+
+[21]
+<./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png, id=127, 606.265pt 
+x 290.08376pt>
+File: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png Graphic file (
+type png)
+<use ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png>
+Package pdftex.def Info: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1
+.png  used on input line 692.
+(pdftex.def)             Requested size: 242.5017pt x 116.03143pt.
+<./images/Mathependell.png, id=128, 237.88875pt x 182.6825pt>
+File: ./images/Mathependell.png Graphic file (type png)
+<use ./images/Mathependell.png>
+Package pdftex.def Info: ./images/Mathependell.png  used on input line 708.
+(pdftex.def)             Requested size: 118.94408pt x 91.34102pt.
+
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 705--717
+[][]  [] 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.718 							wenn $l = const$ ist F_
+                                    $\varphi = m a_\varphi$ in Polarkoordina...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.718 							wenn $l = const$ ist F_$
+                                     \varphi = m a_\varphi$ in Polarkoordina...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.718 							wenn $l = const$ ist F_$
+                                     \varphi = m a_\varphi$ in Polarkoordina...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.718 							wenn $l = const$ ist F_$\varphi
+                                             = m a_\varphi$ in Polarkoordina...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--724
+
+ []
+
+[22 <./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png (PNG copy)> <./
+images/Mathependell.png>]
+
+LaTeX Warning: Command \ss invalid in math mode on input line 729.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 730.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.730 ...\int_{0}^{\pi/2} \frac{d \varphi}{\d \xi}
+                                                   \frac{d \xi}{\sqrt{h - h ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.730 ...\int_{0}^{\pi/2} \frac{d \varphi}{\d \xi}
+                                                   \frac{d \xi}{\sqrt{h - h ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--748
+
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \crcr.
+<recently read> \crcr 
+                      
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\underbrace ...laystyle {#1}\hfil $\crcr \noalign 
+                                                  {\kern 3\p@ \nointerlinesk...
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! You can't use `\prevdepth' in math mode.
+\nointerlineskip ->\prevdepth 
+                              -\@m \p@ 
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no � in font cmex10!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced \crcr.
+\underbrace ...ointerlineskip }\upbracefill \crcr 
+                                                  \noalign {\kern 3\p@ }}}}\...
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\underbrace ...eskip }\upbracefill \crcr \noalign 
+                                                  {\kern 3\p@ }}}}\limits 
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra }, or forgotten $.
+\underbrace ...ill \crcr \noalign {\kern 3\p@ }}}}
+                                                  \limits 
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\mathaccentV ...blethree \frozen@everymath {}$#5$}
+                                                  \macc@tmp \ifnum \macc@dep...
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Argument of \underbrace has an extra }.
+<inserted text> 
+                \par 
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \underbrace was complete.
+<to be read again> 
+                   \par 
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
+                                                  {{\vec{r}} \times \dot{\ve...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[23] (./theoretische Physik Vorlesung.aux) ) 
 Here is how much of TeX's memory you used:
- 15031 strings out of 492649
- 284678 string characters out of 6129622
- 399649 words of memory out of 5000000
- 18586 multiletter control sequences out of 15000+600000
- 12966 words of font info for 51 fonts, out of 8000000 for 9000
+ 15072 strings out of 492649
+ 285903 string characters out of 6129622
+ 400649 words of memory out of 5000000
+ 18617 multiletter control sequences out of 15000+600000
+ 14026 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,56p,487b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "theoretische Physik Vorlesung.pdf" (17 pages, 1029073 bytes)
+</usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb>
+Output written on "theoretische Physik Vorlesung.pdf" (23 pages, 1460719 bytes)
 .
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 198 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

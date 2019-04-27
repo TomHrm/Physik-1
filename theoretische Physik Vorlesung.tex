@@ -552,9 +552,204 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 							Für jeden Vektor $\vec{b}$ gilt: $\vec{b} = \sum_{i} bi \vec{e}_i = \sum_{i} b_i^\prime \vec{e}_j^\prime$\\
 							$\Rightarrow \frac{d \vec{b}}{dt} = \sum_{i}\frac{db_i}{dt} \underbrace{\vec{e}_i}_{Zeitunabhängig} = \sum_{i} \frac{dbi^\prime}{dt} \vec{e}_i^\prime = \sum_{b_i}^\prime \underbrace{\frac{d\vec{e}_i^\prime}{dt}}_{ \vec{w} \times \vec{e}_i^\prime} = \underbrace{\left( \frac{d \vec{b}}{dt} \right)^\prime}_{Ableitung im \sum^\prime-System} + \vec{w} \times \vec{b} $ \\
 						\textbf{Ferner:}\\
-							$\vec{r}(t) = \vec{r}_0(t) + \vec{r}^\prime(t)$
-						
-						
+							$\vec{r}(t) = \vec{r}_0(t) + \vec{r}^\prime(t)  \Rightarrow \vec{v}=\frac{d\vec{r}}{dt} = \dot{\vec{r}_0}+\left( \frac{d \vec{r}^\prime}{dt} \right)^\prime + \vec{w} \times \vec{r} \\\dot{\vec{r}}_0 + \underbrace{\vec{ v}^\prime}_{Geschwindigkeit im \sum^\prime-System} $\\
+							Notwendige Differentiation ergibt Tranforamtionsgesetzt für die beschleunigung:\\
+							$ \vec{a} = \frac{d^2\vec{ r}}{dt^2}= \frac{d\vec{ v}}{dt}= \ddot{\vec{ r}}_0 + 
+							(\frac{d \vec{ v}^\prime}{dt})^\prime + \vec{w} \times \vec{v} + \dot{\vec{w}} \times \vec{ r}^\prime + \vec{w}((\frac{d\vec{ r}^\prime}{dt})^\prime + \vec{w} \times \vec{ r}^\prime) $\\
+							$ \ddot{\vec{ r}}_0 + \vec{a}^\prime + 2\vec{w} \times \vec{ v}^\prime + \vec{w} \times (\vec{w} \times \vec{ r}^\times) +\dot{\vec{w}} \times \vec{ r}^\prime$\\ 
+							wobei $\vec{a}^\prime = (\frac{d\vec{v}^\prime}{dt})^\prime$ die Beschleunigung gemessen im $\sum^\prime-System$ ist Eingesetzt in $\vec{F} = m \vec{a}$, damit bekommt man letztendlich dann:
+							\[ m\underbrace{\left( \frac{d^2 \vec{r}^\prime}{dt^2} \right)^\prime }_{\vec{a}^\prime} = \vec{ F} - m [\ddot{\vec{r}}+\underbrace{2\vec{w}\times \vec{v}^\prime}_{\text{Coriolis-Kraft}} + \underbrace{\vec{w} \times (\vec{w} \times \vec{r}^{\prime\prime})}_{\text{Zentrifugalkraft}}+\dot{\vec{w}}\times \vec{ r}^\times ]  \]		
+							\subsubsection{Beispiel}
+							rotierendes terrestrisch Bezugssstem: Auf einem Luftraum der sich auf die Nordhalbkugel um Nord nach Süd bewegt wirkt eine Corioliskraft die nach Westen zeigt. Deshalb drehen sich Luftmassen auf der Nordhalbkugel im Gegen-Uhrzeigersinn um Tiefdruckgebiete. Auf der Süd halbkugel ist es genau andersherum.
+							\begin{center}
+								\includegraphics[scale=0.5]{Weltkugel.png}
+							\end{center}
+						\subsection{Spezielle Relativitätstheorie - Lorentstransformation}
+							Galilei-Transformationen in der Newton´schen Mechanik fürhren zur Vektoraddition von Geschwindigkeiten: 
+							\[ \vec{ r}^\prime = \vec{ r} + \vec{ v}_0 * t + \vec{ r}_0 \Rightarrow \vec{ v}^\prime = 
+							\frac{d\vec{ r}^\prime}{dt} = \frac{d\vec{ r}}{dt} + \vec{ v}_0 = \vec{ v} + \vec{ v}_0 \]
+							insbesondere hängt Lichtgeschwindigkeit vom Bezugssystem (Inertialsystem) ab. $\exists$ bevorzugtes Inertialsystem in welchem Lichtgeschwindigkeit $= c_0 \rightarrow$ Äther! \qquad Für den Schall ist der Äther (Medium) die Luft.
+							\subsubsection{Michelsan-Versuch}
+								\begin{center}
+									\includegraphics[scale=0.5]{michelsan.png}
+								\end{center}
+							Lichtlaufzeit in Arm 1 = $\frac{l_\prime}{c_0 - v} + \underbrace{\frac{l_\prime}{c + v} }_{\text{kürzt sich}} + \frac{l_\prime}{c_0 + v} = t_1 = \frac{2 l_\prime}{c_0}\frac{1}{1-\frac{v^2}{c_0^2}}$\\
+							Lichtlaufzeit in Arm 2 = $ (v\frac{t_2}{2})^2 + l_2^2 = (c_0 \frac{t_2}{2})^2 \Rightarrow t_2 =' \frac{2 l_1}{c_0} \frac{1}{\sqrt{1 - \frac{v^2}{c_0^2}}} $\\
+							$ \Rightarrow \Delta t = \frac{2}{c_0}\left( \frac{l_1}{1- \frac{v^2}{c_0^2}} - \frac{l_2}{\sqrt{1- \frac{v^2}{c_0^2}}} \right) $\\
+							Drehung um $ 90^\circ $ entspricht Austausch von $l_1$, und $l_2$:\\
+								$\Delta t^\prime = \frac{2}{c_0} \left( \frac{l_1}{\sqrt{1- \frac{v^2}{c_0^2}}} - 
+								\frac{l_2}{1- \frac{v^2}{c_0^2}} \right)$\\
+								Die Differenz der Lichtlaufzeiten ändert sich damit um
+								\[ \delta t = \Delta t - \Delta t^\prime = \frac{2(l_1 + l_2)}{c_0} \left( \frac{1}{1- \frac{v^2}{c_0^2}}- \frac{1}{\sqrt{1- \frac{v^2}{c_0^2}}} \right) \]
+						war die Interfrequenzmuster um die Phase
+						\[ \Delta \Phi = \underbrace{w}_{\text{Frequenz des \\laserlichtes}} \delta t \]
+						ändert.\\
+						Experimentell ist $\Delta \delta = \Delta \Phi = 0$\\
+						$\Rightarrow$ \textbf{Die Vakuumlichtgeschwindigkeit ist universell und in jedem Inertialsyxstem identisch.}\\
+						Damit sind alle Inertialsysteme gleichberechtigt und nur Relativgeschwindigkeiten sind phyikalisch relevant. Dies ist nicht der Fall in der Äthertheorie, wie folgendes Beispiel zeigt (Geschwindigkeiten relativ zum Äther)
+						\begin{center}
+							\includegraphics[scale=0.5]{Inertialsystem1.png}
+						\end{center}
+					Wenn $ v=0 $ und $d =Distanz$ der Beobachter-Quelle dann ist $t_0 = \frac{d}{c_0};$ wenn $v>0$ dann $d = c_0 t + v t$\\
+					$\Rightarrow t= \frac{t_0}{1 + \frac{v}{c_0}} \Rightarrow$ frequenz $f = \frac{1}{t} = f_0(1+ \frac{v}{c_0}) $
+					\begin{center}
+						\includegraphics[scale=0.5]{Beobachterquelle.png}
+					\end{center}
+					$t = t_0 - \frac{v t_0}{c_0} + \frac{d}{c_0} \Rightarrow f= \frac{1}{\Delta t} = \frac{f_0}{1- \frac{v}{c_0}} $
+					$\Rightarrow$ die beiden Dopplereffekte wären in zweiter Ordnung in $\frac{v}{c_0}$ verschieden.\\
+					Eine Möglichkeit, die Lichtgeschwindigkeit unabhängig vom Inertialsystem zuhalten ist
+					\[ c_0^2\Delta t^2 - (\Delta \vec{ r})^2 = \text{\textit{unabhängig vom Inertialsystem}} \]
+					zu setzen, denn dann ist für Bewegung mit Lichtgeschwindigkeit $ c_0^2\Delta t^2 - (\Delta \vec{ r})^2 = 0 $ in allen Inertialsystem. \\
+					Gesucht ist aber eine Transformation (ohne Einschränkung mit nur einer Raumkoordinate):
+					\begin{figure}[htbp]
+						\begin{minipage}[t]{10cm}
+							\vspace{0pt}
+							\centering
+							\includegraphics[scale=0.5]{Lichtgeschwindigkeit2.png}
+						\end{minipage}
+						\hfill
+						\begin{minipage}[t]{10cm}
+							\vspace{0pt}
+							$x^\prime = ax + bt$\\
+							$t^\prime = cx + dt $\\
+							$ a,d  $
+						\end{minipage}
+					\end{figure}
+					so daß:
+					\[ (c_0t^\prime)^2 - x^\prime^2 = (c_0t)^2 -x^2 \]
+					Definiere $ a:= \gamma$. Per Definition bewegt sich ein Punkt in Ruge in $\sum^\prime, \Delta x^\prime = 0 $, mit Geschwindigkeit v in $\sum , v = \frac{\Delta x}{\Delta t}$
+					\[ 0 = \Delta x^\prime = \gamma \Delta x + b \Delta t \Rightarrow b = - \gamma \frac{\Delta x}{\Delta t} = - \gamma v \]  aber \[ x^\prime = \gamma(x - vt) \]
+					weiter würde es gehen:\\
+					$ (c_0t^\prime)^2 - x^\prime^2 = c_0^2(cx + dt)^2 - \gamma^2(x -vt)^2 \\
+						= c_0^2(d^2 - \gamma^2 \frac{v^2}{c_0^2}) t^2 + (c_0^2 c^2 - t^2) x^2 + 2(c_0^2 cd + \gamma^2 v)x t $\\
+						$\Rightarrow$
+						\[ (1) d^2 = 1 + \gamma^2 \frac{v^2}{c_0^2} \]
+						\[ (2) c_0^2 c^2 = \gamma^2 - 1 \]
+						\[ (3) c_0^2 cd = -\gamma v \]
+						multipliziere (1) und (2) \qquad $\underbrace{\Rightarrow}_{quadiere (3)} c_0^2 c^2 d^2 = \gamma^4 \frac{v^2}{c_0^2}$
+						$\Rightarrow c_0^2 c^2 d^2 = - 1 + \gamma^2 (1 - \frac{v^2}{c_0^2}) + \gamma^4 \frac{v^2}{c_0^2} $\\
+						Nun setzen wir gleich $\Rightarrow \gamma^2 = \frac{1}{1-\frac{v^2}{c_0^2}} \Rightarrow \gamma = \frac{1}{\sqrt{1- \frac{v^2}{c_0^2}}}$ weil $ a = \gamma > 0$\\
+						$\Rightarrow d^2 = \gamma^2(\frac{1}{\gamma^2} + \frac{v^2}{v_0^2}) = \gamma^2 \qquad d = \gamma$ weil $d > 0$\\
+						\quad $(3) \Rightarrow c = - \frac{\gamma^2 v}{c_0^2 d} = - \gamma \frac{v}{c_0^2}$\\
+						\[\Rightarrow x^\prime = \gamma(x - vt)\quad ; \quad  t^\prime = \gamma(t - \frac{vx}{c_0^2}) \]
+						Dabei entspricht $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c_0^2}}}$
+						\textbf{Hinweis:} \\Oft werden natürliche Einheiten verwendet für die $c_0 = 1$\\
+						Die Koordinaten $\perp \vec{v}$ bleiben unverändert, das heißt 
+						\[ y^\prime = y \qquad z^\prime = z \]
+						Dabei ist zu beachten: Für $\frac{v}{c_0} \rightarrow 0 $ ist $ \gamma = 1 + 0(v^2) \Rightarrow $ In erster Ordnung in v erhält man Galilei-Transformation: 
+						\[ v^\prime = x -vt + 0(v^2) \quad t^\prime = t - \frac{vx}{c_0^2} + 0(v^2) \]
+						\newpage
+						\subsection{Anwendung- Relativitätstheorie}
+							 \subsubsection{Geschwindigkeitsaddition oder subtraktion}
+							In System $\sum$ bewegt sich ein Teilchen mit Geschwindigkeit\\
+							$ u = \frac{\Delta x}{\Delta t} \Rightarrow $ In $\sum^\prime$ ist Geschwindigkeit\\
+							$u^\prime = \frac{\Delta x^\prime}{\Delta t ^\prime} = \frac{\Delta x - v\Delta t}{\Delta t - v 
+								\frac{\Delta x}{c_0^2}} =$(dividiere oben und unten durch $\Delta t$ und verwende $u = \Delta x / \Delta t } \frac{u - v}{1 - \frac{v u}{c_0^2}}) $\\
+							Für $u,v << c_0$ gilt Galilei-Transformation bis auf Terme zweiter Ordnung:
+							\[ u^\prime = u - v + 0 (v^2, u^2) \]
+						\subsubsection{Zeitdilatation}
+						Betrachte einen Prozess, der im $\sum$ im Ruge stattfindet und eine Zeit $\Delta t$ dauert, z.B. radioaktiver Zerfall.\\
+						$ \Delta t ^\prime = \gamma \Delta t \ge \Delta t $\\
+						\textbf{Vierervektor-Formatlismus:} \\
+							Verwende natürliche Einheiten $c_0 \equiv 1$ der Einfachheitshalber\\
+							$ \Rightarrow t^\prime = \gamma(t -vx) \quad y^\prime = y\\
+							\Rightarrow x^\prime = \gamma(x - vt) \quad z^\prime = z $\\
+							$(t, \vec{x})$ vildet einen Vierervektor dessen Norm $t^2 - \vec{x}^2$ erhalten ist. Analog bildet $(E , \vec{p})$ einen Energie Impuls Vierervektor.
+							$ \Rightarrow E^\prime = \gamma(E - vp_x) \quad px^\prime = \gamma(p_x - vE) $\\
+							$ p_y^\prime = p_y \qquad p_z^\prime = p_z $\\
+							Spezialfall: Teilchen in Ruge im $\sum$, aber $\vec{p} = 0, E = m_0 = \text{\textit{Rugemasse}}$\\
+							 $\Rightarrow E^\prime = \gamma E = \gamma m_0 \\
+							 p_x^\prime = - \gamma v E = - \gamma v m_0\\
+							 p_y^\prime = p_z^\prime = 0$\\
+							 $\underbrace{\Rightarrow}_{\text{ersetze durch ungestrichene Größe}} \vec{p}^2 + m_0^2 = m_0^2(1 + \gamma^2 v^2) = \frac{m_0^2}{1 - v^2}(1-v^2 + v^2) = \frac{m_0^2}{1-v^2} = \gamma^2 m_0^2 = E^2$\\
+							 in alltäglichen Koordinaten: $E^2 = c_0^2 \vec{p}^2 + m_^2 c_0^4 \qquad [E] = [mv^2], [p]= [mv]$\\
+							Dabei zu beachten ist dass, E positiv und eine negative Wurzel hat.\\
+							$E < 0$ entspricht Antiteilchen\\
+							$\rightarrow$ in der Relativitätstheorie hat jedes Teilchen ein Anti-Teilchen\\
+							\textbf{Nicht-relativistisches Limit:}\\
+							$ E = \sqrt{m_0^2 + \vec{p}^2} = m_0 \sqrt{1 + \frac{\vec{p}^2}{m_0^2}} = m_0 (1 + \frac{1}{2} \frac{\vec{p}^2}{m_0^2} + 0 (p^4))\\
+							E = \gamma m_0 = \frac{m_0}{\sqrt{1 - v^2}} - m_0 (1 + \frac{1}{2} v^2 + 0(v^2)) $\\
+							$ \approx m_0 + \underbrace{\frac{1}{2} m_0 v_0^2}_{\text{nicht relativistische kinetische Energie}}$
+							
+							\subsection{Allgemeine Form der Newtonschen Bewegungsgleichung:}
+								m$\ddot{\vec{ r}} = \vec{f}(\vec{r} , t) \rightarrow 
+								\text{gewöhnlicghe Differentialgleichung zweiter. Ordnung}$\\
+								$m \ddot{x}_i = F_i(x_1,x_2,x_3,t) \qquad i= 1,2,3$\\
+								\subsubsection{Mehrteilchensysteme für N Teilchen}
+									$m_j  \ddot{\vec{ r}}_j = \vec{ F}_j (\vec{ r}_{11} ... , \vec{ r}_{N,t}) \quad j = 1, ... , N$\\
+									$\Rightarrow 3N$ Differentialgleichung 2ter Ordnung $\rightarrow 3N$ Freiheitsgrade.\\
+									\textbf{Siehe Dokument: Differentialgleichung.pdf} 
+						\subsection{Phasenraum}
+							Für n Freiheitsgrade hat man den n-dimensionalen Ortvektor $\vec{r} = (y_1, ..., y_n)$; Der von $\vec{u} = (\vec{ r}, \dot{\vec{r}})$ aufgespannte 2n dimensionale Vektorraum heißt Phasenraum, Definiere
+							\[ u_j = y_j \quad j = 1, ... , n \qquad u_{j+n} = y_j \quad j = 1,...,n \]
+							$ \Rightarrow \dot{u}_j = \dot{y}_i  = u_{n+j} \qquad j=1,...,n$\\
+							$ \dot{u}_{j+n} = \ddot{y}_j  = f_j(u,...,\underbrace{u_{2n}}_{\text{Kraft kann auch von Geschwindigkeiten abhängen, z.B. Reibung, Lorentz-Kraft}},t)$
+							hat die Form:\\
+							$ \dot{\vec{u}} = \vec{g}(\vec{u},t) \rightarrow \text{2n gewöhnliche Differentialgleichung \textbf{erster} Ordnung}$\\
+							Symmetrien dieser Gleichungen führen i.a. zu Erhaltungsgrößem z.B. führt Zeit-unabhängigkeit i.a. zu Energieerhaltung\\
+							$\vec{ F}$ heißt Gradienten-Kraft wenn
+							\begin{center}
+								\includegraphics[scale=0.4]{Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png}
+							\end{center}
+							\[ \vec{ F}(\vec{r}) 0 - \vec{\nabla} v (\vec{ r}) \]
+							mit $V(\vec{ r})$ eine Skalarfunktion genannt \textbf{\textit{Potential}}\\
+							Dann ist
+							\[ e = E_{kin} + E_{pot} = \frac{m}{2} \dot{\vec{ r}}^2 +V(\vec{r}) \]
+							erhalten:
+							$ \frac{dE}{dt} = m \dot{\vec{ r}}, \ddot{\vec{ r}} + \dot{\vec{ r}} * \vec{\nabla} v = \dot{\vec{ r}} * (m\ddot{\vec{ r}} + \vec{\nabla} v) \\
+							 \dot{\vec{ r}} * (m\ddot{\vec{ r}} - F(\vec{ r}) = 0)$
+							 \subsubsection{Beispiele}
+								Schräger Wurf $\rightarrow$ siehe experimenteller Teil\\
+								mathematisches Pendel (Kräfte Gleichsetzten)
+								\begin{figure}[htbp]
+								 	\begin{minipage}[t]{10cm}
+									\vspace{0pt}
+									\centering
+									\includegraphics[scale=0.5]{Mathependell.png}
+									\end{minipage}
+									\hfill
+									\begin{minipage}[t]{10cm}
+										\vspace{0pt}
+										$\vec{ F} = -mg \vec{e}_z$\\
+										$= \vec{\nabla} E_{pot}$\\
+										mit $ E_{pot} = mgh = mgl(1-cos\varphi)  $
+									\end{minipage}
+								\end{figure}
+							wenn $l = const$ ist F_$\varphi = m a_\varphi$ in Polarkoordinaten\\
+							$F_\varphi = - mg sin \varphi \qquad a_\varphi = l \ddot{\varphi}$\\
+							$\Rightarrow ml\ddot{\varphi} = -mg sin \varphi$ oder $ \ddot{\varphi} + \frac{g}{e} sin \varphi = 0 $
+						\subsubsection{Energie-Erhaltung}
+							\quad$ E = E_{kin} + E_{pot} = \frac{m}{2} e^2 \dot{\varphi}^2 + mgl(1 - cos \varphi)= const = mgl(1 - cos \varphi_0) $\\
+							$ \varphi_0 =$ maximale Auslenkung; Falls $\varphi_0 \leq \pi$\\
+							\[ \Rightarrow \dot{\varphi} = \sqrt{\frac{2g}{l}(cos \varphi - cos \varphi_0) } \]
+							damit kann man die Schwingungsperiode berechnen:\\
+							$T = \int_{0}^{T}dt = 4 \int_{0}^{T/4} = 4 \int_{0}^{0} \frac{d\varphi}{\dot{\varphi}} = 4 \sqrt{\frac{l}{2g}} \int_{0}^{0} \frac{d\varphi}{\sqrt{cos \varphi - cos \varphi_0}} $\\
+							Verwende 
+							\[ cos \varphi - cos \varphi_0 = 2(sin^2\frac{\varphi_0}{2} - sin^2 \frac{\varphi}{2}) \]
+							definiere $h = sin^2 \frac{\varphi_0}{2}$ und trnsformiere auf neue Variable $\xi$ mit  sin $\frac{\frac{\varphi}{2} = \sqrt{2} sin \xi}{\varphi_0} so daß 0 \leq \xi \leq \frac{\pi}{2}$
+							\[ \Rightarrow \frac{1}{\sqrt{2}} \int_{0}^{\varphi_0} \frac{d\varphi}{\sqrt{cos \varphi - cos \varphi_0}} = \frac{1}{2} \int_{0}^{\pi/2} \frac{d \varphi}{\d \xi} \frac{d \xi}{\sqrt{h - h sin^2\xi}} \]
+							dann ist $-\frac{1}{2} cos \frac{\varphi}{2} d\varphi = \sqrt{h} cos \xi d \xi \Rightarrow \frac{d \varphi}{d \xi} = 2 \sqrt{h} \frac{cos \xi}{cos \frac{/varphi}{2}}$\\
+							$ \Rightarrow \frac{1}{\sqrt{2}} \int_{0}^{\varphi_0} \frac{d \varphi}{\sqrt{cos \varphi - cos \varphi_0}} = \frac{1}{2} \int_{0}^{\pi/2} \frac{2 \sqrt{h} cos \xi d\xi}{\sqrt{h} cos \xi cos \frac{\varphi}{2}} = \int_{0}^{\frac{\pi}{2}} \frac{d \xi}{\sqrt{1 - sin^2 \frac{\varphi}{2}}} = \frac{d \xi}{\sqrt{1 -h sin^2\xi}} = K(h)$ = vollständiges elliptisches Integral \\
+							$ \Rightarrow T= 4 \sqrt{\frac{l}{g}} K(sin^2 \frac{\varphi_0}{2}) $\\
+							\textbf{Taylor Entwicklung von K(h) um k = 0:}\\
+								$K(h) \approx \int_{0}^{\frac{\pi}{2}} d\xi (^1 + \frac{h}{2} sin^2 \xi) \approx \frac{\pi}{2}(1+\frac{h}{4})$\\
+								$ \Rightarrow T = 2\pi \sqrt{\frac{l}{g}}(1 +  \frac{h}{4}) $\\
+								Für $k \rightarrow 0 ist T \rightarrow 2\pi \sqrt{\frac{l}{g}}$ Das entspricht der harmonischen Nährung $sin \varphi \approx \varphi$:\\
+								$\ddot{\varphi} + \frac{g}{l} sin \varphi \approx \ddot{\varphi} + \frac{g}{l} \varphi = 0 $\\
+								\textbf{Lösungen sind dafür:}
+									\[ \varphi(t) = A sin w_0 t + B cos w_0 t \]
+									mit $w_0 =\sqrt{\frac{g}{l}}$,aber $T = \frac{2 \pi}{w_0} = 2\pi \sqrt{\frac{l}{g}}$\\
+									Dies entspricht dem Federpendel
+									\[ m \ddot{x} + hk = 0 \text{mit} E_{pot} = \frac{h}{2}x^2 \quad F = - \frac{d E_{pot}}{dx} = - hx \] 
+								\subsection{Erhaltung von Impuls und Drehimpuls}
+									Impuls eines Teilchens := $\vec{p} = m \vec{ v} = m \dot{\vec{r}}$\\
+									Dabei ist m eine Ruhemasse in Newtonscher Physik ansonsten $m \rightarrow m \gamma \text{\textit{ bzw. bewegte Masse}}$\\
+									$ \Rightarrow \dot{\vec{p}} = \vec{ F}(\vec{r},t) $\\
+										\[ \text{Drehimpuls } \vec{L}:= m\vec{ r} \times \dot{\vec{ r}} = \vec{ r} \times \vec{p} \]
+								$\Rightarrow \dot{\vec{L}} = m \dot\underbrace{{\vec{r}} \times \dot{\vec{r}}}_{= 0} + m \vec{ r} \times \ddot{\vec{r}} = \vec{r} \times \dot{\vec{p}} = \vec{ r} \times \vec{ F}$\\
+								Dieses Ergebnis der Umformung am Ende ist auch bekannt als Drehmoment.
+					
+					
 						
 							
 \end{document}
