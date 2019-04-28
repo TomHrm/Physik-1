@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  27 APR 2019 13:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  28 APR 2019 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -670,765 +670,366 @@ File: uesvect.fd
 \tf@toc=\write4
 \openout4 = `"theoretische Physik Vorlesung.toc"'.
 
- [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
+ [2] [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
 
-Overfull \hbox (31.79877pt too wide) in paragraph at lines 85--86
+Overfull \hbox (31.79877pt too wide) in paragraph at lines 86--87
 []\OT1/cmr/bx/n/10.95 Spezielle Re-la-ti-vit[]atstheorie: \OT1/cmr/m/n/10.95 Lo
 rentz-Transformation und ki-ne-ma-ti-sche Kon-se-quen-zen, Minkowski-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 189--191
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-<./images/vektorprodukt.png, id=29, 193.72375pt x 132.495pt>
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
+
+ []
+
+<./images/vektorprodukt.png, id=32, 193.72375pt x 132.495pt>
 File: ./images/vektorprodukt.png Graphic file (type png)
 <use ./images/vektorprodukt.png>
-Package pdftex.def Info: ./images/vektorprodukt.png  used on input line 195.
+Package pdftex.def Info: ./images/vektorprodukt.png  used on input line 191.
 (pdftex.def)             Requested size: 58.11757pt x 39.7488pt.
-<./images/vektorprodukt2.png, id=31, 239.89626pt x 156.585pt>
+<./images/vektorprodukt2.png, id=34, 239.89626pt x 156.585pt>
 File: ./images/vektorprodukt2.png Graphic file (type png)
 <use ./images/vektorprodukt2.png>
-Package pdftex.def Info: ./images/vektorprodukt2.png  used on input line 199.
+Package pdftex.def Info: ./images/vektorprodukt2.png  used on input line 195.
 (pdftex.def)             Requested size: 71.96942pt x 46.97586pt.
-[5 <./images/vektorprodukt.png>]
-<./images/komponentendarstellung.png, id=37, 224.84pt x 171.64125pt>
+[6 <./images/vektorprodukt.png> <./images/vektorprodukt2.png>]
+<./images/komponentendarstellung.png, id=41, 224.84pt x 171.64125pt>
 File: ./images/komponentendarstellung.png Graphic file (type png)
 <use ./images/komponentendarstellung.png>
 Package pdftex.def Info: ./images/komponentendarstellung.png  used on input lin
-e 219.
+e 217.
 (pdftex.def)             Requested size: 101.17706pt x 77.23784pt.
-<./images/Komponentendarstellung2.png, id=38, 663.47874pt x 342.27875pt>
+<./images/Komponentendarstellung2.png, id=42, 663.47874pt x 342.27875pt>
 File: ./images/Komponentendarstellung2.png Graphic file (type png)
 <use ./images/Komponentendarstellung2.png>
 Package pdftex.def Info: ./images/Komponentendarstellung2.png  used on input li
-ne 223.
+ne 221.
 (pdftex.def)             Requested size: 265.3868pt x 136.90906pt.
-<./images/1000px-Parallelepiped2.png, id=39, 1003.75pt x 566.115pt>
+<./images/1000px-Parallelepiped2.png, id=43, 1003.75pt x 566.115pt>
 File: ./images/1000px-Parallelepiped2.png Graphic file (type png)
 <use ./images/1000px-Parallelepiped2.png>
 Package pdftex.def Info: ./images/1000px-Parallelepiped2.png  used on input lin
-e 227.
+e 225.
 (pdftex.def)             Requested size: 301.12732pt x 169.8358pt.
- [6 <./images/vektorprodukt2.png> <./images/komponentendarstellung.png> <./imag
-es/Komponentendarstellung2.png>]
-
-! LaTeX Error: \mathbb allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.229 ...dimensionalen euklidischen Vektorraums \R
-                                                  $^3$ kann wie folgt defini...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[7 <./images/1000px-Parallelepiped2.png>]
-<./images/Vektorfunktionen.png, id=53, 206.7725pt x 153.57375pt>
+ [7 <./images/komponentendarstellung.png> <./images/Komponentendarstellung2.png
+>] [8 <./images/1000px-Parallelepiped2.png>]
+<./images/Vektorfunktionen.png, id=56, 206.7725pt x 153.57375pt>
 File: ./images/Vektorfunktionen.png Graphic file (type png)
 <use ./images/Vektorfunktionen.png>
-Package pdftex.def Info: ./images/Vektorfunktionen.png  used on input line 263.
+Package pdftex.def Info: ./images/Vektorfunktionen.png  used on input line 261.
 
 (pdftex.def)             Requested size: 103.38599pt x 76.78668pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--270
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
 
  []
 
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 260--271
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 258--269
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--274
+Underfull \hbox (badness 10000) in paragraph at lines 256--272
 
  []
 
-<./images/integral.png, id=54, 1927.2pt x 1694.33pt>
+<./images/integral.png, id=57, 1927.2pt x 1694.33pt>
 File: ./images/integral.png Graphic file (type png)
 <use ./images/integral.png>
-Package pdftex.def Info: ./images/integral.png  used on input line 277.
+Package pdftex.def Info: ./images/integral.png  used on input line 275.
 (pdftex.def)             Requested size: 96.36565pt x 84.72145pt.
-<./images/Integrationbeispiel.png, id=55, 677.53125pt x 466.74374pt>
+<./images/Integrationbeispiel.png, id=58, 677.53125pt x 466.74374pt>
 File: ./images/Integrationbeispiel.png Graphic file (type png)
 <use ./images/Integrationbeispiel.png>
 Package pdftex.def Info: ./images/Integrationbeispiel.png  used on input line 2
-85.
+83.
 (pdftex.def)             Requested size: 304.88625pt x 210.03275pt.
 
-Overfull \hbox (134.16972pt too wide) in paragraph at lines 285--286
+Overfull \hbox (134.16972pt too wide) in paragraph at lines 283--284
  [][] 
  []
 
-[8 <./images/Vektorfunktionen.png> <./images/integral.png>]
-<./images/Differentialrechnung.png, id=61, 377.41pt x 231.86626pt>
+[9 <./images/Vektorfunktionen.png> <./images/integral.png>]
+<./images/Differentialrechnung.png, id=64, 377.41pt x 231.86626pt>
 File: ./images/Differentialrechnung.png Graphic file (type png)
 <use ./images/Differentialrechnung.png>
 Package pdftex.def Info: ./images/Differentialrechnung.png  used on input line 
-307.
+305.
 (pdftex.def)             Requested size: 150.96132pt x 92.74484pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 304--314
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 302--312
 [][]  [] 
  []
 
-! Double superscript.
-<argument> f^(^
-               n^) (x_0)
-l.318 ...um_{n=0}^{\infty}\frac{f^(^n^) (x_0)}{n!}
-                                                   (x-x_0)^n = f(x_0) + f^\p...
-I treat `x^1^2' essentially like `x^1{}^2'.
-
-! Double superscript.
-<argument> f^(^n^
-                 ) (x_0)
-l.318 ...um_{n=0}^{\infty}\frac{f^(^n^) (x_0)}{n!}
-                                                   (x-x_0)^n = f(x_0) + f^\p...
-I treat `x^1^2' essentially like `x^1{}^2'.
-
-! Double superscript.
-<argument> f^\prime ^
-                     \prime (x_0)
-l.318 ...- x_0) + \frac{f^\prime ^\prime (x_0)}{2}
-                                                   (x-x_0)^2 + ... \]
-I treat `x^1^2' essentially like `x^1{}^2'.
-
-! Double superscript.
-l.323 ... + x^2} = \sum_{n=0}^{\infty} (-1)^n x^2^
-                                                  n = \sum_{n=0}^{\infty} a_...
-I treat `x^1^2' essentially like `x^1{}^2'.
-
-! Double subscript.
-<argument> a_2_
-               n_+_2
-l.323 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
-                                                   = -x^2$ obwohl $\frac{1}{...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> a_2_n_
-                 +_2
-l.323 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
-                                                   = -x^2$ obwohl $\frac{1}{...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> a_2_n_+_
-                   2
-l.323 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
-                                                   = -x^2$ obwohl $\frac{1}{...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> a_2_
-               n
-l.323 ...dius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n}
-                                                   = -x^2$ obwohl $\frac{1}{...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-[9 <./images/Integrationbeispiel.png> <./images/Differentialrechnung.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+[10 <./images/Integrationbeispiel.png> <./images/Differentialrechnung.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--329
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
-
- []
-
-! Double subscript.
-l.331 		\[  f_x_
-                x = \frac{\partial}{\partial x}(\frac{\partial f}{\partial x...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.332 	\[  f_x_
-               y = \frac{\partial}{\partial y} (\frac{\partial f}{\partial x...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 352--356
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--361
-
- []
-
-! Double subscript.
-l.364 				 \vec{F}_1_
-                     2 = - \vec{\nabla} \phi = - \frac{G_N m_1 m_2}{| \vec{r...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--370
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--374
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--378
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 380--385
+Underfull \hbox (badness 10000) in paragraph at lines 350--354
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 390--393
+Underfull \hbox (badness 10000) in paragraph at lines 354--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--399
+Underfull \hbox (badness 10000) in paragraph at lines 365--368
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--405
+Underfull \hbox (badness 10000) in paragraph at lines 370--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--391
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 411--413
+Underfull \hbox (badness 10000) in paragraph at lines 392--397
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--416
+Underfull \hbox (badness 10000) in paragraph at lines 399--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
 
  []
 
 
-! Package inputenc Error: Unicode character ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.430 							In Newton´
-                        s Mechanik sind \textbf{Raum} und \textbf{Zeit} abso...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 430--432
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 457--459
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--430
 
  []
 
 [14]
-<./images/screenshot001.png, id=85, 389.455pt x 279.0425pt>
+Underfull \hbox (badness 10000) in paragraph at lines 455--457
+
+ []
+
+[15]
+<./images/screenshot001.png, id=89, 389.455pt x 279.0425pt>
 File: ./images/screenshot001.png Graphic file (type png)
 <use ./images/screenshot001.png>
-Package pdftex.def Info: ./images/screenshot001.png  used on input line 478.
+Package pdftex.def Info: ./images/screenshot001.png  used on input line 476.
 (pdftex.def)             Requested size: 136.31128pt x 97.66634pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 475--485
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 473--483
 [][]  [] 
  []
 
-[15 <./images/screenshot001.png>]
 <./images/screenshot002.png, id=90, 225.84375pt x 176.66pt>
 File: ./images/screenshot002.png Graphic file (type png)
 <use ./images/screenshot002.png>
-Package pdftex.def Info: ./images/screenshot002.png  used on input line 508.
+Package pdftex.def Info: ./images/screenshot002.png  used on input line 506.
 (pdftex.def)             Requested size: 112.92159pt x 88.32977pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 505--517
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 503--515
 [][]  [] 
  []
 
-<./images/screenshot3.png, id=91, 216.81pt x 262.9825pt>
+[16 <./images/screenshot001.png>]
+<./images/screenshot3.png, id=95, 216.81pt x 262.9825pt>
 File: ./images/screenshot3.png Graphic file (type png)
 <use ./images/screenshot3.png>
-Package pdftex.def Info: ./images/screenshot3.png  used on input line 526.
+Package pdftex.def Info: ./images/screenshot3.png  used on input line 524.
 (pdftex.def)             Requested size: 108.40472pt x 131.49092pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 523--535
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 521--533
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--539
+Underfull \hbox (badness 10000) in paragraph at lines 535--537
 
  []
 
-[16 <./images/screenshot002.png> <./images/screenshot3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
-<./images/screenshot004.png, id=97, 579.16376pt x 448.67625pt>
+<./images/screenshot004.png, id=96, 579.16376pt x 448.67625pt>
 File: ./images/screenshot004.png Graphic file (type png)
 <use ./images/screenshot004.png>
-Package pdftex.def Info: ./images/screenshot004.png  used on input line 550.
+Package pdftex.def Info: ./images/screenshot004.png  used on input line 548.
 (pdftex.def)             Requested size: 289.58116pt x 224.33757pt.
-
-LaTeX Warning: Command \" invalid in math mode on input line 553.
-
-! Please use \mathaccent for accents in math mode.
-<recently read> \accent 
-                        
-l.553 ...}{dt} \underbrace{\vec{e}_i}_{Zeitunabhä
-                                                  ngig} = \sum_{i} \frac{dbi...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing { inserted.
-<to be read again> 
-                   \fontdimen 
-l.553 ...}{dt} \underbrace{\vec{e}_i}_{Zeitunabhä
-                                                  ngig} = \sum_{i} \frac{dbi...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.553 ...\prime-System} + \vec{w} \times \vec{b} $
-                                                   \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[17 <./images/screenshot004.png>]
-<./images/Weltkugel.png, id=104, 539.01375pt x 436.63126pt>
+[17 <./images/screenshot002.png> <./images/screenshot3.png>]
+<./images/Weltkugel.png, id=102, 539.01375pt x 436.63126pt>
 File: ./images/Weltkugel.png Graphic file (type png)
 <use ./images/Weltkugel.png>
-Package pdftex.def Info: ./images/Weltkugel.png  used on input line 565.
+Package pdftex.def Info: ./images/Weltkugel.png  used on input line 563.
 (pdftex.def)             Requested size: 269.50621pt x 218.3151pt.
-
-
-! Package inputenc Error: Unicode character ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.568 ...	Galilei-Transformationen in der Newton´
-                                                  schen Mechanik fürhren zu...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-<./images/michelsan.png, id=105, 698.61pt x 224.84pt>
+ [18 <./images/screenshot004.png>]
+<./images/michelsan.png, id=108, 698.61pt x 224.84pt>
 File: ./images/michelsan.png Graphic file (type png)
 <use ./images/michelsan.png>
-Package pdftex.def Info: ./images/michelsan.png  used on input line 574.
+Package pdftex.def Info: ./images/michelsan.png  used on input line 572.
 (pdftex.def)             Requested size: 349.30414pt x 112.41972pt.
-[18 <./images/Weltkugel.png> <./images/michelsan.png>]
-<./images/Inertialsystem1.png, id=111, 424.58624pt x 100.375pt>
+ [19 <./images/Weltkugel.png> <./images/michelsan.png>]
+<./images/Inertialsystem1.png, id=115, 424.58624pt x 100.375pt>
 File: ./images/Inertialsystem1.png Graphic file (type png)
 <use ./images/Inertialsystem1.png>
-Package pdftex.def Info: ./images/Inertialsystem1.png  used on input line 591.
+Package pdftex.def Info: ./images/Inertialsystem1.png  used on input line 589.
 (pdftex.def)             Requested size: 212.2926pt x 50.18736pt.
-<./images/Beobachterquelle.png, id=112, 370.38374pt x 89.33376pt>
+<./images/Beobachterquelle.png, id=116, 370.38374pt x 89.33376pt>
 File: ./images/Beobachterquelle.png Graphic file (type png)
 <use ./images/Beobachterquelle.png>
-Package pdftex.def Info: ./images/Beobachterquelle.png  used on input line 596.
+Package pdftex.def Info: ./images/Beobachterquelle.png  used on input line 594.
 
 (pdftex.def)             Requested size: 185.1914pt x 44.66676pt.
-<./images/Lichtgeschwindigkeit2.png, id=113, 169.63374pt x 136.51pt>
+<./images/Lichtgeschwindigkeit2.png, id=117, 169.63374pt x 136.51pt>
 File: ./images/Lichtgeschwindigkeit2.png Graphic file (type png)
 <use ./images/Lichtgeschwindigkeit2.png>
 Package pdftex.def Info: ./images/Lichtgeschwindigkeit2.png  used on input line
- 608.
+ 606.
 (pdftex.def)             Requested size: 84.81665pt x 68.25482pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 605--617
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 603--615
 [][]  [] 
  []
 
-! Double superscript.
-l.619 					\[ (c_0t^\prime)^2 - x^\prime^
-                                         2 = (c_0t)^2 -x^2 \]
-I treat `x^1^2' essentially like `x^1{}^2'.
-
-[19 <./images/Inertialsystem1.png> <./images/Beobachterquelle.png>]
-! Double superscript.
-l.623 					$ (c_0t^\prime)^2 - x^\prime^
-                                        2 = c_0^2(cx + dt)^2 - \gamma^2(x -v...
-I treat `x^1^2' essentially like `x^1{}^2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 628--634
-
- []
-
-[20 <./images/Lichtgeschwindigkeit2.png>]
-! Extra }, or forgotten $.
-l.647 ...$ und verwende $u = \Delta x / \Delta t }
-                                                   \frac{u - v}{1 - \frac{v ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing { inserted.
-<to be read again> 
-                   ^
-l.665 ...Koordinaten: $E^2 = c_0^2 \vec{p}^2 + m_^
-                                                  2 c_0^4 \qquad [E] = [mv^2...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.665 ..._^2 c_0^4 \qquad [E] = [mv^2], [p]= [mv]$
-                                                  \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 675--678
+[20 <./images/Inertialsystem1.png> <./images/Beobachterquelle.png> <./images/Li
+chtgeschwindigkeit2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 626--632
 
  []
 
 [21]
-<./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png, id=127, 606.265pt 
+Underfull \hbox (badness 10000) in paragraph at lines 673--676
+
+ []
+
+[22]
+<./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png, id=130, 606.265pt 
 x 290.08376pt>
 File: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png Graphic file (
 type png)
 <use ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png>
 Package pdftex.def Info: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1
-.png  used on input line 692.
+.png  used on input line 690.
 (pdftex.def)             Requested size: 242.5017pt x 116.03143pt.
-<./images/Mathependell.png, id=128, 237.88875pt x 182.6825pt>
+<./images/Mathependell.png, id=131, 237.88875pt x 182.6825pt>
 File: ./images/Mathependell.png Graphic file (type png)
 <use ./images/Mathependell.png>
-Package pdftex.def Info: ./images/Mathependell.png  used on input line 708.
+Package pdftex.def Info: ./images/Mathependell.png  used on input line 706.
 (pdftex.def)             Requested size: 118.94408pt x 91.34102pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 705--717
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 703--715
 [][]  [] 
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.718 							wenn $l = const$ ist F_
-                                    $\varphi = m a_\varphi$ in Polarkoordina...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing { inserted.
-<to be read again> 
-                   $
-l.718 							wenn $l = const$ ist F_$
-                                     \varphi = m a_\varphi$ in Polarkoordina...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.718 							wenn $l = const$ ist F_$
-                                     \varphi = m a_\varphi$ in Polarkoordina...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.718 							wenn $l = const$ ist F_$\varphi
-                                             = m a_\varphi$ in Polarkoordina...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 722--724
+Underfull \hbox (badness 10000) in paragraph at lines 720--722
 
  []
 
-[22 <./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png (PNG copy)> <./
+[23 <./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png (PNG copy)> <./
 images/Mathependell.png>]
 
-LaTeX Warning: Command \ss invalid in math mode on input line 729.
+LaTeX Warning: Command \ss invalid in math mode on input line 727.
 
 
-LaTeX Warning: Command \d invalid in math mode on input line 730.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.730 ...\int_{0}^{\pi/2} \frac{d \varphi}{\d \xi}
-                                                   \frac{d \xi}{\sqrt{h - h ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.730 ...\int_{0}^{\pi/2} \frac{d \varphi}{\d \xi}
-                                                   \frac{d \xi}{\sqrt{h - h ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 745--748
+Underfull \hbox (badness 10000) in paragraph at lines 743--746
 
  []
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \crcr.
-<recently read> \crcr 
-                      
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\underbrace ...laystyle {#1}\hfil $\crcr \noalign 
-                                                  {\kern 3\p@ \nointerlinesk...
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! You can't use `\prevdepth' in math mode.
-\nointerlineskip ->\prevdepth 
-                              -\@m \p@ 
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-Missing character: There is no � in font cmex10!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Misplaced \crcr.
-\underbrace ...ointerlineskip }\upbracefill \crcr 
-                                                  \noalign {\kern 3\p@ }}}}\...
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\underbrace ...eskip }\upbracefill \crcr \noalign 
-                                                  {\kern 3\p@ }}}}\limits 
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra }, or forgotten $.
-\underbrace ...ill \crcr \noalign {\kern 3\p@ }}}}
-                                                  \limits 
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\mathaccentV ...blethree \frozen@everymath {}$#5$}
-                                                  \macc@tmp \ifnum \macc@dep...
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Argument of \underbrace has an extra }.
-<inserted text> 
-                \par 
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \underbrace was complete.
-<to be read again> 
-                   \par 
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.749 ...htarrow \dot{\vec{L}} = m \dot\underbrace
-                                                  {{\vec{r}} \times \dot{\ve...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[23] (./theoretische Physik Vorlesung.aux) ) 
+[24] (./theoretische Physik Vorlesung.aux) ) 
 Here is how much of TeX's memory you used:
- 15072 strings out of 492649
- 285903 string characters out of 6129622
- 400649 words of memory out of 5000000
- 18617 multiletter control sequences out of 15000+600000
+ 15071 strings out of 492649
+ 285898 string characters out of 6129622
+ 403649 words of memory out of 5000000
+ 18616 multiletter control sequences out of 15000+600000
  14026 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,17n,56p,487b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,63p,487b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb>
-Output written on "theoretische Physik Vorlesung.pdf" (23 pages, 1460719 bytes)
+onts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb>
+Output written on "theoretische Physik Vorlesung.pdf" (24 pages, 1459665 bytes)
 .
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
+ 201 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

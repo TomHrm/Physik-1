@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  25 APR 2019 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  28 APR 2019 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -548,7 +548,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \xvec@depth=\skip53
 \xvec@width=\skip54
 
-(./Physik Vorlesung.aux)
+No file "Physik Vorlesung".aux.
 \openout1 = `"Physik Vorlesung.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -565,7 +565,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 \c@lstlisting=\count136
 \AtBeginShipoutBox=\box43
-
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count137
@@ -687,28 +686,16 @@ LaTeX Font Info:    Try loading font information for U+esvect on input line 72.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-(./Physik Vorlesung.toc [1
-
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-! Package amsmath Error: \ddot allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...entV {ddot}07F{a}ge und schwere Masse}{12}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+No file "Physik Vorlesung".toc.
 \tf@toc=\write4
 \openout4 = `"Physik Vorlesung.toc"'.
 
- [2]
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -738,31 +725,31 @@ l.107 	$[$Fl\ddot{a}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[3]
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
-[4]
-<./images/20190411_073844099_iOS.png, id=29, 314.17375pt x 180.17313pt>
+[3]
+<./images/20190411_073844099_iOS.png, id=26, 314.17375pt x 180.17313pt>
 File: ./images/20190411_073844099_iOS.png Graphic file (type png)
 <use ./images/20190411_073844099_iOS.png>
 Package pdftex.def Info: ./images/20190411_073844099_iOS.png  used on input lin
 e 144.
 (pdftex.def)             Requested size: 94.25284pt x 54.05234pt.
-<./images/20190411_074045495_iOS.png, id=31, 331.73938pt x 184.69pt>
+<./images/20190411_074045495_iOS.png, id=28, 331.73938pt x 184.69pt>
 File: ./images/20190411_074045495_iOS.png Graphic file (type png)
 <use ./images/20190411_074045495_iOS.png>
 Package pdftex.def Info: ./images/20190411_074045495_iOS.png  used on input lin
 e 145.
 (pdftex.def)             Requested size: 99.52257pt x 55.40741pt.
-<./images/20190411_074437642_iOS.png, id=32, 353.32pt x 181.17688pt>
+<./images/20190411_074437642_iOS.png, id=29, 353.32pt x 181.17688pt>
 File: ./images/20190411_074437642_iOS.png Graphic file (type png)
 <use ./images/20190411_074437642_iOS.png>
 Package pdftex.def Info: ./images/20190411_074437642_iOS.png  used on input lin
 e 146.
 (pdftex.def)             Requested size: 105.99681pt x 54.35347pt.
-<./images/20190411_074619898_iOS.png, id=33, 334.75063pt x 165.11688pt>
+<./images/20190411_074619898_iOS.png, id=30, 334.75063pt x 165.11688pt>
 File: ./images/20190411_074619898_iOS.png Graphic file (type png)
 <use ./images/20190411_074619898_iOS.png>
 Package pdftex.def Info: ./images/20190411_074619898_iOS.png  used on input lin
@@ -773,9 +760,9 @@ File: ./images/20190411_073844099_iOS.png Graphic file (type png)
 Package pdftex.def Info: ./images/20190411_073844099_iOS.png  used on input lin
 e 152.
 (pdftex.def)             Requested size: 94.25284pt x 54.05234pt.
- [5 <./images/20190411_073844099_iOS.png> <./images/20190411_074045495_iOS.png>
+ [4 <./images/20190411_073844099_iOS.png> <./images/20190411_074045495_iOS.png>
  <./images/20190411_074437642_iOS.png> <./images/20190411_074619898_iOS.png>]
-<./images/IMG_EFF187166B54-1.jpeg, id=42, 1150.2975pt x 857.2025pt>
+<./images/IMG_EFF187166B54-1.jpeg, id=39, 1150.2975pt x 857.2025pt>
 File: ./images/IMG_EFF187166B54-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_EFF187166B54-1.jpeg>
 Package pdftex.def Info: ./images/IMG_EFF187166B54-1.jpeg  used on input line 1
@@ -881,14 +868,14 @@ l.180 ... $\Leftrightarrow v = v_0$ \qquad $x_(_t_
                                                   ) = x_0 + v_0(t - t_0)$ \\
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-[6 <./images/IMG_EFF187166B54-1.jpeg>]
-<./images/IMG_8E3512F499A3-1.jpeg, id=49, 1505.625pt x 742.775pt>
+[5 <./images/IMG_EFF187166B54-1.jpeg>]
+<./images/IMG_8E3512F499A3-1.jpeg, id=46, 1505.625pt x 742.775pt>
 File: ./images/IMG_8E3512F499A3-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_8E3512F499A3-1.jpeg>
 Package pdftex.def Info: ./images/IMG_8E3512F499A3-1.jpeg  used on input line 1
 92.
 (pdftex.def)             Requested size: 451.691pt x 222.83421pt.
-<./images/PHY1-19.pdf, id=50, 597.5067pt x 845.04588pt>
+<./images/PHY1-19.pdf, id=47, 597.5067pt x 845.04588pt>
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf>
 Package pdftex.def Info: ./images/PHY1-19.pdf  used on input line 205.
@@ -897,7 +884,7 @@ File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf>
 Package pdftex.def Info: ./images/PHY1-19.pdf  used on input line 205.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
-<./images/PHY1-19.pdf, id=53, page=1, 597.5067pt x 845.04588pt>
+<./images/PHY1-19.pdf, id=50, page=1, 597.5067pt x 845.04588pt>
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 1>
 Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 205.
@@ -906,7 +893,7 @@ File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 1>
 Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 205.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
- [7 <./images/IMG_8E3512F499A3-1.jpeg>]
+ [6 <./images/IMG_8E3512F499A3-1.jpeg>]
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 1>
 Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 205.
@@ -920,8 +907,8 @@ File: ./images/PHY1-19.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 205.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 
-[8 <./images/PHY1-19.pdf>]
-<./images/PHY1-19.pdf, id=73, page=2, 597.5067pt x 845.04588pt>
+[7 <./images/PHY1-19.pdf>]
+<./images/PHY1-19.pdf, id=70, page=2, 597.5067pt x 845.04588pt>
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 2>
 Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 205.
@@ -933,22 +920,22 @@ Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 205.
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 2>
 Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 205.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+ [8 <./images/PHY1-19.pdf>]
+<./images/PHY1-19.pdf, id=74, page=3, 597.5067pt x 845.04588pt>
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 3>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 205.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 3>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 205.
+(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
+File: ./images/PHY1-19.pdf Graphic file (type pdf)
+<use ./images/PHY1-19.pdf, page 3>
+Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 205.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
  [9 <./images/PHY1-19.pdf>]
-<./images/PHY1-19.pdf, id=77, page=3, 597.5067pt x 845.04588pt>
-File: ./images/PHY1-19.pdf Graphic file (type pdf)
-<use ./images/PHY1-19.pdf, page 3>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 205.
-(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
-File: ./images/PHY1-19.pdf Graphic file (type pdf)
-<use ./images/PHY1-19.pdf, page 3>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 205.
-(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
-File: ./images/PHY1-19.pdf Graphic file (type pdf)
-<use ./images/PHY1-19.pdf, page 3>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 205.
-(pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
- [10 <./images/PHY1-19.pdf>]
 
 ! Package inputenc Error: Unicode character ´ (U+B4)
 (inputenc)                not set up for use with LaTeX.
@@ -986,7 +973,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
-[11]
+[10]
 
 ! Package amsmath Error: \ddot allowed only in math mode.
 
@@ -1004,7 +991,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--235
 
  []
 
-<./images/IMG_E8A9C85E8431-1.jpeg, id=84, 743.77875pt x 478.78876pt>
+<./images/IMG_E8A9C85E8431-1.jpeg, id=81, 743.77875pt x 478.78876pt>
 File: ./images/IMG_E8A9C85E8431-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_E8A9C85E8431-1.jpeg>
 Package pdftex.def Info: ./images/IMG_E8A9C85E8431-1.jpeg  used on input line 2
@@ -1034,10 +1021,10 @@ r/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 F[] \OT1/cmr/m/n/10.95
  =
  []
 
-[12 <./images/IMG_E8A9C85E8431-1.jpeg>] (./Physik Vorlesung.aux) ) 
+[11 <./images/IMG_E8A9C85E8431-1.jpeg>] (./Physik Vorlesung.aux) ) 
 Here is how much of TeX's memory you used:
- 15642 strings out of 492649
- 294423 string characters out of 6129622
+ 15638 strings out of 492649
+ 294339 string characters out of 6129622
  372523 words of memory out of 5000000
  19182 multiletter control sequences out of 15000+600000
  12345 words of font info for 49 fonts, out of 8000000 for 9000
@@ -1059,10 +1046,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Physik Vorlesung.pdf" (12 pages, 1205798 bytes).
+Output written on "Physik Vorlesung.pdf" (11 pages, 1202547 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

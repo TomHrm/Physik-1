@@ -74,11 +74,12 @@
 \author{Tom Herrmann}
 \linespread{1.55}
 \maketitle
+
 \tableofcontents
 \newpage
 
 \section{Einleitung}
-	Gliederung:
+	\textbf{Gliederung:}
 	\begin{itemize}
 		\item \textbf{Mathematische Grundlagen:}\\Vektoren, krummlinige Koordinatensysteme, Differential- und Integralrechnung, partielle Ableitungen, Vektoranalysis, Gradient, Diverenz, Rotation, lineare gewöhnliche Differentialgleichungen, Matrizen und Tensoren, Fourier-Transformation, komplexe Zahlen, Wahrscheinlichkeit.
 		\item \textbf{Grundlagen der Mechanik:} Kinematik und Dynamik von Massenpunktsystemen, Newtonsche Axiome, Arbeit, konservative Kräfte, Schwingungen, Zentralfeld, Kepler-Problem, beschleunigte Bezugssysteme
@@ -105,7 +106,7 @@
 	\[	[x^2 cos^2 \varphi + y^2 sin^2\varphi+xy cis \varphi sin \varphi + x^2 sin^2 \varphi + y^2 cos^2 \varphi - 2xy sin \varphi cos \varphi]^\frac{1}{2}\]
 	\[ [x^2(cos^2\varphi + sin^2 \varphi) + y^2 sin^2\varphi + cos^2 \varphi]^\frac{1}{2} \]
 	\[ \sqrt{x^2 + y^2} \] \qed \\
-\subsubsection{Drehung als Matrix Multiplikation:} 
+\subsection{Drehung als Matrix Multiplikation:} 
 $\left( \begin{array}{c}
 	u \\ 
 	v
@@ -123,7 +124,6 @@ $\left( \begin{array}{c}
 \part{Vorlesung 2}
 	\subsection{Basis der Vektorrechnung}
 	Mathematisch abstrakt ist ein linearer oder Vektorraum ein "Körper" von Elementen $\vec{a}, \vec{b}, \vec{c}$, im dem eine Addition und eine ultiplikation mit skalaren $\alpha$ definiert ist.
-		
 		\subsubsection{Basis ausrechnung}
 			\begin{itemize}
 				\item Die Anzahl der Vektoren stimmt überein mit der Dimension des Vektorraumes.
@@ -176,14 +176,10 @@ $\left( \begin{array}{c}
 			Bei der Division läuft das ganze dann fast genau so ab einfach nur 5 in den als zähler der jeweiligen Koordinate schreiben.
 		\subsubsection{Skalarprodukt}
 			\[ \vec{a} \circ \vec{b} = |\vec{a}| \circ |\vec{b}| = \begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix} \circ \begin{pmatrix} b_1 \\ b_2 \\ b_3 \end{pmatrix} = a_1 \cdot b_1 + a_2 \cdot b_2 + a_3 \cdot b_3 \]
-		\subsection{Eigenschaften von Rechenoperationen}
+		\subsubsection{Eigenschaften von Rechenoperationen}
 		Kommutativität $\vec{a} + \vec{b} = \vec{b} + \vec{a}$\\
 		Distributivität $\lambda * (\vec{a} + \vec{b}) = (\vec{a} + \vec{b}) * \lambda$\\
 		Homogenität (gemischtes Assoziativgesetz) $\alpha(\vec{a} + \vec{b} = (\alpha \vec{a}) * \vec{b} =  \vec{a} * (\alpha \vec{b})$
-		
-		
-		\subsubsection{Schwarzsche Ungleichung}
-			$|\vec{a} * \vec{b}| \leq |\vec{a}| |\vec{b}|$
 			
 		\subsubsection{Projektion auf die Richtung \vec{b}}
 			$a_b := a cos(\varphi) = \vec{a} * \vec{b} \text{ wo } \vec{b} := \frac{\vec{b}}{|\vec{b}|}$ der Einheutsvektor in $\vec{b}$ Richtung ist. (Also soll hier b der Einheitsvektor sein)\\
@@ -206,7 +202,9 @@ $\left( \begin{array}{c}
 	$ b(\vec{a}\times\vec{b}) \times (\vec{b}\times\vec{c})  = \vec{b} \cdot \det(\vec{a},\vec{b},\vec{c}) $\\
 	$ (\vec{a}\times\vec{b}) \times (\vec{a}\times\vec{c})  = \vec{a} \cdot \det(\vec{a},\vec{b},\vec{c}) $\\
 	$ (\vec{a}\times\vec{b}) \times (\vec{a}\times\vec{b})  = \vec{0}$
-	\subsubsection{Komonentendarstellung}
+		\subsection{Schwarzsche Ungleichung}
+	$|\vec{a} * \vec{b}| \leq |\vec{a}| |\vec{b}|$
+	\subsection{Komonentendarstellung}
 		Definiere 3 \"orthogonale\" das heißt orthogonale Einheitsvektoren\\
 			$\vec{\hat{a}} , \vec{\hat{y}}, \vec{\hat{z}}$ \\der 
 			im 3-Dimensionalen euklidischen Raum, mit (Schreibregel: Der einfachheit wegen lasse ich in den 2 Zeilen das Zeichen für Einheitsvektor weg, es sollte eigentlich dabei stehen) \\
@@ -222,11 +220,11 @@ $\left( \begin{array}{c}
 				\begin{center}
 					I	\includegraphics[scale=0.4]{Komponentendarstellung2.png}
 				\end{center}
-\subsubsection{Spatprodukt}
+\subsection{Spatprodukt}
 \begin{center}
 	\includegraphics[scale=0.3]{1000px-Parallelepiped2.png}
 \end{center}
-Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und $\vec{c}$ des dreidimensionalen euklidischen Vektorraums \R$^3$ kann wie folgt definiert werden: \\
+Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ und $\vec{c}$ des dreidimensionalen euklidischen Vektorraums $\R^3$ kann wie folgt definiert werden: \\
 	$(\vec{a},\vec{b},\vec{c}) = (\vec{a} \times \vec{b}) \cdot \vec{c}$
 		\subsubsection{Eigenschaften des Spatprodukts}
 			\begin{itemize}
@@ -242,7 +240,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 				$(\vec{a} \times \vec{b}) * \vec{c} = (\vec{b} \times \vec{c}) * \vec{a} = (\vec{c} \times \vec{a} * \vec{b})$\\
 				Dies ist auch in 3-Dimensionen möglich, wie man am Beispiel der Determinante gesehen hat.
 			\end{itemize}
-		\subsubsection{Doppeltes Vektorprodukt}
+		\subsection{Doppeltes Vektorprodukt}
 			Im algemeinen nicht assoziativ\\
 			Es gibt die \textbf{bac-cab-Regel}\\
 			$\vec{a} \times (\vec{b} \times \vec{c})= \vec{b} (\vec{a} * \vec{c}) - \vec{c}(\vec{a} *\vec{b})$\\
@@ -315,12 +313,12 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 \subsection{Taylor Entwicklung}
 	Im 1. Ordnung: $f(x) \approx f(x_0) + f^\prime(x_0)(x-x_0)$\\
 \textbf{Verallgemeinerung}:\
-	\[ f(x)= \sum_{n=0}^{\infty}\frac{f^(^n^) (x_0)}{n!} (x-x_0)^n = f(x_0) + f^\prime (x_0) (x - x_0) + \frac{f^\prime ^\prime (x_0)}{2} (x-x_0)^2 + ... \]
+	\[ f(x)= \sum_{n=0}^{\infty}\frac{f^(n) (x_0)}{n!} (x-x_0)^n = f(x_0) + f^\prime (x_0) (x - x_0) + \frac{f^{\prime\prime}(x_0)}{2} (x-x_0)^2 + ... \]
 	\subsubsection{Potenzreihe}
 	Jede \textbf{Potenzreihe} 
 	$\sum_{n=0}^{\infty}a_n(x-x_0)^n$ und damit auch jede \textbf{Taylor-Reihe} hat einen Konvergenzradius $\lambda$, so daß $\sum_{n=0}^{\infty}a_n(x-x_0)^n$ für alle $|x-x_0| < r$ konvergiert. Im allgemeinen ist r durch den Abstand zur nöchsten Singularität von $f(x)$ gegeben, diese Tatsache gilt aber nur allgemein im Raum der komplexen Zahlen.\\
 	\textbf{Beispiel}:\\ 
-	$f(x) = \frac{1}{1 + x^2} = \sum_{n=0}^{\infty} (-1)^n x^2^n = \sum_{n=0}^{\infty} a_nx^n $ hat den Konvergenzradius $r = 1$, da $\frac{a_2_n_+_2}{a_2_n} = -x^2$ obwohl $\frac{1}{1+x^2}$ für alle $x \in \R$ wohldefiniert und unendlich oft differenzierbar ist. \\
+	$f(x) = \frac{1}{1 + x^2} = \sum_{n=0}^{\infty} (-1)^n x^{2^n} = \sum_{n=0}^{\infty} a_nx^n $ hat den Konvergenzradius $r = 1$, da $\frac{a_{2n+2}}{a_{2n}} = -x^2$ obwohl $\frac{1}{1+x^2}$ für alle $x \in \R$ wohldefiniert und unendlich oft differenzierbar ist. \\
 	Der tiefere Grund ist daß $ \frac{1 }{1 + x^2} $ bei $x = \pm i$ singulär ist. 
 	\subsection{Partielle Differentiation}
 		Funktionen mehrerer Variablen, z.B. f(x,y,z), können nach den einzelnen Variablen differenziert werden, wobei man sich die anderen Variablen konstant vorstellt.\\
@@ -328,8 +326,8 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 		und analog für die anderen Variablen.\\ \textbf{Kurzschreibweise}:\\
 		\[ f_x = \frac{\partial f}{\partial x} \quad f_y = \frac{\partial f}{\partial y} \quad f_z = \frac{\partial f}{\partial z} \] \\
 		\subsubsection{Höhere Ableitungen}
-		\[  f_x_x = \frac{\partial}{\partial x}(\frac{\partial f}{\partial x}) = \frac{\partial^2f}{\partial x^2} \]
-	\[  f_x_y = \frac{\partial}{\partial y} (\frac{\partial f}{\partial x}) = \frac{\partial^2 f}{\partial_y \partial_x} \]
+		\[  f_x = \frac{\partial}{\partial x}(\frac{\partial f}{\partial x}) = \frac{\partial^2f}{\partial x^2} \\
+	 f_{xy} = \frac{\partial}{\partial y} (\frac{\partial f}{\partial x}) = \frac{\partial^2 f}{\partial_y \partial_x} \]
 		 übrigens gilt: $\frac{\partial^2 f}{\partial y \partial x } = \frac{\partial^2 f}{\partial_x \partial_y}$ (Symmetrie)\\
 		 Man kann leicht die erweiterte Kettenregel zeigen:\\
 		 Für $f(t) = f(x|t) , y(t) , z(t)$ gilt $\frac{df}{dt} = \frac{\partial f}{\partial x} \frac{dx}{dt} frac{\partial f}{\partial y} \frac{dy}{dt} + frac{\partial f}{\partial z} \frac{dz}{dt}$\\ oder als Differential \\
@@ -337,13 +335,13 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 		 Kann auch für die 1. Ordnung einer multi-dimensionalen Taylor-Entwicklung verwendet werden: \\
 		 $ f(x,y,z) = f(x_0, y_0, z_0) + \frac{\partial f}{\partial x} (x_0, y_0, t_0)(x-x_0) + \frac{\partial f}{\partial y} (x_0, y_0, t_0)(y-y_0) + \frac{\partial f}{\partial z} (x_0, y_0, t_0)(z-z_0) + ... $
 	
-		\subsection{Vektoranalysis: Gradient, Divergenz, Rotation}
+		\section{Vektoranalysis}
 			Ein \textbf{Vektorfeld} ist eine Vektor-wertige Funktion mehrerer Variablen:
 			\[ \vec{F}(\vec{r}) = (F_x(x,y,z), F_y(x,y,z), F_z(x,y,z) ) \]
 			\textbf{Beispiele:} Geschwindkeitsfeld (e.g. Windgeschwindigkeit), Kraftfeld\\
 			Ein \textbf{Skalarfeld} hat nur eine (skalare) Komponente:
 				\[ f(\vec{r}) = f(x,y,z) \]\\
-				\subsubsection{Gradient}
+				\subsection{Gradient}
 				
 				\[ f \rightarrow \vec{\nabla} f = grad f = \vec{\nabla} f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right) \text{\qquad} Skalarfeld \rightarrow Vektorfeld \] 
 				Es gelten die üblichen Produkt- und Summenregeln:
@@ -361,7 +359,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 				 
 				 $\Rightarrow  \vec{\nabla} \phi (| \vec{r}-\vec{r}_0 |) = \frac{G_N m_1 m_2}{| \vec{r}-\vec{r}_0 |} \frac{\vec{r} - \vec{r}_0}{| \vec{r}-\vec{r}_0 |} $ 
 				 Nebenrechnung: $\phi^\partial (r) = + \frac{G_N m_1 m_2}{r^2}\\
-				 \vec{F}_1_2 = - \vec{\nabla} \phi = - \frac{G_N m_1 m_2}{| \vec{r}-\vec{r}_0 |}(\vec{r} - \vec{r}_0)$ = Die Kraft die Teilchen 2 auf Teilchen 2 ausübt.
+				 \vec{F}_{12} = - \vec{\nabla} \phi = - \frac{G_N m_1 m_2}{| \vec{r}-\vec{r}_0 |}(\vec{r} - \vec{r}_0)$ = Die Kraft die Teilchen 2 auf Teilchen 2 ausübt.
 				
 				\subsection{Rotation}
 				Hierbei muss extrem auf die Vorzeichen aufgepasst werden. Es gibt zudem nur 2 Kombinationen wie man im laufe sehen wird die sich nicht wegkürzen.\\
@@ -402,7 +400,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 						$\vec{\nabla} f = \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} , \frac{\partial f}{\partial z}  \quad d\vec{ r} = (dx,dy,dz)$\\
 						$\frac{df}{dt} = (\vec{\nabla} f) * \frac{d\vec{ r}}{dt} $\\
 						$\Rightarrow$ $\int_{\vec{ r}_0}^{\vec{ r}_1} \frac{df}{dt} dt = \int_{\vec{ r}_0}^{\vec{ r}_1} (\vec{\nabla } f) d\vec{ r} = f(\vec{ r}_1) - f(\vec{ r}_0)$\\
-						\subsubsection{Wegintegral eines Vektorfeldes $\vec{ F}(\vec{ r})$}
+						\subsection{Wegintegral eines Vektorfeldes $\vec{ F}(\vec{ r})$}
 							Angenoimmen wir haben eine Kurve und wollen ein Kurvenintergral bilden und nennen dies dann c. Dabei ist der eine Endpun kt $\vec{ r}_0$ und $\vec{ r}_1$\\
 							$\int_{c}^{} \vec{ F}(\vec{ r}) *d\vec{ r} = \int_{c}^{} [ F_x dx + F_y dy + F_z dz ] :=  \\ \lim_{N \to\ \infty}
 							\sum_{i =1}^{N} \vec{ F}(\vec{ r}_i) * \Delta\vec{ r}_i = \lim_{N \to\ \infty} \sum_{i =1}^{N}\vec{ F}(\vec{ r}_i) * \frac{ \Delta \vec{ r}_i}{\Delta t} \Delta t$\\
@@ -427,9 +425,9 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 							\[ \vec{ F}_{21} = - \vec{ F}_{12} \]
 							\item \textbf{Superpositionsprinzip} Kräfte addieren sich vektoriel.
 						\end{itemize}
-							In Newton´s Mechanik sind \textbf{Raum} und \textbf{Zeit} absolute Begriffe und die Zeit läuft immer gleich ab unabhängig vom Inertialsystem,  was natürlich in konflikt mit der Relativitätstheorie steht.\\
+							In Newton$^\prime$s Mechanik sind \textbf{Raum} und \textbf{Zeit} absolute Begriffe und die Zeit läuft immer gleich ab unabhängig vom Inertialsystem,  was natürlich in konflikt mit der Relativitätstheorie steht.\\
 							Newtons Axiome gelten zunächst nur in unbeschleunigten, sog. Inertialsystemen. Intertialsysteme bewegen sich relativ zueinander mit konstanter Geschwindigkeit\\
-							\subsubsection{Allgemeine Galilei- Transformation zwischen Inertialsystemen}
+							\subsection{Allgemeine Galilei- Transformation zwischen Inertialsystemen}
 								\[ \vec{ r}^\prime = \vec{ r} + \vec{v}_0 * t + \vec{ r}_0 \qquad \vec{v}_0 = const ; \vec{ r}_0 = const \]
 								Wie man sieht transformieren sich damit die Ortskoordinaten aber die Zeit bleibt offensichtlicherweise gleich.$t^\prime = t $ \
 								\[ \vec{v}^\prime = \frac{d\vec{ r}^\prime}{dt} = \frac{d\vec{ r}}{dr} + \vec{v}_0 = \vec{v} + \vec{ v}_0 \]\
@@ -499,7 +497,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 							mit $\vec{ a} = a_r \vec{e}_r + a_\varphi \vec{e}_\varphi$ also
 								\[ a_r = \ddot{r} - r \dot{\varphi}^2 \text{ \quad \textbf{Radialbeschleunigung}} \]
 								\[ a_\varphi = r \ddot{\varphi} + 2\dot{r} \dot{\varphi} \text{\quad \textbf{Winkelbeschleunigung}}\] 
-							\subsubsection{Linien- und Flächenelemente:}
+							\subsection{Linien- und Flächenelemente:}
 								
 								\begin{figure}[htbp]
 									\begin{minipage}[t]{10cm}
@@ -545,12 +543,12 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 						\[ x = r sin \Theta cos \varphi \]
 						\[ y = r sin \theta sin \varphi \]
 						\[ z = r cos \theta \]
-					\subsection{rotierendes Bezugssystem und Scheinkräfte}
+					\subsubsection{rotierendes Bezugssystem und Scheinkräfte}
 						\begin{center}
 							\includegraphics[scale=0.5]{screenshot004.png}
 						\end{center}
 							Für jeden Vektor $\vec{b}$ gilt: $\vec{b} = \sum_{i} bi \vec{e}_i = \sum_{i} b_i^\prime \vec{e}_j^\prime$\\
-							$\Rightarrow \frac{d \vec{b}}{dt} = \sum_{i}\frac{db_i}{dt} \underbrace{\vec{e}_i}_{Zeitunabhängig} = \sum_{i} \frac{dbi^\prime}{dt} \vec{e}_i^\prime = \sum_{b_i}^\prime \underbrace{\frac{d\vec{e}_i^\prime}{dt}}_{ \vec{w} \times \vec{e}_i^\prime} = \underbrace{\left( \frac{d \vec{b}}{dt} \right)^\prime}_{Ableitung im \sum^\prime-System} + \vec{w} \times \vec{b} $ \\
+							$\Rightarrow \frac{d \vec{b}}{dt} = \sum_{i}\frac{db_i}{dt} \underbrace{\vec{e}_i}_{\text{Zeitunabhngig}} = \sum_{i} \frac{dbi^\prime}{dt} \vec{e}_i^\prime = \sum_{b_i}^\prime \underbrace{\frac{d\vec{e}_i^\prime}{dt}}_{ \vec{w} \times \vec{e}_i^\prime} = \underbrace{\left( \frac{d \vec{b}}{dt} \right)^\prime}_{Ableitung im \sum^\prime-System} + \vec{w} \times \vec{b} $ \\
 						\textbf{Ferner:}\\
 							$\vec{r}(t) = \vec{r}_0(t) + \vec{r}^\prime(t)  \Rightarrow \vec{v}=\frac{d\vec{r}}{dt} = \dot{\vec{r}_0}+\left( \frac{d \vec{r}^\prime}{dt} \right)^\prime + \vec{w} \times \vec{r} \\\dot{\vec{r}}_0 + \underbrace{\vec{ v}^\prime}_{Geschwindigkeit im \sum^\prime-System} $\\
 							Notwendige Differentiation ergibt Tranforamtionsgesetzt für die beschleunigung:\\
@@ -565,7 +563,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 								\includegraphics[scale=0.5]{Weltkugel.png}
 							\end{center}
 						\subsection{Spezielle Relativitätstheorie - Lorentstransformation}
-							Galilei-Transformationen in der Newton´schen Mechanik fürhren zur Vektoraddition von Geschwindigkeiten: 
+							Galilei$-$Transformationen in der Newton$^\prime$schen Mechanik fürhren zur Vektoraddition von Geschwindigkeiten: 
 							\[ \vec{ r}^\prime = \vec{ r} + \vec{ v}_0 * t + \vec{ r}_0 \Rightarrow \vec{ v}^\prime = 
 							\frac{d\vec{ r}^\prime}{dt} = \frac{d\vec{ r}}{dt} + \vec{ v}_0 = \vec{ v} + \vec{ v}_0 \]
 							insbesondere hängt Lichtgeschwindigkeit vom Bezugssystem (Inertialsystem) ab. $\exists$ bevorzugtes Inertialsystem in welchem Lichtgeschwindigkeit $= c_0 \rightarrow$ Äther! \qquad Für den Schall ist der Äther (Medium) die Luft.
@@ -616,11 +614,11 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 						\end{minipage}
 					\end{figure}
 					so daß:
-					\[ (c_0t^\prime)^2 - x^\prime^2 = (c_0t)^2 -x^2 \]
+					\[ (c_0 t^\prime)^2 - x^{\prime2} = (c_0 t)^2 -x^2 \]
 					Definiere $ a:= \gamma$. Per Definition bewegt sich ein Punkt in Ruge in $\sum^\prime, \Delta x^\prime = 0 $, mit Geschwindigkeit v in $\sum , v = \frac{\Delta x}{\Delta t}$
 					\[ 0 = \Delta x^\prime = \gamma \Delta x + b \Delta t \Rightarrow b = - \gamma \frac{\Delta x}{\Delta t} = - \gamma v \]  aber \[ x^\prime = \gamma(x - vt) \]
 					weiter würde es gehen:\\
-					$ (c_0t^\prime)^2 - x^\prime^2 = c_0^2(cx + dt)^2 - \gamma^2(x -vt)^2 \\
+					$ (c_0t^\prime)^2 - x^{\prime2} = c_0^2(cx + dt)^2 - \gamma^2(x -vt)^2 \\
 						= c_0^2(d^2 - \gamma^2 \frac{v^2}{c_0^2}) t^2 + (c_0^2 c^2 - t^2) x^2 + 2(c_0^2 cd + \gamma^2 v)x t $\\
 						$\Rightarrow$
 						\[ (1) d^2 = 1 + \gamma^2 \frac{v^2}{c_0^2} \]
@@ -644,7 +642,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 							In System $\sum$ bewegt sich ein Teilchen mit Geschwindigkeit\\
 							$ u = \frac{\Delta x}{\Delta t} \Rightarrow $ In $\sum^\prime$ ist Geschwindigkeit\\
 							$u^\prime = \frac{\Delta x^\prime}{\Delta t ^\prime} = \frac{\Delta x - v\Delta t}{\Delta t - v 
-								\frac{\Delta x}{c_0^2}} =$(dividiere oben und unten durch $\Delta t$ und verwende $u = \Delta x / \Delta t } \frac{u - v}{1 - \frac{v u}{c_0^2}}) $\\
+								\frac{\Delta x}{c_0^2}} =($dividiere oben und unten durch $\Delta t$ und verwende $u = \Delta x / \Delta t  \frac{u - v}{1 - \frac{v u}{c_0^2}}) $\\
 							Für $u,v << c_0$ gilt Galilei-Transformation bis auf Terme zweiter Ordnung:
 							\[ u^\prime = u - v + 0 (v^2, u^2) \]
 						\subsubsection{Zeitdilatation}
@@ -662,7 +660,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 							 p_x^\prime = - \gamma v E = - \gamma v m_0\\
 							 p_y^\prime = p_z^\prime = 0$\\
 							 $\underbrace{\Rightarrow}_{\text{ersetze durch ungestrichene Größe}} \vec{p}^2 + m_0^2 = m_0^2(1 + \gamma^2 v^2) = \frac{m_0^2}{1 - v^2}(1-v^2 + v^2) = \frac{m_0^2}{1-v^2} = \gamma^2 m_0^2 = E^2$\\
-							 in alltäglichen Koordinaten: $E^2 = c_0^2 \vec{p}^2 + m_^2 c_0^4 \qquad [E] = [mv^2], [p]= [mv]$\\
+							 in alltäglichen Koordinaten: $E^2 = c_0^2 \vec{p}^2 + m_2 c_0^4 \qquad [E] = [mv^2], [p]= [mv]$\\
 							Dabei zu beachten ist dass, E positiv und eine negative Wurzel hat.\\
 							$E < 0$ entspricht Antiteilchen\\
 							$\rightarrow$ in der Relativitätstheorie hat jedes Teilchen ein Anti-Teilchen\\
@@ -675,7 +673,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 								m$\ddot{\vec{ r}} = \vec{f}(\vec{r} , t) \rightarrow 
 								\text{gewöhnlicghe Differentialgleichung zweiter. Ordnung}$\\
 								$m \ddot{x}_i = F_i(x_1,x_2,x_3,t) \qquad i= 1,2,3$\\
-								\subsubsection{Mehrteilchensysteme für N Teilchen}
+								\subsection{Mehrteilchensysteme für N Teilchen}
 									$m_j  \ddot{\vec{ r}}_j = \vec{ F}_j (\vec{ r}_{11} ... , \vec{ r}_{N,t}) \quad j = 1, ... , N$\\
 									$\Rightarrow 3N$ Differentialgleichung 2ter Ordnung $\rightarrow 3N$ Freiheitsgrade.\\
 									\textbf{Siehe Dokument: Differentialgleichung.pdf} 
@@ -715,10 +713,10 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 										mit $ E_{pot} = mgh = mgl(1-cos\varphi)  $
 									\end{minipage}
 								\end{figure}
-							wenn $l = const$ ist F_$\varphi = m a_\varphi$ in Polarkoordinaten\\
+							wenn $l = const$ ist $F_\varphi = m a_\varphi$ in Polarkoordinaten\\
 							$F_\varphi = - mg sin \varphi \qquad a_\varphi = l \ddot{\varphi}$\\
 							$\Rightarrow ml\ddot{\varphi} = -mg sin \varphi$ oder $ \ddot{\varphi} + \frac{g}{e} sin \varphi = 0 $
-						\subsubsection{Energie-Erhaltung}
+						\subsection{Energie-Erhaltung}
 							\quad$ E = E_{kin} + E_{pot} = \frac{m}{2} e^2 \dot{\varphi}^2 + mgl(1 - cos \varphi)= const = mgl(1 - cos \varphi_0) $\\
 							$ \varphi_0 =$ maximale Auslenkung; Falls $\varphi_0 \leq \pi$\\
 							\[ \Rightarrow \dot{\varphi} = \sqrt{\frac{2g}{l}(cos \varphi - cos \varphi_0) } \]
@@ -727,7 +725,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 							Verwende 
 							\[ cos \varphi - cos \varphi_0 = 2(sin^2\frac{\varphi_0}{2} - sin^2 \frac{\varphi}{2}) \]
 							definiere $h = sin^2 \frac{\varphi_0}{2}$ und trnsformiere auf neue Variable $\xi$ mit  sin $\frac{\frac{\varphi}{2} = \sqrt{2} sin \xi}{\varphi_0} so daß 0 \leq \xi \leq \frac{\pi}{2}$
-							\[ \Rightarrow \frac{1}{\sqrt{2}} \int_{0}^{\varphi_0} \frac{d\varphi}{\sqrt{cos \varphi - cos \varphi_0}} = \frac{1}{2} \int_{0}^{\pi/2} \frac{d \varphi}{\d \xi} \frac{d \xi}{\sqrt{h - h sin^2\xi}} \]
+							\[ \Rightarrow \frac{1}{\sqrt{2}} \int_{0}^{\varphi_0} \frac{d\varphi}{\sqrt{cos \varphi - cos \varphi_0}} = \frac{1}{2} \int_{0}^{\pi / 2} \frac{d \varphi}{d \xi} \frac{d \xi}{\sqrt{h - h sin^2\xi}} \]
 							dann ist $-\frac{1}{2} cos \frac{\varphi}{2} d\varphi = \sqrt{h} cos \xi d \xi \Rightarrow \frac{d \varphi}{d \xi} = 2 \sqrt{h} \frac{cos \xi}{cos \frac{/varphi}{2}}$\\
 							$ \Rightarrow \frac{1}{\sqrt{2}} \int_{0}^{\varphi_0} \frac{d \varphi}{\sqrt{cos \varphi - cos \varphi_0}} = \frac{1}{2} \int_{0}^{\pi/2} \frac{2 \sqrt{h} cos \xi d\xi}{\sqrt{h} cos \xi cos \frac{\varphi}{2}} = \int_{0}^{\frac{\pi}{2}} \frac{d \xi}{\sqrt{1 - sin^2 \frac{\varphi}{2}}} = \frac{d \xi}{\sqrt{1 -h sin^2\xi}} = K(h)$ = vollständiges elliptisches Integral \\
 							$ \Rightarrow T= 4 \sqrt{\frac{l}{g}} K(sin^2 \frac{\varphi_0}{2}) $\\
@@ -746,7 +744,7 @@ Das Spatprodukt (\vec a, \vec b, \vec c) dreier Vektoren $\vec{a}, \vec{b}$ und 
 									Dabei ist m eine Ruhemasse in Newtonscher Physik ansonsten $m \rightarrow m \gamma \text{\textit{ bzw. bewegte Masse}}$\\
 									$ \Rightarrow \dot{\vec{p}} = \vec{ F}(\vec{r},t) $\\
 										\[ \text{Drehimpuls } \vec{L}:= m\vec{ r} \times \dot{\vec{ r}} = \vec{ r} \times \vec{p} \]
-								$\Rightarrow \dot{\vec{L}} = m \dot\underbrace{{\vec{r}} \times \dot{\vec{r}}}_{= 0} + m \vec{ r} \times \ddot{\vec{r}} = \vec{r} \times \dot{\vec{p}} = \vec{ r} \times \vec{ F}$\\
+								$\Rightarrow \dot{\vec{L}} = m \dot {\vec{r} \times \dot{\vec{r}}}_{= 0} + m \vec{ r} \times \ddot{\vec{r}} = \vec{r} \times \dot{\vec{p}} = \vec{ r} \times \vec{ F}$\\
 								Dieses Ergebnis der Umformung am Ende ist auch bekannt als Drehmoment.
 					
 					
