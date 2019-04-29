@@ -455,13 +455,13 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 									\[ d\vec{r} = \sum_{i}\frac{\partial \vec{ r}}{\partial y_i} dy_i \]
 									z.B. in 3 Dimensional\\
 									\[ d\vec{ r} =  (dx,dy,dz) = \vec{e}_1 dx + \vec{e}_2dy + \vec{e}_3dz \]
-									\[ = \frac{\partial \vec{r}}{\partial u}du + \frac{\partial \vec{r}}{\partial v} dv + \frac{\partial \vec{r}}{\partial w}dw \text{mit} \frac{\partial \vec{r}}{\partial u} = \left( \frac{\partial x}{\partial u},  \frac{\partial y}{\partial u},  \frac{\partial z}{\partial u} \right) etc.  \]
+									\[ = \frac{\partial \vec{r}}{\partial u}du + \frac{\partial \vec{r}}{\partial v} dv + \frac{\partial \vec{r}}{\partial w}dw \text{ mit } \frac{\partial \vec{r}}{\partial u} = \left( \frac{\partial x}{\partial u},  \frac{\partial y}{\partial u},  \frac{\partial z}{\partial u} \right) etc.  \]
 									Man kann neue Basis-Einheitsvektoren
-										\[ \vec{u}_{12} := \frac{1}{b_{12}} \frac{\partial \vec{r}}{\partial y_{12}} \quad \text{mit} b_{12} := \left| \frac{\partial \vec{r}}{\partial y_{12}} \right| \]
+										\[ \vec{u}_{12} := \frac{1}{b_{12}} \frac{\partial \vec{r}}{\partial y_{12}} \quad \text{ mit } b_{12} := \left| \frac{\partial \vec{r}}{\partial y_{12}} \right| \]
 										definieren, so daß
 										\[ d\vec{r} = \sum_{n} \vec{u}_nds_k \text{ mit den Längenelementen } ds_k = k_k dy_k \]
 										Man nennt $(y_i)$ ein orthogonales Koordiantensystem wenn:
-										\[ \vec{U}_i \times \vec{U}_j = 0 \text{für} i \neq j \text{und damit auch } \vec{U}_i * \vec{U}_j = \delta_{ij} \text{ an jedem Raumpunkt liegt. } \]
+										\[ \vec{U}_i \times \vec{U}_j = 0 \text{ für } i \neq j \text{und damit auch } \vec{U}_i * \vec{U}_j = \delta_{ij} \text{ an jedem Raumpunkt liegt. } \]
 										Dann ist das Flächenelement, da von zwei Seiten der Länge $ds_{i}, ds_j $ angespannt wird, gegeben durch: 
 										\[ dF_{ij} = ds_i, ds_j  = b_i b_j dy_i dj_j \]
 										Und das Volumenelement
@@ -481,7 +481,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 								$ \vec{r} = (r cos \varphi, r sin \varphi)$
 								\end{minipage}
 							\end{figure}\\
-							\textbf{Umdrehung:} $ r = \sqrt{x^2 + y^2}, \varphi = \pm arctan \frac{y}{x} \text{für} y  \neq 0$
+							\textbf{Umdrehung:} $ r = \sqrt{x^2 + y^2}, \varphi = \pm arctan \frac{y}{x} \text{ für } y  \neq 0$
 							\[ \frac{\partial \vec{r}}{\partial r} = (cos \varphi, sin \varphi) \quad |\frac{\partial \vec{r}}{\partial r}| = 1 \Rightarrow \vec{U}r = \vec{e}_r= (cos \varphi, sin \varphi) \]
 							\[ \frac{\partial \vec{r}}{\partial \varphi} = (-r sin \varphi, r cos \varphi) \quad |\frac{ \partial \vec{r}}{\partial \varphi}| = r \Rightarrow\vec{u}_\varphi = \vec{e}_\varphi = (- sin \varphi, cos \varphi) \]
 							\subsubsection{Bahnkurve}
@@ -492,11 +492,11 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 								$\vec{ a} = \ddot{\vec{ r}} = \dot{\vec{ v}} = \frac{d}{dt} (v_r \vec{e}_r + v_\varphi \vec{e}_\varphi) = \frac{d}{dt} (\dot{r} \vec{e}_r + r\dot{\varphi} \vec{e}_\varphi) $\\
 								$ \ddot{r} \vec{e}_r + \dot{r} \dot{\vec{e}}_r + \dot{r} \dot{\varphi} \vec{e}_\varphi + r \ddot{\varphi} \vec{e}_\varphi $
 								Nun nutzen wir folgende zuweisungen: 
-								\[ \dot{\vec{e}} = \dot{\varphi} \vec{e}_\varphi \text{und } \dot{\vec{e}}_\varphi  = \dot{\varphi} (- ocs \varphi, - sin \varphi) = - \dot{\varphi} \vec{e}_r \]  
+								\[ \dot{\vec{e}} = \dot{\varphi} \vec{e}_\varphi \text{ und } \dot{\vec{e}}_\varphi  = \dot{\varphi} (- ocs \varphi, - sin \varphi) = - \dot{\varphi} \vec{e}_r \]  
 								Damit ergibt sich aus der oberen Gleichung: $ (\ddot{r} - r \dot{\varphi}^2)\vec{e}_r + (r\ddot{\varphi} + 2\dot{r} \dot{\varphi}) \vec{e}_\varphi $\\
 							mit $\vec{ a} = a_r \vec{e}_r + a_\varphi \vec{e}_\varphi$ also
 								\[ a_r = \ddot{r} - r \dot{\varphi}^2 \text{ \quad \textbf{Radialbeschleunigung}} \]
-								\[ a_\varphi = r \ddot{\varphi} + 2\dot{r} \dot{\varphi} \text{\quad \textbf{Winkelbeschleunigung}}\] 
+								\[ a_\varphi = r \ddot{\varphi} + 2\dot{r} \dot{\varphi} \text{\quad \textbf{ Winkelbeschleunigung}}\] 
 							\subsection{Linien- und Flächenelemente:}
 								
 								\begin{figure}[htbp]
@@ -556,7 +556,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 							(\frac{d \vec{ v}^\prime}{dt})^\prime + \vec{w} \times \vec{v} + \dot{\vec{w}} \times \vec{ r}^\prime + \vec{w}((\frac{d\vec{ r}^\prime}{dt})^\prime + \vec{w} \times \vec{ r}^\prime) $\\
 							$ \ddot{\vec{ r}}_0 + \vec{a}^\prime + 2\vec{w} \times \vec{ v}^\prime + \vec{w} \times (\vec{w} \times \vec{ r}^\times) +\dot{\vec{w}} \times \vec{ r}^\prime$\\ 
 							wobei $\vec{a}^\prime = (\frac{d\vec{v}^\prime}{dt})^\prime$ die Beschleunigung gemessen im $\sum^\prime-System$ ist Eingesetzt in $\vec{F} = m \vec{a}$, damit bekommt man letztendlich dann:
-							\[ m\underbrace{\left( \frac{d^2 \vec{r}^\prime}{dt^2} \right)^\prime }_{\vec{a}^\prime} = \vec{ F} - m [\ddot{\vec{r}}+\underbrace{2\vec{w}\times \vec{v}^\prime}_{\text{Coriolis-Kraft}} + \underbrace{\vec{w} \times (\vec{w} \times \vec{r}^{\prime\prime})}_{\text{Zentrifugalkraft}}+\dot{\vec{w}}\times \vec{ r}^\times ]  \]		
+							\[ m\underbrace{\left( \frac{d^2 \vec{r}^\prime}{dt^2} \right)^\prime }_{\vec{a}^\prime} = \vec{ F} - m [\ddot{\vec{r}}+\underbrace{2\vec{w}\times \vec{v}^\prime}_{\text{Coriolis-Kraft}} + \underbrace{\vec{w} \times (\vec{w} \times \vec{r}^{\prime\prime})}_{\text{ Zentrifugalkraft }}+\dot{\vec{w}}\times \vec{ r}^\times ]  \]		
 							\subsubsection{Beispiel}
 							rotierendes terrestrisch Bezugssstem: Auf einem Luftraum der sich auf die Nordhalbkugel um Nord nach Süd bewegt wirkt eine Corioliskraft die nach Westen zeigt. Deshalb drehen sich Luftmassen auf der Nordhalbkugel im Gegen-Uhrzeigersinn um Tiefdruckgebiete. Auf der Süd halbkugel ist es genau andersherum.
 							\begin{center}
@@ -596,7 +596,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 					$t = t_0 - \frac{v t_0}{c_0} + \frac{d}{c_0} \Rightarrow f= \frac{1}{\Delta t} = \frac{f_0}{1- \frac{v}{c_0}} $
 					$\Rightarrow$ die beiden Dopplereffekte wären in zweiter Ordnung in $\frac{v}{c_0}$ verschieden.\\
 					Eine Möglichkeit, die Lichtgeschwindigkeit unabhängig vom Inertialsystem zuhalten ist
-					\[ c_0^2\Delta t^2 - (\Delta \vec{ r})^2 = \text{\textit{unabhängig vom Inertialsystem}} \]
+					\[ c_0^2\Delta t^2 - (\Delta \vec{ r})^2 = \text{\textit{ unabhängig vom Inertialsystem}} \]
 					zu setzen, denn dann ist für Bewegung mit Lichtgeschwindigkeit $ c_0^2\Delta t^2 - (\Delta \vec{ r})^2 = 0 $ in allen Inertialsystem. \\
 					Gesucht ist aber eine Transformation (ohne Einschränkung mit nur einer Raumkoordinate):
 					\begin{figure}[htbp]
@@ -655,11 +655,11 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 							$(t, \vec{x})$ vildet einen Vierervektor dessen Norm $t^2 - \vec{x}^2$ erhalten ist. Analog bildet $(E , \vec{p})$ einen Energie Impuls Vierervektor.
 							$ \Rightarrow E^\prime = \gamma(E - vp_x) \quad px^\prime = \gamma(p_x - vE) $\\
 							$ p_y^\prime = p_y \qquad p_z^\prime = p_z $\\
-							Spezialfall: Teilchen in Ruge im $\sum$, aber $\vec{p} = 0, E = m_0 = \text{\textit{Rugemasse}}$\\
+							Spezialfall: Teilchen in Ruge im $\sum$, aber $\vec{p} = 0, E = m_0 = \text{\textit{ Ruhemasse}}$\\
 							 $\Rightarrow E^\prime = \gamma E = \gamma m_0 \\
 							 p_x^\prime = - \gamma v E = - \gamma v m_0\\
 							 p_y^\prime = p_z^\prime = 0$\\
-							 $\underbrace{\Rightarrow}_{\text{ersetze durch ungestrichene Größe}} \vec{p}^2 + m_0^2 = m_0^2(1 + \gamma^2 v^2) = \frac{m_0^2}{1 - v^2}(1-v^2 + v^2) = \frac{m_0^2}{1-v^2} = \gamma^2 m_0^2 = E^2$\\
+							 $\underbrace{\Rightarrow}_{\text{ ersetze durch ungestrichene Größe }} \vec{p}^2 + m_0^2 = m_0^2(1 + \gamma^2 v^2) = \frac{m_0^2}{1 - v^2}(1-v^2 + v^2) = \frac{m_0^2}{1-v^2} = \gamma^2 m_0^2 = E^2$\\
 							 in alltäglichen Koordinaten: $E^2 = c_0^2 \vec{p}^2 + m_2 c_0^4 \qquad [E] = [mv^2], [p]= [mv]$\\
 							Dabei zu beachten ist dass, E positiv und eine negative Wurzel hat.\\
 							$E < 0$ entspricht Antiteilchen\\
@@ -667,21 +667,21 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 							\textbf{Nicht-relativistisches Limit:}\\
 							$ E = \sqrt{m_0^2 + \vec{p}^2} = m_0 \sqrt{1 + \frac{\vec{p}^2}{m_0^2}} = m_0 (1 + \frac{1}{2} \frac{\vec{p}^2}{m_0^2} + 0 (p^4))\\
 							E = \gamma m_0 = \frac{m_0}{\sqrt{1 - v^2}} - m_0 (1 + \frac{1}{2} v^2 + 0(v^2)) $\\
-							$ \approx m_0 + \underbrace{\frac{1}{2} m_0 v_0^2}_{\text{nicht relativistische kinetische Energie}}$
+							$ \approx m_0 + \underbrace{\frac{1}{2} m_0 v_0^2}_{\text{ nicht relativistische kinetische Energie}}$
 							
 							\subsection{Allgemeine Form der Newtonschen Bewegungsgleichung:}
 								m$\ddot{\vec{ r}} = \vec{f}(\vec{r} , t) \rightarrow 
-								\text{gewöhnlicghe Differentialgleichung zweiter. Ordnung}$\\
+								\text{ gewöhnlicghe Differentialgleichung zweiter. Ordnung}$\\
 								$m \ddot{x}_i = F_i(x_1,x_2,x_3,t) \qquad i= 1,2,3$\\
 								\subsection{Mehrteilchensysteme für N Teilchen}
 									$m_j  \ddot{\vec{ r}}_j = \vec{ F}_j (\vec{ r}_{11} ... , \vec{ r}_{N,t}) \quad j = 1, ... , N$\\
 									$\Rightarrow 3N$ Differentialgleichung 2ter Ordnung $\rightarrow 3N$ Freiheitsgrade.\\
-									\textbf{Siehe Dokument: Differentialgleichung.pdf} 
+									\textbf{Siehe Dokument im Physik 1 Ordner der Cloud: Differentialgleichung.pdf} 
 						\subsection{Phasenraum}
 							Für n Freiheitsgrade hat man den n-dimensionalen Ortvektor $\vec{r} = (y_1, ..., y_n)$; Der von $\vec{u} = (\vec{ r}, \dot{\vec{r}})$ aufgespannte 2n dimensionale Vektorraum heißt Phasenraum, Definiere
 							\[ u_j = y_j \quad j = 1, ... , n \qquad u_{j+n} = y_j \quad j = 1,...,n \]
 							$ \Rightarrow \dot{u}_j = \dot{y}_i  = u_{n+j} \qquad j=1,...,n$\\
-							$ \dot{u}_{j+n} = \ddot{y}_j  = f_j(u,...,\underbrace{u_{2n}}_{\text{Kraft kann auch von Geschwindigkeiten abhängen, z.B. Reibung, Lorentz-Kraft}},t)$
+							$ \dot{u}_{j+n} = \ddot{y}_j  = f_j(u,...,\underbrace{u_{2n}}_{\text{ Kraft kann auch von Geschwindigkeiten abhängen, z.B. Reibung, Lorentz-Kraft}},t)$
 							hat die Form:\\
 							$ \dot{\vec{u}} = \vec{g}(\vec{u},t) \rightarrow \text{2n gewöhnliche Differentialgleichung \textbf{erster} Ordnung}$\\
 							Symmetrien dieser Gleichungen führen i.a. zu Erhaltungsgrößem z.B. führt Zeit-unabhängigkeit i.a. zu Energieerhaltung\\
