@@ -255,5 +255,104 @@
 			\end{minipage}
 		\end{figure}
 		\[ a = \frac{m_{2, schwer}}{m_{1,tr\ddot{a}ge} + m_{2,tr\ddot{a}ge}} g \]
-				
+			\part{Vorlesung 6}
+				Bei der Gravtitation gibt es einige Experimentelle Möglichkeiten die Gravitation zu veranchaulichen und zu beweisen. Im allgemeine gilt immer dass eine Schwere Masse immer eine Gravitation auf andere Objekte ausübt. Die Masse kann aber noch so gering sein und trotzdem wird dies einen unterschied im Gravitationsfeld machen, es wird nur für das Menschliche Auge nicht sichtbar sein da es viel größere Massen gibt.
+				\section{Impulserhaltung}
+					\includegraphics[scale= 0.4]{NewtonPendell.jpg} 
+					$\sum \vec{F} = 0 \Rightarrow m_1,\vec{v}_1 + m_2 \vec{v}_2 = 0 = (m_1 + m_2 * \underbrace{\vec{v}_2}_{0}) $
+			\subsection{Federn}
+					\begin{figure}[htbp]
+					\begin{minipage}[t]{6cm}
+						\vspace{0pt}
+						\centering
+						\includegraphics[scale=0.25]{IMG_13C2526BF067-1.jpeg}
+					\end{minipage}
+					\hfill
+					\begin{minipage}[t]{6cm}
+						\vspace{0pt}
+						Ruhelage\\
+						$ \vec{F} = - k \vec{x}$ (linear)\\
+						$m \underbrace{\vec{a}}_{\ddot{x}} = \vec{F} = - k \vec{x}\\$
+						$\ddot{x} + \frac{k}{m} \vec{x} = 0 $ Bewegungsgleichung\\
+						\textbf{Differentialgleichung 2. Ordnung}
+					\end{minipage}
+				\end{figure}
+			\subsubsection{Hook'sches Gesetz}
+			$$F_x=-k_F\cdot\Delta x\quad\quad\Delta x\equiv x-x_0\equiv x$$
+			$$\rightarrow\quad F_x=-k_F\cdot x$$
+			Zuerst wird Arbeit an der Feder verrichtet (Verformung), dann verrichtet die Feder selbst Arbeit.
+			$$W_{02}=\int_{x_0}^{x_2}F_x\Delta x=-\frac{1}{2}k_fx_2^2<0$$
+			$$W_{20}=\int_{x_2}^{x_0}F_x\Delta x=\frac{1}{2}k_fx_2^2>0$$
+			\subsubsection{Taylorentwicklung}
+			In dem Fall gibt es auch das Beispiel der Taylorentwicklung der e-Funktion.
+			$d_{(x)} \qquad d^\prime_{(x)}$\\
+			$f(x) = f(x_0) + (x - x_0) f^\prime(x_0) + \frac{((x -x_0)^2}{2!} f^{\prime\prime}$\\
+			$x_0 = 0$
+			\[ f(x) = f(0) + (x-0) e^0 + \frac{(x-0)^2}{2!}e^0 + .... \\
+			= \underbrace{1}_{\underbrace{Ruhelage}} + x + \frac{x^2}{2!} + \frac{x^3}{3!}+ .... \]
+			\begin{center}
+				\includegraphics[scale=0.2]{IMG_94B96AE1BBE0-1.jpeg}
+			\end{center}
+		\begin{figure}[htbp]
+			\begin{minipage}[t]{7cm}
+				\vspace{0pt}
+				\centering
+				\includegraphics[scale=0.27]{IMG_EDD095C56715-1.jpeg}
+			\end{minipage}
+			\hfill
+			\begin{minipage}[t]{7cm}
+				\vspace{0pt}
+				$F_G + F_{Feder} = mg - kx_0 \underbrace{=}_{(1} 0 \Rightarrow k$\\
+				$ m \ddot{x} = mg - k \underbrace{(x_0 + x)}_{(1) einsetzen} $\\
+				$ m \ddot{x} = kx $\\
+				$ \ddot{x} \frac{k}{m}x $
+			\end{minipage}
+		\end{figure}
+	\newpage
+	\subsubsection{Seilspannung}
+	\begin{center}
+			\includegraphics[scale=0.25]{IMG_64F74F51264B-1.jpeg}
+	\end{center}
+	$ m * a = \sum F = F_G + F_AS = 0 $
+	$\sum \vec{F} = 0$\\
+	$ - \vec{F}_G = \vec{F}_1 + \vec{F}_2 $\\
+	$Notiz: \vec{F}_1 * \vec{F}_2 = |\vec{F}_1| * |\vec{F}_2| * cos \alpha$\\
+	$ \vec{F}_G^2 = \vec{F}_1^2 + \vec{F}_2^2 + 2 \underbrace{\vec{F}_1 \vec{F}_2}_{= 0 \text{ wegen 90 grad}} $\\
+	$S^2 = 4^2 + 3^2$
+	\section{Reibung}
+	\[ F_R = \mu * F \qquad \vec{F}_\sqcup \text{i st entgegen } \vec{v} \]
+		\begin{center}
+			\includegraphics[scale=0.3]{IMG_60C9C3799F69-1.jpeg}
+		\end{center}
+	Reibungskraft: \\\begin{tabular}{|c|c|c|}
+		\hline 
+		\mu & Haft & Gleit \\ 
+		\hline 
+		Stahl -Stahl & 0,75 & 0,57 \\ 
+		\hline 
+		Teflon - Teflon & 0,04 & 0,03 \\ 
+		\hline 
+	\end{tabular} 
+	\subsubsection{Stokes Reibung}
+		Reibung im Wasser
+		\begin{figure}[htbp]
+			\begin{minipage}[t]{7cm}
+				\vspace{0pt}
+				\centering
+				\includegraphics[scale=0.27]{IMG_972B7A9BCF52-1.jpeg}
+			\end{minipage}
+			\hfill
+			\begin{minipage}[t]{7cm}
+				\vspace{0pt}
+				$ F_R = 6 \pi * r \mu * v $
+				$ \Rightarrow $ Viskosität\\
+				$ |F_R| = |F_G| \Rightarrow mg = 6 \pi r \mu v $\\
+				$ \Righarrow  v = konst $\\
+				solange v klein ist
+			\end{minipage}
+		\end{figure}
+		\subsubsection{Newton-Reibung}
+			$ F_R = \frac{1}{2} \underbrace{a_w}_{\text{spezifische Luftwiederstand |}}  \underbrace{\rho}_{\text{Dichte der Luft}} A v^2 $
+			\includegraphics[scale=0.3]{IMG_7A852B76F915-1.jpeg}
+		
 \end{document}

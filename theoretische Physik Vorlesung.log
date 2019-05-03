@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  29 APR 2019 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  30 APR 2019 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -666,11 +666,11 @@ File: uesvect.fd
 )
 (./theoretische Physik Vorlesung.toc [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2])
 \tf@toc=\write4
 \openout4 = `"theoretische Physik Vorlesung.toc"'.
 
- [2] [3]
+ [3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
@@ -865,7 +865,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--430
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
+Underfull \hbox (badness 10000) in paragraph at lines 456--458
 
  []
 
@@ -873,92 +873,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 455--457
 <./images/screenshot001.png, id=89, 389.455pt x 279.0425pt>
 File: ./images/screenshot001.png Graphic file (type png)
 <use ./images/screenshot001.png>
-Package pdftex.def Info: ./images/screenshot001.png  used on input line 476.
+Package pdftex.def Info: ./images/screenshot001.png  used on input line 479.
 (pdftex.def)             Requested size: 136.31128pt x 97.66634pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 473--483
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 476--486
 [][]  [] 
  []
 
-<./images/screenshot002.png, id=90, 225.84375pt x 176.66pt>
-File: ./images/screenshot002.png Graphic file (type png)
-<use ./images/screenshot002.png>
-Package pdftex.def Info: ./images/screenshot002.png  used on input line 506.
-(pdftex.def)             Requested size: 112.92159pt x 88.32977pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 503--515
-[][]  [] 
+Underfull \hbox (badness 10000) in paragraph at lines 473--487
+
  []
 
 [16 <./images/screenshot001.png>]
+<./images/screenshot002.png, id=94, 225.84375pt x 176.66pt>
+File: ./images/screenshot002.png Graphic file (type png)
+<use ./images/screenshot002.png>
+Package pdftex.def Info: ./images/screenshot002.png  used on input line 514.
+(pdftex.def)             Requested size: 112.92159pt x 88.32977pt.
+
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 511--523
+[][]  [] 
+ []
+
 <./images/screenshot3.png, id=95, 216.81pt x 262.9825pt>
 File: ./images/screenshot3.png Graphic file (type png)
 <use ./images/screenshot3.png>
-Package pdftex.def Info: ./images/screenshot3.png  used on input line 524.
+Package pdftex.def Info: ./images/screenshot3.png  used on input line 532.
 (pdftex.def)             Requested size: 108.40472pt x 131.49092pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 521--533
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 529--541
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
+Underfull \hbox (badness 10000) in paragraph at lines 543--545
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
+[17 <./images/screenshot002.png> <./images/screenshot3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
-<./images/screenshot004.png, id=96, 579.16376pt x 448.67625pt>
+<./images/screenshot004.png, id=101, 579.16376pt x 448.67625pt>
 File: ./images/screenshot004.png Graphic file (type png)
 <use ./images/screenshot004.png>
-Package pdftex.def Info: ./images/screenshot004.png  used on input line 548.
+Package pdftex.def Info: ./images/screenshot004.png  used on input line 556.
 (pdftex.def)             Requested size: 289.58116pt x 224.33757pt.
-[17 <./images/screenshot002.png> <./images/screenshot3.png>]
-<./images/Weltkugel.png, id=102, 539.01375pt x 436.63126pt>
+[18 <./images/screenshot004.png>]
+<./images/Weltkugel.png, id=107, 539.01375pt x 436.63126pt>
 File: ./images/Weltkugel.png Graphic file (type png)
 <use ./images/Weltkugel.png>
-Package pdftex.def Info: ./images/Weltkugel.png  used on input line 563.
+Package pdftex.def Info: ./images/Weltkugel.png  used on input line 571.
 (pdftex.def)             Requested size: 269.50621pt x 218.3151pt.
- [18 <./images/screenshot004.png>]
 <./images/michelsan.png, id=108, 698.61pt x 224.84pt>
 File: ./images/michelsan.png Graphic file (type png)
 <use ./images/michelsan.png>
-Package pdftex.def Info: ./images/michelsan.png  used on input line 572.
+Package pdftex.def Info: ./images/michelsan.png  used on input line 580.
 (pdftex.def)             Requested size: 349.30414pt x 112.41972pt.
  [19 <./images/Weltkugel.png> <./images/michelsan.png>]
 <./images/Inertialsystem1.png, id=115, 424.58624pt x 100.375pt>
 File: ./images/Inertialsystem1.png Graphic file (type png)
 <use ./images/Inertialsystem1.png>
-Package pdftex.def Info: ./images/Inertialsystem1.png  used on input line 589.
+Package pdftex.def Info: ./images/Inertialsystem1.png  used on input line 597.
 (pdftex.def)             Requested size: 212.2926pt x 50.18736pt.
 <./images/Beobachterquelle.png, id=116, 370.38374pt x 89.33376pt>
 File: ./images/Beobachterquelle.png Graphic file (type png)
 <use ./images/Beobachterquelle.png>
-Package pdftex.def Info: ./images/Beobachterquelle.png  used on input line 594.
+Package pdftex.def Info: ./images/Beobachterquelle.png  used on input line 602.
 
 (pdftex.def)             Requested size: 185.1914pt x 44.66676pt.
 <./images/Lichtgeschwindigkeit2.png, id=117, 169.63374pt x 136.51pt>
 File: ./images/Lichtgeschwindigkeit2.png Graphic file (type png)
 <use ./images/Lichtgeschwindigkeit2.png>
 Package pdftex.def Info: ./images/Lichtgeschwindigkeit2.png  used on input line
- 606.
+ 614.
 (pdftex.def)             Requested size: 84.81665pt x 68.25482pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 603--615
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 611--623
 [][]  [] 
  []
 
-[20 <./images/Inertialsystem1.png> <./images/Beobachterquelle.png> <./images/Li
-chtgeschwindigkeit2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 626--632
+[20 <./images/Inertialsystem1.png> <./images/Beobachterquelle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 634--640
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 673--676
+[21 <./images/Lichtgeschwindigkeit2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 681--684
 
  []
 
@@ -969,67 +972,67 @@ File: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png Graphic file (
 type png)
 <use ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png>
 Package pdftex.def Info: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1
-.png  used on input line 690.
+.png  used on input line 698.
 (pdftex.def)             Requested size: 242.5017pt x 116.03143pt.
 <./images/Mathependell.png, id=131, 237.88875pt x 182.6825pt>
 File: ./images/Mathependell.png Graphic file (type png)
 <use ./images/Mathependell.png>
-Package pdftex.def Info: ./images/Mathependell.png  used on input line 706.
+Package pdftex.def Info: ./images/Mathependell.png  used on input line 714.
 (pdftex.def)             Requested size: 118.94408pt x 91.34102pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 703--715
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 711--723
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--722
+Underfull \hbox (badness 10000) in paragraph at lines 728--730
 
  []
 
 [23 <./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png (PNG copy)> <./
 images/Mathependell.png>]
 
-LaTeX Warning: Command \ss invalid in math mode on input line 727.
+LaTeX Warning: Command \ss invalid in math mode on input line 735.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 743--746
+Underfull \hbox (badness 10000) in paragraph at lines 751--754
 
  []
 
-[24] (./theoretische Physik Vorlesung.aux) ) 
+[24] [25] (./theoretische Physik Vorlesung.aux) ) 
 Here is how much of TeX's memory you used:
- 15071 strings out of 492649
- 285898 string characters out of 6129622
+ 15078 strings out of 492649
+ 285963 string characters out of 6129622
  403649 words of memory out of 5000000
- 18616 multiletter control sequences out of 15000+600000
- 14026 words of font info for 54 fonts, out of 8000000 for 9000
+ 18620 multiletter control sequences out of 15000+600000
+ 14756 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,63p,487b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msbm10.pfb>
-Output written on "theoretische Physik Vorlesung.pdf" (24 pages, 1459855 bytes)
+</usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb>
+Output written on "theoretische Physik Vorlesung.pdf" (25 pages, 1463011 bytes)
 .
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 205 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

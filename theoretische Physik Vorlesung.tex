@@ -441,6 +441,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 									\subsubsection{Ausblick}
 										\textbf{spezielle Relativitätstheorie:} Raum und Zeit werden relativ und die Galileitransofrmation werden durch Lorentztransformation ersetzt.\\
 										\textbf{allgemeine Relativität}  Raum und Zeit (Geometrie) sind an die Materieverteilung gekoppelt. Das hat dann die Folge, dass die Teilchenbewegung bestimmt wird durchd ie Geometrie von Raum und Zeit. Die Massenverteilung bestimmt dann aber erst die Geometrie von Raum und Zeit.
+						\part{Vorlesung 6}
 							\subsection{Koordinatentransformationen - Krumlinige (räunliche) Koordinaten}
 								Man habe n-Dimensionen $ (x_i) (y_i) \qquad |\leq i,y \leq n  $	
 								\[ x_i = x_i(y_{y_1, ..., y_n}) = x_i(y_i) \]
@@ -457,13 +458,15 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 									\[ d\vec{ r} =  (dx,dy,dz) = \vec{e}_1 dx + \vec{e}_2dy + \vec{e}_3dz \]
 									\[ = \frac{\partial \vec{r}}{\partial u}du + \frac{\partial \vec{r}}{\partial v} dv + \frac{\partial \vec{r}}{\partial w}dw \text{ mit } \frac{\partial \vec{r}}{\partial u} = \left( \frac{\partial x}{\partial u},  \frac{\partial y}{\partial u},  \frac{\partial z}{\partial u} \right) etc.  \]
 									Man kann neue Basis-Einheitsvektoren
-										\[ \vec{u}_{12} := \frac{1}{b_{12}} \frac{\partial \vec{r}}{\partial y_{12}} \quad \text{ mit } b_{12} := \left| \frac{\partial \vec{r}}{\partial y_{12}} \right| \]
-										definieren, so daß
+										\[ \vec{u}_{12} := \frac{1}{b_{12}} \frac{\partial \vec{r}}{\partial y_{12}} \quad \text{ mit } b_{k}  := \left| \frac{\partial \vec{r}}{\partial y_{12}} \right| \]
+										(k = 1,2,3) \qquad definieren, so daß
 										\[ d\vec{r} = \sum_{n} \vec{u}_nds_k \text{ mit den Längenelementen } ds_k = k_k dy_k \]
+										$= \sum_{k} \frac{\partial \vec{r}}{\partial y_{12}} dy_{12}$
 										Man nennt $(y_i)$ ein orthogonales Koordiantensystem wenn:
 										\[ \vec{U}_i \times \vec{U}_j = 0 \text{ für } i \neq j \text{und damit auch } \vec{U}_i * \vec{U}_j = \delta_{ij} \text{ an jedem Raumpunkt liegt. } \]
 										Dann ist das Flächenelement, da von zwei Seiten der Länge $ds_{i}, ds_j $ angespannt wird, gegeben durch: 
 										\[ dF_{ij} = ds_i, ds_j  = b_i b_j dy_i dj_j \]
+										Man kann sich das so vorstellen wie ein Rechteck was grade aufgespannt wird.\\
 										Und das Volumenelement
 										\[ dV = \prod_{i=1}^{n} ds_i = \prod_{i'=1}^{n} b_i dy_i \]
 							\subsection{Ebene: Polarkoordianten}
@@ -481,18 +484,23 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 								$ \vec{r} = (r cos \varphi, r sin \varphi)$
 								\end{minipage}
 							\end{figure}\\
-							\textbf{Umdrehung:} $ r = \sqrt{x^2 + y^2}, \varphi = \pm arctan \frac{y}{x} \text{ für } y  \neq 0$
+							\subsubsection{Umdrehung}
+							 $ r = \sqrt{x^2 + y^2}, \varphi = \pm arctan \frac{y}{x} \text{ für } y  \neq 0$
+							 für $\varphi \in [ 0 2 \pi[ ,[ -\pi + \pi[ $ 
 							\[ \frac{\partial \vec{r}}{\partial r} = (cos \varphi, sin \varphi) \quad |\frac{\partial \vec{r}}{\partial r}| = 1 \Rightarrow \vec{U}r = \vec{e}_r= (cos \varphi, sin \varphi) \]
 							\[ \frac{\partial \vec{r}}{\partial \varphi} = (-r sin \varphi, r cos \varphi) \quad |\frac{ \partial \vec{r}}{\partial \varphi}| = r \Rightarrow\vec{u}_\varphi = \vec{e}_\varphi = (- sin \varphi, cos \varphi) \]
 							\subsubsection{Bahnkurve}
-							$\vec{ r}(t) = r(t) \vec{e}_r(t) \Rightarrow \vec{v}(t) = \dot{\vec{r}}(t) = \dot{r}(t) \vec{e}(t) + r(t) \dot{\vec{e}_r(t)}$\\
-							$ \dot{\vec{e}}_r (t) = \frac{d \vec{e}_r}{d \varphi} \frac{d \varphi }{dt} = (-sin \varphi , cos \varphi) \dot{\varphi} = \dot{\varphi} \vec{e}_\varphi $\\
-							$\Rightarrow$ Wenn $\vec{ v} = v_r \vec{e}_r + v_\varphi \vec{e}_\varphi $ dann ist $v_r = \dot{r} ; v_\varphi = r \dot{\varphi}$ dabei ist $\varphi$ die Winkelgeschwindigkeit.
+							$\vec{ r}(t) = r(t) \hat{\vec{e}} \Rightarrow \vec{v}(t) = \dot{\vec{r}}(t) = \dot{r}(t) \vec{e}(t) + r(t) \dot{\vec{e}_r(t)}$\\
+							$ \dot{\vec{e}}_r = \frac{d \vec{e}_r}{d \varphi} \frac{d \varphi }{dt} = \vec{e}_\varphi \frac{dy}{dt} = (-sin \varphi , cos \varphi) \dot{\varphi} = \dot{\varphi} \vec{e}_\varphi $\\
+							$\Rightarrow$ Wenn $\vec{ v} = v_r \vec{e}_r + v_\varphi \vec{e}_\varphi $ dann ist $v_r = \dot{r} ; v_\varphi = r \dot{\varphi}$ dabei ist $\varphi$ die Winkelgeschwindigkeit.\\
+							$ \Rightarrow \dot{v} = \dot{r}(t) \vec{e}_r + r(t) \dot{\varphi}\vec{e}_\varphi \Rightarrow v_r = \dot{r} ; v_\varphi = r \dot{\varphi} $\\
+							$\dot{\varphi}$ ist die Winkelgeschwindigkeit und 2 Punkt ist die Rotationsgeschwindigkeit = radius. Winkelgeschwindigkeit
 							\subsubsection{Beschleunigung}	
-								$\vec{ a} = \ddot{\vec{ r}} = \dot{\vec{ v}} = \frac{d}{dt} (v_r \vec{e}_r + v_\varphi \vec{e}_\varphi) = \frac{d}{dt} (\dot{r} \vec{e}_r + r\dot{\varphi} \vec{e}_\varphi) $\\
+								$\vec{ a} = \ddot{\vec{ r}} = \dot{\vec{ v}} = \frac{d}{dt} (v_r \vec{e}_r + v_\varphi \vec{e}_\varphi) = \frac{d}{dt} (\dot{r} \vec{e}_r + r\dot{\varphi} \vec{e}_\varphi) $
+								\[ \vec{e}_r = \dot{\varphi} \vec{e}_\varphi \text{ und } \dot{\vec{e}}_\varphi = - \dot{\varphi}\vec{e}_r \]
 								$ \ddot{r} \vec{e}_r + \dot{r} \dot{\vec{e}}_r + \dot{r} \dot{\varphi} \vec{e}_\varphi + r \ddot{\varphi} \vec{e}_\varphi $
 								Nun nutzen wir folgende zuweisungen: 
-								\[ \dot{\vec{e}} = \dot{\varphi} \vec{e}_\varphi \text{ und } \dot{\vec{e}}_\varphi  = \dot{\varphi} (- ocs \varphi, - sin \varphi) = - \dot{\varphi} \vec{e}_r \]  
+								\[ \dot{\vec{e}} = \dot{\varphi} \vec{e}_\varphi \text{ und } \dot{\vec{e}}_\varphi  = \dot{\varphi} (- cos \varphi, - sin \varphi) = - \dot{\varphi} \vec{e}_r \]
 								Damit ergibt sich aus der oberen Gleichung: $ (\ddot{r} - r \dot{\varphi}^2)\vec{e}_r + (r\ddot{\varphi} + 2\dot{r} \dot{\varphi}) \vec{e}_\varphi $\\
 							mit $\vec{ a} = a_r \vec{e}_r + a_\varphi \vec{e}_\varphi$ also
 								\[ a_r = \ddot{r} - r \dot{\varphi}^2 \text{ \quad \textbf{Radialbeschleunigung}} \]
@@ -738,7 +746,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 									\[ \varphi(t) = A sin w_0 t + B cos w_0 t \]
 									mit $w_0 =\sqrt{\frac{g}{l}}$,aber $T = \frac{2 \pi}{w_0} = 2\pi \sqrt{\frac{l}{g}}$\\
 									Dies entspricht dem Federpendel
-									\[ m \ddot{x} + hk = 0 \text{mit} E_{pot} = \frac{h}{2}x^2 \quad F = - \frac{d E_{pot}}{dx} = - hx \] 
+									\[ m \ddot{x} + hk = 0 \text{ mit } E_{pot} = \frac{h}{2}x^2 \quad F = - \frac{d E_{pot}}{dx} = - hx \] 
 								\subsection{Erhaltung von Impuls und Drehimpuls}
 									Impuls eines Teilchens := $\vec{p} = m \vec{ v} = m \dot{\vec{r}}$\\
 									Dabei ist m eine Ruhemasse in Newtonscher Physik ansonsten $m \rightarrow m \gamma \text{\textit{ bzw. bewegte Masse}}$\\
@@ -746,8 +754,21 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 										\[ \text{Drehimpuls } \vec{L}:= m\vec{ r} \times \dot{\vec{ r}} = \vec{ r} \times \vec{p} \]
 								$\Rightarrow \dot{\vec{L}} = m \dot {\vec{r} \times \dot{\vec{r}}}_{= 0} + m \vec{ r} \times \ddot{\vec{r}} = \vec{r} \times \dot{\vec{p}} = \vec{ r} \times \vec{ F}$\\
 								Dieses Ergebnis der Umformung am Ende ist auch bekannt als Drehmoment.
+								\subsubsection{N-Teilchensystem:}
+								$r_{jk} := |\vec{r}_j - \vec{r}_{k}| = r_{kj} $\\
+								Angemommen nur Zentralkräfte $\vec{F}_{jk}$ wirken von Teilchen $k$ auf Teilchen $j$.\\
+								$\Rightarrow \vec{ F}_{jk} = - \vec{F}_{jk}(r_{jk}) \frac{\vec{ r}_j - \vec{r}_k}{r_{jk}} $ \quad also $\dot{\vec{r}_j} = \sum_{k=1\\ k \neq j }^{N} \vec{ F}_{jk}	$\\
+								insbesondere 
+								\[ \vec{ F}_{jk} = - \vec{ F}_{kj} \rightarrow \text{3. Newton$^\prime$ sche Axiom!} \]
+								Definiere:
+								\[ \vec{p} = \sum_{j} \dot{\vec{p}}_j  = \sum_{j \neq k} \vec{ F}_{jk} = 0  \]
+								Damit ist der Schwerpunkt $ \vec{R} =$
+								\[ \dot{\vec{L}} =  \dot{\vec{L}}_j =  \frac{1}{M}\sum_{j = 1}^{N} m_j \dot{\vec{r}}_j = \frac{1}{M} \sum \vec{p}_j = \frac{\vec{p}}{M} = const \]
 					
 					
-						
-							
+					
+					
+					
+					
+					
 \end{document}
