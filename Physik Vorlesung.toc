@@ -35,3 +35,12 @@
 \contentsline {section}{\numberline {14}Reibung}{15}
 \contentsline {subsubsection}{\numberline {14.0.1}Stokes Reibung}{15}
 \contentsline {subsubsection}{\numberline {14.0.2}Newton-Reibung}{16}
+\contentsline {part}{VII\hspace {1em}Vorlesung 8}{16}
+\contentsline {subsection}{\numberline {14.1}Wiederholung}{16}
+\contentsline {section}{\numberline {15}Schwingungen}{16}
+\contentsline {subsection}{\numberline {15.1}Harmonischer Oszilator}{16}
+\contentsline {subsubsection}{\numberline {15.1.1}Pendel}{16}
+\contentsline {subsection}{\numberline {15.2}allgemeine L\IeC {\"o}sung harmonischer Oszilator:}{17}
+\contentsline {subsubsection}{\numberline {15.2.1}Anfangsbedingungen}{17}
+\contentsline {section}{\numberline {16}4.7 Variable Masse}{18}
+\contentsline {subsection}{\numberline {16.1}Bsp. inelastischer Sto\IeC {\ss }}{18}

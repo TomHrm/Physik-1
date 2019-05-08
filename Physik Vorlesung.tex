@@ -13,6 +13,7 @@
 \usepackage{graphicx}
 \usepackage{esvect}
 \graphicspath{ {./images/} }
+\usepackage{tcolorbox}
 \usepackage{tikz}         % For arrow and dots in \xvec
 \usepackage[left=2.30cm, right=2.30cm, top=1.70cm, bottom=2.00cm]{geometry}
 
@@ -354,5 +355,75 @@
 		\subsubsection{Newton-Reibung}
 			$ F_R = \frac{1}{2} \underbrace{a_w}_{\text{spezifische Luftwiederstand |}}  \underbrace{\rho}_{\text{Dichte der Luft}} A v^2 $
 			\includegraphics[scale=0.3]{IMG_7A852B76F915-1.jpeg}
-		
+		\part{Vorlesung 8}
+			\subsection{Wiederholung}
+				Angenommen man habe eine Senke und ein Auto welcher hinterrutscht. Man hat also drei Kräfte die Aufrreten. Diese Wären die Gewichtskraft, die Normalkraft und die Reibung(Haftreibung). Dazu gilt wenn die nicht negative Kraft größer ist als die Haftreibung dann herscht beschleunigung.
+				\[ F_{Haft} = \mu F_N \]
+				\[ \text{Gleitreibung } F_{Gleit} = \mu_G F_N \]
+		\section{Schwingungen}
+			\subsection{Harmonischer Oszilator}
+				Wenn man eine Feder hat und an dieser irgendeine Masse m hängt, gibt es logischerweise eine Auslenkung an der Feder. Damit wirkt natürlich eine Kraft nach oben und die Federkraft nach unten.
+				\[ m \ddot{x} = F = - kx  \]
+			Und nun zur Bewegungsgleichung des Harminischen Oszilator. Dieser Fall lässt sich auf sehr viele Beispiele  anwenden. 
+			\[ \ddot{x} + \frac{k}{m}x = 0 \]
+				\subsubsection{Pendel}
+					Man nehme ein Pendel in einer Ruhelage und ein weiteres Pendel welches dem anderen Pendel volkommen gleicht. Das zweite Pendel unterscheidet sich lediglich durch die auslenkung des Pendels um den Winkel $\varphi$. \\ 
+					Die \textbf{Masse} ist bei einem Pendel volkommen egal da nur die Gewichtskraft auf die Masse des Pendels wirkt.\\
+					Wir sagen nun, dass wir bei dem zweiten Pendel noch zusätzlich eine Tangentialkraft haben welche logischerweise in Richtung des Ruhelage zeigt.
+					\[ F_T = -F_G \cdot sin \varphi = -mg \cdot sin \varpi \]
+					Nun nutzen wir die defnition des Bogenmaßes um folgende Gleichung daraus zubekommen.
+					\[ \underbrace{x_T}_{Umfang aller Bahnen} = \underbrace{l}_{Radius} \cdot \underbrace{\varphi }_{Winkel} \]
+					Also \\
+					$\ddot{x}_T = l \ddot{\varphi}$
+					\[ F_t = m_{Tr\ddot{a}ge} \cdot \underbrace{a_T}_{\ddot{x}_T}  \Rightarrow m_{g} \cdot g \cdot sin \varphi = m_T \cdot l \ddot{\varphi} \]
+					$ \Rightarrow$
+					\begin{tcolorbox}
+						\begin{align}
+							\ddot{\varphi} + \frac{g}{l}sin \varphi = 0
+						\end{align}
+					\end{tcolorbox}
+				\textbf{Nährung dazu:} $sin \varphi \approx \varphi$ in Bogenmaß für kleine $\varphi$
+				\begin{tcolorbox}
+					Ein Praktischer Exkurs:
+					\begin{align}
+						\varphi_{\text{in Grad}} = \varphi_{Bogenmaß} \cdot \frac{360^\circ}{2\pi}
+					\end{align}
+				\end{tcolorbox}
+			\subsection{allgemeine Lösung harmonischer Oszilator:}
+				Feder: $w^2 = \frac{k}{m}$ \qquad
+				Pendel $ w^2 = \frac{g}{l} $\\\\
+				\textbf{Bewegungsgleichung}: $ \ddot{y}_{(t)} + w^2 y_{(t)} = 0$
+				Da wir nun eine Differentialgleichung haben brauchen wir nun einen Ansatz den wir raten müssen.
+				\[ \dot{y}_{(t)} =\ A \cdot\ sin (w\cdot t) + B\ \cdot\ cos(w \cdot t)  \]
+				$\dot{y} = w \cdot A \cdot cos(wt)\quad  - w \cdot B \cdot sin (wt)$\\
+				$\ddot{y} = -w^2 \cdot A \cdot sin (wt)- w^2\cdot B\cdot cos(wt)} $\\
+				$ \ddot{y}_{(t)} - w^2 y_{(t)} $\\
+				\subsubsection{Anfangsbedingungen}
+				\begin{itemize}
+					\item \textbf{1. Fall:} $y_{(0) = y_{{0}}} = B $\\
+							\qquad $\dot{y}_{(0)} = 0 = w A$\\
+								\qquad \qquad $\Rightarrow A = 0$
+						$y_{(t)} = y_0 \cdot cos (w t )$
+					\item \textbf{2. Fall} $ y_{{0}} = 0 = B $\\
+					\qquad $\dot{y}_{(0)} = v_0 = w \cdot A$\\
+						\qquad \qquad $ \Rightarrow A = \frac{v_0}{w} $\\
+						Die beiden letzen Zeilen zusammen ergibt dann:\\
+						$y_{(0)} = \frac{v_0}{w} sin (wt) $
+					\item \textbf{Alternative:}\\
+						\qquad $y_{(0)} = C \cdot (wt + \varphi_0) $\\
+						Wir nutzen nun die die Additionstheoreme.\\
+						\qquad $C \cdot sin(wt) \cdot cos \varphi_0  $\\
+						\qquad $C \cdot cos (wt) \cdot sin \varphi_0$\\
+						$ = \underbrace{C \cdot cos \varphi_0}_{A} \cdot sin (wt) + \underbrace{C \cdot sin \varphi_0}_{B} \cdot cos (wt) $
+						\[ \text{wir setzen die Dimension } [w] = \frac{1}{s} \text{ also die Kreisfrequenz} \]
+						$sin(wt) $\\
+						Ich überspringe einfach mal die weitere Herleitung:
+						\[ w = \frac{2 \pi}{T} \qquad w= \sqrt{\frac{g}{l}} \text{ bzw. } \sqrt{\frac{k}{m}} \qquad [w] = \left( \frac{m}{s^2 m} \right)^\frac{1}{2} = \frac{1}{s} \]
+					\section{4.7 Variable Masse}
+						$\frac{d \vec{p}}{dt} = \vec{F} \qquad \Rightarrow \qquad d\vec{p} = \vec{F} dt$
+						\qquad $\int _{p_0}^{p(t)} d\vec{p} = \int_{t_0}^{t} \vec{F} dt$\\
+						\qquad $ p_{(t)} - p_0 = \underbrace{\int_{t_0}^{t} \vec{F} dt}_{\text{Kraftstoß}} $
+						\subsection{Bsp. inelastischer Stoß}
+							\[ v^\prime =\frac{m_1}{m_1 + m_2} v_2 \]
+					
 \end{document}
