@@ -1,0 +1,80 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{4}
+\contentsline {part}{I\hspace {1em}Vorlesung 1}{4}
+\contentsline {section}{\numberline {2}Grundlagen}{4}
+\contentsline {subsection}{\numberline {2.1}Vektorrechnung}{4}
+\contentsline {subsection}{\numberline {2.2}Formale Schreibweise Ableitungen}{5}
+\contentsline {subsection}{\numberline {2.3}Drehung}{5}
+\contentsline {subsection}{\numberline {2.4}Drehung als Matrix Multiplikation:}{5}
+\contentsline {part}{II\hspace {1em}Vorlesung 2}{5}
+\contentsline {subsection}{\numberline {2.5}Basis der Vektorrechnung}{6}
+\contentsline {subsubsection}{\numberline {2.5.1}Basis ausrechnung}{6}
+\contentsline {subsubsection}{\numberline {2.5.2}Addition}{6}
+\contentsline {subsubsection}{\numberline {2.5.3}Subtraktion}{6}
+\contentsline {subsubsection}{\numberline {2.5.4}Multiplikation}{6}
+\contentsline {subsubsection}{\numberline {2.5.5}Skalarprodukt}{6}
+\contentsline {subsubsection}{\numberline {2.5.6}Eigenschaften von Rechenoperationen}{6}
+\contentsline {subsubsection}{\numberline {2.5.7}Projektion auf die Richtung \xvec []{b}}{7}
+\contentsline {part}{III\hspace {1em}Vorlesung 3}{7}
+\contentsline {subsubsection}{\numberline {2.5.8}Vektorprodukt}{7}
+\contentsline {subsection}{\numberline {2.6}Schwarzsche Ungleichung}{7}
+\contentsline {subsection}{\numberline {2.7}Komonentendarstellung}{7}
+\contentsline {subsection}{\numberline {2.8}Spatprodukt}{8}
+\contentsline {subsubsection}{\numberline {2.8.1}Eigenschaften des Spatprodukts}{8}
+\contentsline {subsection}{\numberline {2.9}Doppeltes Vektorprodukt}{9}
+\contentsline {subsection}{\numberline {2.10}Das Differential}{9}
+\contentsline {subsection}{\numberline {2.11}Vektorfunktionen}{9}
+\contentsline {subsection}{\numberline {2.12}Integration}{10}
+\contentsline {subsection}{\numberline {2.13}Differentialrechnung}{10}
+\contentsline {part}{IV\hspace {1em}Vorlesung 4}{11}
+\contentsline {subsection}{\numberline {2.14}Vektorfunktionen}{11}
+\contentsline {subsection}{\numberline {2.15}Taylor Entwicklung}{11}
+\contentsline {subsubsection}{\numberline {2.15.1}Potenzreihe}{11}
+\contentsline {subsection}{\numberline {2.16}Partielle Differentiation}{11}
+\contentsline {subsubsection}{\numberline {2.16.1}H\IeC {\"o}here Ableitungen}{12}
+\contentsline {section}{\numberline {3}Vektoranalysis}{12}
+\contentsline {subsection}{\numberline {3.1}Gradient}{12}
+\contentsline {subsubsection}{\numberline {3.1.1}Beispiel}{12}
+\contentsline {subsection}{\numberline {3.2}Rotation}{13}
+\contentsline {subsubsection}{\numberline {3.2.1}Summe und Rotation}{13}
+\contentsline {subsubsection}{\numberline {3.2.2}Beispiel:}{13}
+\contentsline {subsubsection}{\numberline {3.2.3}Beispiel B}{13}
+\contentsline {subsection}{\numberline {3.3}Divergenz}{13}
+\contentsline {subsubsection}{\numberline {3.3.1}Beispiele}{13}
+\contentsline {part}{V\hspace {1em}Vorlesung 5}{13}
+\contentsline {subsection}{\numberline {3.4}Gradient und totales Differential}{14}
+\contentsline {subsection}{\numberline {3.5}Wegintegral eines Vektorfeldes $\xvec []{ F}(\xvec []{ r})$}{14}
+\contentsline {subsubsection}{\numberline {3.5.1}Eigenschaften:}{14}
+\contentsline {section}{\numberline {4}Grundlagen der Dynamik}{14}
+\contentsline {subsection}{\numberline {4.1}Allgemeine Galilei- Transformation zwischen Inertialsystemen}{15}
+\contentsline {subsubsection}{\numberline {4.1.1}Galileisches Relativit\IeC {\"a}tsprinzip}{15}
+\contentsline {subsubsection}{\numberline {4.1.2}Exkurs Kosmologie}{15}
+\contentsline {subsubsection}{\numberline {4.1.3}Exkurs Machsches Prinzip}{15}
+\contentsline {subsubsection}{\numberline {4.1.4}Ausblick}{16}
+\contentsline {part}{VI\hspace {1em}Vorlesung 6}{16}
+\contentsline {subsection}{\numberline {4.2}Koordinatentransformationen - Krumlinige (r\IeC {\"a}unliche) Koordinaten}{16}
+\contentsline {subsubsection}{\numberline {4.2.1}Beispiel}{16}
+\contentsline {subsection}{\numberline {4.3}Ebene: Polarkoordianten}{17}
+\contentsline {subsubsection}{\numberline {4.3.1}Umdrehung}{17}
+\contentsline {subsubsection}{\numberline {4.3.2}Bahnkurve}{17}
+\contentsline {subsubsection}{\numberline {4.3.3}Beschleunigung}{17}
+\contentsline {subsection}{\numberline {4.4}Linien- und Fl\IeC {\"a}chenelemente:}{18}
+\contentsline {part}{VII\hspace {1em}Vorlesung 7}{18}
+\contentsline {subsection}{\numberline {4.5}Zylinderkoordianten}{18}
+\contentsline {subsubsection}{\numberline {4.5.1}Geschwindkeit und Beschleunigung}{18}
+\contentsline {subsection}{\numberline {4.6}Kugelkoordinaten - sph\IeC {\"a}rische Polarkoordinaten}{19}
+\contentsline {subsubsection}{\numberline {4.6.1}rotierendes Bezugssystem und Scheinkr\IeC {\"a}fte}{19}
+\contentsline {subsubsection}{\numberline {4.6.2}Beispiel}{19}
+\contentsline {part}{VIII\hspace {1em}Vorlesung 8}{20}
+\contentsline {subsection}{\numberline {4.7}Spezielle Relativit\IeC {\"a}tstheorie - Lorentstransformation}{20}
+\contentsline {subsubsection}{\numberline {4.7.1}Michelsan-Versuch}{20}
+\contentsline {subsection}{\numberline {4.8}Anwendung- Relativit\IeC {\"a}tstheorie}{23}
+\contentsline {subsubsection}{\numberline {4.8.1}Geschwindigkeitsaddition oder subtraktion}{23}
+\contentsline {subsubsection}{\numberline {4.8.2}Zeitdilatation}{23}
+\contentsline {subsection}{\numberline {4.9}Allgemeine Form der Newtonschen Bewegungsgleichung:}{23}
+\contentsline {subsection}{\numberline {4.10}Mehrteilchensysteme f\IeC {\"u}r N Teilchen}{23}
+\contentsline {subsection}{\numberline {4.11}Phasenraum}{24}
+\contentsline {subsubsection}{\numberline {4.11.1}Beispiele}{24}
+\contentsline {subsection}{\numberline {4.12}Energie-Erhaltung}{25}
+\contentsline {subsection}{\numberline {4.13}Erhaltung von Impuls und Drehimpuls}{25}
+\contentsline {subsubsection}{\numberline {4.13.1}N-Teilchensystem: }{26}

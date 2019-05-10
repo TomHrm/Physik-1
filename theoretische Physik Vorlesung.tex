@@ -95,6 +95,9 @@
 		Skalare sind dabei invariant unter Koordinatentransformation. (z.B: Masse, Ladung, Temperatur)\\
 		Ortsvektor $\vec{r}$, Geschwindigkeit $\vec{v} = \frac{d\vec{r}}{dt} = \frac{d^2\vec{r}}{dt^2} $\\
 		Vektoren haben eine Richtung und eine Länge.
+		\begin{center}
+			\includegraphics[scale=0.5]{IMG_F483D93DB640-1.jpeg}
+		\end{center}
 	\subsection{Formale Schreibweise Ableitungen}
 		Ableitung können sowas als $f`$ geschrieben werden als auch als $\dot{f}$ somit kann die Geschwindigkeit $\vec{v}$ als die Ableitung der Position ausgedrückt werden $\vec{v}$ = $\vec{\dot{x}}$.
 	\subsection{Drehung}
@@ -521,6 +524,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 										$ = rdrd_\varphi $
 									\end{minipage}
 								\end{figure}
+							\part{Vorlesung 7}
 							\subsection{Zylinderkoordianten}
 								Für Zylinderkoordinaten befinden wir uns im 3 Dimensionalen wie der name bereits vermuten lässt, $n=3$
 								\[ x = \rho cos \varphi \quad y = \rho sin \varphi \quad z = z \]
@@ -570,6 +574,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 							\begin{center}
 								\includegraphics[scale=0.5]{Weltkugel.png}
 							\end{center}
+						\part{Vorlesung 8}
 						\subsection{Spezielle Relativitätstheorie - Lorentstransformation}
 							Galilei$-$Transformationen in der Newton$^\prime$schen Mechanik fürhren zur Vektoraddition von Geschwindigkeiten: 
 							\[ \vec{ r}^\prime = \vec{ r} + \vec{ v}_0 * t + \vec{ r}_0 \Rightarrow \vec{ v}^\prime = 
@@ -754,7 +759,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 										\[ \text{Drehimpuls } \vec{L}:= m\vec{ r} \times \dot{\vec{ r}} = \vec{ r} \times \vec{p} \]
 								$\Rightarrow \dot{\vec{L}} = m \dot {\vec{r} \times \dot{\vec{r}}}_{= 0} + m \vec{ r} \times \ddot{\vec{r}} = \vec{r} \times \dot{\vec{p}} = \vec{ r} \times \vec{ F}$\\
 								Dieses Ergebnis der Umformung am Ende ist auch bekannt als Drehmoment.
-								\subsubsection{N-Teilchensystem:}
+								\subsubsection{N-Teilchensystem: }
 								$r_{jk} := |\vec{r}_j - \vec{r}_{k}| = r_{kj} $\\
 								Angemommen nur Zentralkräfte $\vec{F}_{jk}$ wirken von Teilchen $k$ auf Teilchen $j$.\\
 								$\Rightarrow \vec{ F}_{jk} = - \vec{F}_{jk}(r_{jk}) \frac{\vec{ r}_j - \vec{r}_k}{r_{jk}} $ \quad also $\dot{\vec{r}_j} = \sum_{k=1\\ k \neq j }^{N} \vec{ F}_{jk}	$\\
@@ -762,8 +767,10 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 								\[ \vec{ F}_{jk} = - \vec{ F}_{kj} \rightarrow \text{3. Newton$^\prime$ sche Axiom!} \]
 								Definiere:
 								\[ \vec{p} = \sum_{j} \dot{\vec{p}}_j  = \sum_{j \neq k} \vec{ F}_{jk} = 0  \]
+								$ \Rightarrow  \text{ Schwerpunkt } \vec{R} = \frac{I}{M} \sum_{\hat{j} = 1}^{N} m_j \vec{r}_j \text{ bewegt sich mit Geschwindigkeit	} $\\
+								\[ \vec{ v}= \dot{\vec{R}} = \frac{I}{M} \sum_{\hat{j} = 1}^{N} m_j  \vec{r}_j = \frac{1}{M} \sum \vec{p}_j = \frac{\vec{p}}{M} = const \]
 								Damit ist der Schwerpunkt $ \vec{R} =$
-								\[ \dot{\vec{L}} =  \dot{\vec{L}}_j =  \frac{1}{M}\sum_{j = 1}^{N} m_j \dot{\vec{r}}_j = \frac{1}{M} \sum \vec{p}_j = \frac{\vec{p}}{M} = const \]
+								\[ \dot{\vec{L}} = \sum_{j}  \dot{\vec{L}}_j  = \sum_{j} r \vec{ r}_j \times \sum_{k, k \neq j} \vec{F}_{j k} = \sum_{j \neq k} \frac{F_{jk} (r_{jk} } {r_{jk}} \vec{ r}_j \times (\vec{ r}_j - \vec{ r}_k) \]
 					
 					
 					

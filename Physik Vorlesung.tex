@@ -414,6 +414,7 @@
 						Wir nutzen nun die die Additionstheoreme.\\
 						\qquad $C \cdot sin(wt) \cdot cos \varphi_0  $\\
 						\qquad $C \cdot cos (wt) \cdot sin \varphi_0$\\
+					\end{itemize}
 						$ = \underbrace{C \cdot cos \varphi_0}_{A} \cdot sin (wt) + \underbrace{C \cdot sin \varphi_0}_{B} \cdot cos (wt) $
 						\[ \text{wir setzen die Dimension } [w] = \frac{1}{s} \text{ also die Kreisfrequenz} \]
 						$sin(wt) $\\
@@ -425,5 +426,81 @@
 						\qquad $ p_{(t)} - p_0 = \underbrace{\int_{t_0}^{t} \vec{F} dt}_{\text{Kraftstoß}} $
 						\subsection{Bsp. inelastischer Stoß}
 							\[ v^\prime =\frac{m_1}{m_1 + m_2} v_2 \]
-					
+					\part{Vorlesung 9}
+						\textbf{Wiederholung}\\
+							Man stelle sich vor man habe eine Kraft die proportional zu einer Auslenkung von der Ruhelage ist.
+							So hat man die Differentialgleichung einer Schwingung: $ \ddot{x} + w^2 x = 0 $
+							\[ x_{(t)} = A \cdot sin (wt) + B \cdot cos (wt) \] 
+					\subsection{Rakete}
+						\includegraphics[scale=0.60]{Rakete.png}\\
+						\textbf{Äußere Kraft:}\\
+						F = $\frac{d \vec{p}}{dt} = m \frac{d \vec{v}}{dt} - \frac{dm }{dt} \vec{v}_G$
+						\begin{tcolorbox}
+							\begin{align}
+								-mg = m \cdot \dot{\vec{v}} - \dot{m} \cdot \vec{v}_G
+							\end{align}
+							Wird nun mit $ \frac{dt}{m} $ multipliziert\\
+							Das ganze muss immer größer 0 sein. 
+						\end{tcolorbox}
+					\[\underbrace{ |\vec{v}_G| \cdot |\frac{dm}{dt}}_{Schubkraft} \text{ kleiner als } mg \]
+					\subsubsection{Lösung}
+						\[ -\sum_{t_0}^{t} g \cdot dt = \sum_{\vec{v}_0}^{\vec{v}_{(t)}} d\vec{v} - \sum_{m_{(t)}}^{m_0} \frac{dm}{m} \cdot \vec{v}_G = \]
+					\begin{tcolorbox}
+						\begin{align}
+						\vec{v}_{(t)} = \vec{v}_0 - g(t-t_0) + |\vec{v}_G| \cdot ln \frac{m_0}{m_{(t)}}
+						\end{align}
+					\end{tcolorbox}
+				\section{4.8 Energie}
+					\subsection{Arbeit}
+						Wir gucken uns zunächst die Arbeit für ein sehr kleines Stück eines Weges an.
+						\[ dW = \vec{F} \cdot d \vec{r} = F_r \cdot |d\vec{r}| \]
+						$ \int dW = \sum \vec{F} \cdot \vec{v} dt $ \qquad \qquad dabei ist $d\vec{r} = 
+						\left(\begin{array}{c}
+						dx \\ 
+						dy \\ 
+						dz
+						\end{array} \right)$\\
+						und $ \vec{v} = \frac{d\vec{r}}{dt} $\\\\
+						Es gibt aber noch die möglichkeit, die häufig auftritt und die Rechnung erheblich vereinfacht ist, dass:\\
+						$ \text{ falls } \alpha = const $\\
+						$ w = cos \alpha \int |\vec{F}| ds $
+							\subsubsection{Beispiel: Der Freie Fall}
+							Wir haben damit einen Punkt A und einen Punkt B wobei A höher liegt als B. die Distanz zwischen den beiden Punkten bezeichnen wir mit $h$.
+							\[ \vec{r}_A \left(\begin{array}{c}
+							0 \\ 
+							0 \\ 
+							h
+							\end{array} \right) \quad \vec{r}_B \left(\begin{array}{c}
+							0 \\ 
+							0 \\ 
+							0
+							\end{array} \right) \quad \left(\begin{array}{c}
+							0 \\ 
+							0 \\ 
+							dz
+							\end{array} \right) \quad \vec{F} = \left(\begin{array}{c}
+							0 \\ 
+							0 \\ 
+							-mg
+							\end{array} \right) \]
+							$ \Rightarrow W = \int_{\vec{r}_A}^{\vec{r}_0} \vec{F} d\vec{r} = - \int_{h}^{h} m\cdot g dz = - m\cdot g\cdot (0-h) = m \cdot g \cdot h $
+				\subsubsection{Bsp: Feder}
+					$ F = - kx $\\
+					$ \left[ W = \int \vec{F} d\vec{r} = \int_{x_0}^{0} F dx = -k \frac{x^2}{2} \right|^0_x_0  = \frac{1}{2} k x^2 \right]$
+				\subsubsection{Konstante Kraft}
+					$\vec{F} = konst$\\
+					\begin{itemize}
+						\item W = $\int_{A}^{B} \vec{F} d\vec{r} = \vec{F} \int_{A}^{B} d\vec{r} = \vec{F}( \vec{r}_B - \vec{r}_A )$\\
+						$r_B$ ist dabei der Endpunkt und logischerweise ist $r_A$ dann der Anfangspunkt.
+					\end{itemize}
+			\subsection{Konservative Kräfte}
+				Fast alle Kräfte in der Natur sind konservative Kräfte.
+				\begin{itemize}
+						\item $\vec{F}$ konstant
+						\item $\vec{F}$ Zentralkraft (F hängt nur von r ab also vom Zentrum der Kraft)
+				\end{itemize}
+				Es ist keine konservative Kraft, wenn diese von der Zeit oder von der Geschwindigkeit abhängt. Ein Beispiel für eine Kraft die von der Geschwindigkeit abhängt wäre beispielsweise die Reibung.\\\\
+				\textbf{Eine konservative Kraft W ist unabhängig vom Weg}
+				\subsubsection{Das gechlossendes Wegintegral}
+					$ \oint \vec{F} d\vec{r} = 0 $ für konservative Kräfte
 \end{document}

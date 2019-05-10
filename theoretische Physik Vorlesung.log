@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  7 MAY 2019 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  9 MAY 2019 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -664,13 +664,13 @@ LaTeX Font Info:    Try loading font information for U+esvect on input line 76.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-(./theoretische Physik Vorlesung.toc)
+(./theoretische Physik Vorlesung.toc [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2])
 \tf@toc=\write4
 \openout4 = `"theoretische Physik Vorlesung.toc"'.
 
- [1
-
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+ [3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
@@ -684,109 +684,107 @@ Overfull \hbox (31.79877pt too wide) in paragraph at lines 86--87
 rentz-Transformation und ki-ne-ma-ti-sche Kon-se-quen-zen, Minkowski-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
+<./images/IMG_F483D93DB640-1.jpeg, id=21, 625.33624pt x 501.875pt>
+File: ./images/IMG_F483D93DB640-1.jpeg Graphic file (type jpg)
+<use ./images/IMG_F483D93DB640-1.jpeg>
+Package pdftex.def Info: ./images/IMG_F483D93DB640-1.jpeg  used on input line 9
+9.
+(pdftex.def)             Requested size: 312.66736pt x 250.93687pt.
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
-<./images/vektorprodukt.png, id=26, 193.72375pt x 132.495pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+[5 <./images/IMG_F483D93DB640-1.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+[6]
+<./images/vektorprodukt.png, id=36, 193.72375pt x 132.495pt>
 File: ./images/vektorprodukt.png Graphic file (type png)
 <use ./images/vektorprodukt.png>
-Package pdftex.def Info: ./images/vektorprodukt.png  used on input line 191.
+Package pdftex.def Info: ./images/vektorprodukt.png  used on input line 194.
 (pdftex.def)             Requested size: 58.11757pt x 39.7488pt.
-<./images/vektorprodukt2.png, id=28, 239.89626pt x 156.585pt>
+<./images/vektorprodukt2.png, id=38, 239.89626pt x 156.585pt>
 File: ./images/vektorprodukt2.png Graphic file (type png)
 <use ./images/vektorprodukt2.png>
-Package pdftex.def Info: ./images/vektorprodukt2.png  used on input line 195.
+Package pdftex.def Info: ./images/vektorprodukt2.png  used on input line 198.
 (pdftex.def)             Requested size: 71.96942pt x 46.97586pt.
-[4 <./images/vektorprodukt.png> <./images/vektorprodukt2.png>]
-<./images/komponentendarstellung.png, id=35, 224.84pt x 171.64125pt>
+ [7 <./images/vektorprodukt.png> <./images/vektorprodukt2.png>]
+<./images/komponentendarstellung.png, id=46, 224.84pt x 171.64125pt>
 File: ./images/komponentendarstellung.png Graphic file (type png)
 <use ./images/komponentendarstellung.png>
 Package pdftex.def Info: ./images/komponentendarstellung.png  used on input lin
-e 217.
+e 220.
 (pdftex.def)             Requested size: 101.17706pt x 77.23784pt.
-<./images/Komponentendarstellung2.png, id=36, 663.47874pt x 342.27875pt>
+<./images/Komponentendarstellung2.png, id=47, 663.47874pt x 342.27875pt>
 File: ./images/Komponentendarstellung2.png Graphic file (type png)
 <use ./images/Komponentendarstellung2.png>
 Package pdftex.def Info: ./images/Komponentendarstellung2.png  used on input li
-ne 221.
+ne 224.
 (pdftex.def)             Requested size: 265.3868pt x 136.90906pt.
-<./images/1000px-Parallelepiped2.png, id=37, 1003.75pt x 566.115pt>
+<./images/1000px-Parallelepiped2.png, id=48, 1003.75pt x 566.115pt>
 File: ./images/1000px-Parallelepiped2.png Graphic file (type png)
 <use ./images/1000px-Parallelepiped2.png>
 Package pdftex.def Info: ./images/1000px-Parallelepiped2.png  used on input lin
-e 225.
+e 228.
 (pdftex.def)             Requested size: 301.12732pt x 169.8358pt.
- [5 <./images/komponentendarstellung.png> <./images/Komponentendarstellung2.png
->] [6 <./images/1000px-Parallelepiped2.png>]
-<./images/Vektorfunktionen.png, id=49, 206.7725pt x 153.57375pt>
+ [8 <./images/komponentendarstellung.png> <./images/Komponentendarstellung2.png
+> <./images/1000px-Parallelepiped2.png>]
+<./images/Vektorfunktionen.png, id=57, 206.7725pt x 153.57375pt>
 File: ./images/Vektorfunktionen.png Graphic file (type png)
 <use ./images/Vektorfunktionen.png>
-Package pdftex.def Info: ./images/Vektorfunktionen.png  used on input line 261.
+Package pdftex.def Info: ./images/Vektorfunktionen.png  used on input line 264.
 
 (pdftex.def)             Requested size: 103.38599pt x 76.78668pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
  []
 
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 258--269
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 261--272
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--272
+Underfull \hbox (badness 10000) in paragraph at lines 259--275
 
  []
 
-<./images/integral.png, id=50, 1927.2pt x 1694.33pt>
+[9 <./images/Vektorfunktionen.png>]
+<./images/integral.png, id=62, 1927.2pt x 1694.33pt>
 File: ./images/integral.png Graphic file (type png)
 <use ./images/integral.png>
-Package pdftex.def Info: ./images/integral.png  used on input line 275.
+Package pdftex.def Info: ./images/integral.png  used on input line 278.
 (pdftex.def)             Requested size: 96.36565pt x 84.72145pt.
-<./images/Integrationbeispiel.png, id=51, 677.53125pt x 466.74374pt>
+<./images/Integrationbeispiel.png, id=63, 677.53125pt x 466.74374pt>
 File: ./images/Integrationbeispiel.png Graphic file (type png)
 <use ./images/Integrationbeispiel.png>
 Package pdftex.def Info: ./images/Integrationbeispiel.png  used on input line 2
-83.
+86.
 (pdftex.def)             Requested size: 304.88625pt x 210.03275pt.
 
-Overfull \hbox (134.16972pt too wide) in paragraph at lines 283--284
+Overfull \hbox (134.16972pt too wide) in paragraph at lines 286--287
  [][] 
  []
 
-[7 <./images/Vektorfunktionen.png> <./images/integral.png>]
-<./images/Differentialrechnung.png, id=58, 377.41pt x 231.86626pt>
+[10 <./images/integral.png> <./images/Integrationbeispiel.png>]
+<./images/Differentialrechnung.png, id=69, 377.41pt x 231.86626pt>
 File: ./images/Differentialrechnung.png Graphic file (type png)
 <use ./images/Differentialrechnung.png>
 Package pdftex.def Info: ./images/Differentialrechnung.png  used on input line 
-305.
+308.
 (pdftex.def)             Requested size: 150.96132pt x 92.74484pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 302--312
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 305--315
 [][]  [] 
- []
-
-[8 <./images/Integrationbeispiel.png> <./images/Differentialrechnung.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--327
-
  []
 
 
@@ -795,244 +793,260 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--328
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--354
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 354--359
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--368
+[11 <./images/Differentialrechnung.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 353--357
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--376
+Underfull \hbox (badness 10000) in paragraph at lines 357--362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--383
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--391
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 392--397
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 399--403
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 428--430
+Underfull \hbox (badness 10000) in paragraph at lines 368--371
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 456--458
+Underfull \hbox (badness 10000) in paragraph at lines 373--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--379
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--386
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--406
 
  []
 
 [13]
-<./images/screenshot001.png, id=83, 389.455pt x 279.0425pt>
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 459--461
+
+ []
+
+[16]
+<./images/screenshot001.png, id=93, 389.455pt x 279.0425pt>
 File: ./images/screenshot001.png Graphic file (type png)
 <use ./images/screenshot001.png>
-Package pdftex.def Info: ./images/screenshot001.png  used on input line 479.
+Package pdftex.def Info: ./images/screenshot001.png  used on input line 482.
 (pdftex.def)             Requested size: 136.31128pt x 97.66634pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 476--486
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 479--489
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--487
+Underfull \hbox (badness 10000) in paragraph at lines 476--490
 
  []
 
-[14 <./images/screenshot001.png>]
-<./images/screenshot002.png, id=88, 225.84375pt x 176.66pt>
+[17 <./images/screenshot001.png>]
+<./images/screenshot002.png, id=98, 225.84375pt x 176.66pt>
 File: ./images/screenshot002.png Graphic file (type png)
 <use ./images/screenshot002.png>
-Package pdftex.def Info: ./images/screenshot002.png  used on input line 514.
+Package pdftex.def Info: ./images/screenshot002.png  used on input line 517.
 (pdftex.def)             Requested size: 112.92159pt x 88.32977pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 511--523
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 514--526
 [][]  [] 
  []
 
-<./images/screenshot3.png, id=89, 216.81pt x 262.9825pt>
+<./images/screenshot3.png, id=99, 216.81pt x 262.9825pt>
 File: ./images/screenshot3.png Graphic file (type png)
 <use ./images/screenshot3.png>
-Package pdftex.def Info: ./images/screenshot3.png  used on input line 532.
+Package pdftex.def Info: ./images/screenshot3.png  used on input line 536.
 (pdftex.def)             Requested size: 108.40472pt x 131.49092pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 529--541
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 533--545
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--545
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
 
  []
 
-[15 <./images/screenshot002.png> <./images/screenshot3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
 
  []
 
-<./images/screenshot004.png, id=95, 579.16376pt x 448.67625pt>
+[18 <./images/screenshot002.png> <./images/screenshot3.png>]
+<./images/screenshot004.png, id=105, 579.16376pt x 448.67625pt>
 File: ./images/screenshot004.png Graphic file (type png)
 <use ./images/screenshot004.png>
-Package pdftex.def Info: ./images/screenshot004.png  used on input line 556.
+Package pdftex.def Info: ./images/screenshot004.png  used on input line 560.
 (pdftex.def)             Requested size: 289.58116pt x 224.33757pt.
-[16 <./images/screenshot004.png>]
-<./images/Weltkugel.png, id=101, 539.01375pt x 436.63126pt>
+ [19 <./images/screenshot004.png>]
+<./images/Weltkugel.png, id=112, 539.01375pt x 436.63126pt>
 File: ./images/Weltkugel.png Graphic file (type png)
 <use ./images/Weltkugel.png>
-Package pdftex.def Info: ./images/Weltkugel.png  used on input line 571.
+Package pdftex.def Info: ./images/Weltkugel.png  used on input line 575.
 (pdftex.def)             Requested size: 269.50621pt x 218.3151pt.
-<./images/michelsan.png, id=102, 698.61pt x 224.84pt>
+<./images/michelsan.png, id=113, 698.61pt x 224.84pt>
 File: ./images/michelsan.png Graphic file (type png)
 <use ./images/michelsan.png>
-Package pdftex.def Info: ./images/michelsan.png  used on input line 580.
+Package pdftex.def Info: ./images/michelsan.png  used on input line 585.
 (pdftex.def)             Requested size: 349.30414pt x 112.41972pt.
- [17 <./images/Weltkugel.png> <./images/michelsan.png>]
-<./images/Inertialsystem1.png, id=108, 424.58624pt x 100.375pt>
+ [20 <./images/Weltkugel.png> <./images/michelsan.png>]
+<./images/Inertialsystem1.png, id=119, 424.58624pt x 100.375pt>
 File: ./images/Inertialsystem1.png Graphic file (type png)
 <use ./images/Inertialsystem1.png>
-Package pdftex.def Info: ./images/Inertialsystem1.png  used on input line 597.
+Package pdftex.def Info: ./images/Inertialsystem1.png  used on input line 602.
 (pdftex.def)             Requested size: 212.2926pt x 50.18736pt.
-<./images/Beobachterquelle.png, id=109, 370.38374pt x 89.33376pt>
+<./images/Beobachterquelle.png, id=120, 370.38374pt x 89.33376pt>
 File: ./images/Beobachterquelle.png Graphic file (type png)
 <use ./images/Beobachterquelle.png>
-Package pdftex.def Info: ./images/Beobachterquelle.png  used on input line 602.
+Package pdftex.def Info: ./images/Beobachterquelle.png  used on input line 607.
 
 (pdftex.def)             Requested size: 185.1914pt x 44.66676pt.
-<./images/Lichtgeschwindigkeit2.png, id=110, 169.63374pt x 136.51pt>
+<./images/Lichtgeschwindigkeit2.png, id=121, 169.63374pt x 136.51pt>
 File: ./images/Lichtgeschwindigkeit2.png Graphic file (type png)
 <use ./images/Lichtgeschwindigkeit2.png>
 Package pdftex.def Info: ./images/Lichtgeschwindigkeit2.png  used on input line
- 614.
+ 619.
 (pdftex.def)             Requested size: 84.81665pt x 68.25482pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 611--623
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 616--628
 [][]  [] 
  []
 
-[18 <./images/Inertialsystem1.png> <./images/Beobachterquelle.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 634--640
+[21 <./images/Inertialsystem1.png> <./images/Beobachterquelle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 639--645
 
  []
 
-[19 <./images/Lichtgeschwindigkeit2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 681--684
+[22 <./images/Lichtgeschwindigkeit2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 686--689
 
  []
 
-[20]
-<./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png, id=124, 606.265pt 
+[23]
+<./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png, id=134, 606.265pt 
 x 290.08376pt>
 File: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png Graphic file (
 type png)
 <use ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png>
 Package pdftex.def Info: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1
-.png  used on input line 698.
+.png  used on input line 703.
 (pdftex.def)             Requested size: 242.5017pt x 116.03143pt.
-<./images/Mathependell.png, id=125, 237.88875pt x 182.6825pt>
+<./images/Mathependell.png, id=135, 237.88875pt x 182.6825pt>
 File: ./images/Mathependell.png Graphic file (type png)
 <use ./images/Mathependell.png>
-Package pdftex.def Info: ./images/Mathependell.png  used on input line 714.
+Package pdftex.def Info: ./images/Mathependell.png  used on input line 719.
 (pdftex.def)             Requested size: 118.94408pt x 91.34102pt.
 
-Overfull \hbox (88.0763pt too wide) in paragraph at lines 711--723
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 716--728
 [][]  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--730
+Underfull \hbox (badness 10000) in paragraph at lines 733--735
 
  []
 
-[21 <./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png (PNG copy)> <./
+[24 <./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png (PNG copy)> <./
 images/Mathependell.png>]
 
-LaTeX Warning: Command \ss invalid in math mode on input line 735.
+LaTeX Warning: Command \ss invalid in math mode on input line 740.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 751--754
+Underfull \hbox (badness 10000) in paragraph at lines 756--759
 
  []
 
-[22] [23] (./theoretische Physik Vorlesung.aux) ) 
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 769--771
+
+ []
+
+[26] (./theoretische Physik Vorlesung.aux) ) 
 Here is how much of TeX's memory you used:
- 15078 strings out of 492649
- 285963 string characters out of 6129622
- 403649 words of memory out of 5000000
- 18620 multiletter control sequences out of 15000+600000
+ 15084 strings out of 492649
+ 286137 string characters out of 6129622
+ 396649 words of memory out of 5000000
+ 18624 multiletter control sequences out of 15000+600000
  14756 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,63p,487b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb>
-Output written on "theoretische Physik Vorlesung.pdf" (23 pages, 1460181 bytes)
+</usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb>
+Output written on "theoretische Physik Vorlesung.pdf" (26 pages, 1598786 bytes)
 .
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
+ 209 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
