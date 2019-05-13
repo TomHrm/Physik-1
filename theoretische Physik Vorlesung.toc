@@ -78,3 +78,4 @@
 \contentsline {subsection}{\numberline {4.12}Energie-Erhaltung}{25}
 \contentsline {subsection}{\numberline {4.13}Erhaltung von Impuls und Drehimpuls}{25}
 \contentsline {subsubsection}{\numberline {4.13.1}N-Teilchensystem: }{26}
+\contentsline {subsection}{\numberline {4.14}Zweiteilchensystem}{26}

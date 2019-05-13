@@ -771,7 +771,19 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 								\[ \vec{ v}= \dot{\vec{R}} = \frac{I}{M} \sum_{\hat{j} = 1}^{N} m_j  \vec{r}_j = \frac{1}{M} \sum \vec{p}_j = \frac{\vec{p}}{M} = const \]
 								Damit ist der Schwerpunkt $ \vec{R} =$
 								\[ \dot{\vec{L}} = \sum_{j}  \dot{\vec{L}}_j  = \sum_{j} r \vec{ r}_j \times \sum_{k, k \neq j} \vec{F}_{j k} = \sum_{j \neq k} \frac{F_{jk} (r_{jk} } {r_{jk}} \vec{ r}_j \times (\vec{ r}_j - \vec{ r}_k) \]
-					
+								\[ = - \sigma_{\hat{j} \neq k } \frac{F_{jk} (r_{jk}) }{r_{jk}} \vec{r}_j \times \vec{ r}_k = 0 \text{ weil } \vec{ r}_j \times \vec{ r}_k = - \vec{ r}_k \times \vec{ r}_j \]
+							\subsection{Zweiteilchensystem}
+								\textbf{Definiere:}\\
+								\[ \vec{ r} = \vec{ r}_{12} = \vec{ r}_1 - \vec{ r}_2 = \text{ Relativkoordinate } \]
+							$ M = m_1 + m_2 = \text{ Gesamtmasse}  \quad M = \frac{m_1 m_2}{m_1+ m_2} = \text{ steht für die reduzierte Masse}}$\\
+							\[ \vec{R} = \frac{1}{M}(m_1 \vec{ r}_i + m_2 \vec{ r}_2) \text{Steht für den Schwerpunkt} \]
+							Damit gilt
+							\[ \vec{F}(\vec{r}) :=  \underbrace{\vec{F}_{12} }_{\text{ Zentralkraft }} = F(r) = F(r) \hat{\vec{r}} \]
+							Nun können wir eine Bewegungsgleichung aufstellen. Dies tuen wir indem wir einfach die normale Bewegungsgleichung für Zweiteilchensysteme nehmen.
+							\[ m_1 \ddot{r}_1 = \vec{F}_{12} \qquad m_2 \ddot{r}_2 = \vec{F}_{21}  \]
+							$ \Rightarrow = 0 \text{ wie im N-Körpersystem } $\\
+							\[ \ddot{\vec{r}} =\ddot{\vec{ r}}_1 - \ddot{\vec{ r }}_2 = \frac{1}{m_1} \vec{ F}_{12} - \frac{1}{m_2} \vec{F}_{21} = \left( \frac{1}{m_1} + \frac{1}{m_2} \right) \vec{F}(\vec{r}) \]
+							$ \Rightarrow $
 					
 					
 					
