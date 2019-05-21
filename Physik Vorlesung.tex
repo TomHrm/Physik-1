@@ -52,7 +52,8 @@
 	}}}%
 	#2%
 }
-\makeatother
+
+\newtheorem{theorem}{Theorem}
 
 % --- Override \vec with an invocation of \xvec.
 \let\stdvec\vec
@@ -421,9 +422,11 @@
 						Ich überspringe einfach mal die weitere Herleitung:
 						\[ w = \frac{2 \pi}{T} \qquad w= \sqrt{\frac{g}{l}} \text{ bzw. } \sqrt{\frac{k}{m}} \qquad [w] = \left( \frac{m}{s^2 m} \right)^\frac{1}{2} = \frac{1}{s} \]
 					\section{4.7 Variable Masse}
-						$\frac{d \vec{p}}{dt} = \vec{F} \qquad \Rightarrow \qquad d\vec{p} = \vec{F} dt$
-						\qquad $\int _{p_0}^{p(t)} d\vec{p} = \int_{t_0}^{t} \vec{F} dt$\\
-						\qquad $ p_{(t)} - p_0 = \underbrace{\int_{t_0}^{t} \vec{F} dt}_{\text{Kraftstoß}} $
+						\begin{align*}
+							\frac{d \vec{p}}{dt} &= \vec{F} \Rightarrow \vec{p} = \vec{F} dt\\
+							 &= \int _{p_0}^{p(t)} d\vec{p} = \int_{t_0}^{t} \vec{F} dt\\
+							&=  p_{(t)} - p_0 = \underbrace{\int_{t_0}^{t} \vec{F} dt}_{\text{Kraftstoß}} 
+						\end{align*}
 						\subsection{Bsp. inelastischer Stoß}
 							\[ v^\prime =\frac{m_1}{m_1 + m_2} v_2 \]
 					\part{Vorlesung 9}
@@ -503,4 +506,105 @@
 				\textbf{Eine konservative Kraft W ist unabhängig vom Weg}
 				\subsubsection{Das gechlossendes Wegintegral}
 					$ \oint \vec{F} d\vec{r} = 0 $ für konservative Kräfte
+\part{Vorlesung 10}
+	\textbf{Arbeit:}
+	\begin{align*}
+		dW &= \vec{F} d\vec{s}\\
+		W &= \int \vec{F} d\vec{s} = \int \vec{F} \vec{v} dt
+	\end{align*}
+		\section{4.9 Potentielle Energie & Potential}
+			Wenn wir einen Weg haben mit einem start und einem Endpunkt, dann ist der Weg als Arbeit definiert.\\
+			So haben sowohl anfangs als auch endpunkt eine Potentielle Energie.
+			\begin{align*}
+				W = \int_{A}^{B} \vec{F} d\vec{r} = E_{Pot, A} - E_{Pot, B}
+			\end{align*}
+	Dazu machen wir jetzt noch ein Paar Beispiele. Was man noch anmerken kann ist, dass Potentielle Energie nur für konservative Kräfte formuliert ist, durch einfache überlegungen dürfte dies auch klar werden.\\
+	Wie bereits bekannt ist die Potentielle Energie:
+	\[ E_{Pot} = m \cdot g \cdot h \]
+	\subsection{Beispiel}
+		\begin{align*}
+			E_{Pot(h)} - \underbrace{E_{Pot, (0)}} }_{ E_{Pot(h=0)= 0} } = W = m\cdot g \cdot h
+		\end{align*}
+		\subsection{Gravitation}
+		\begin{align*}
+			\vec{F} &= -G \frac{m_1 m_2}{r_{12}^2} \frac{\vec{r}_{12}}{r_{12}}\\
+			E_{pot}(r = 0) - E_{Pot}(r) &= - \int G\frac{m_1 m_2}{r^2}dr = G \frac{m_1 m_2}{r}
+		\end{align*}
+		\begin{theorem}
+			\[E_{Pot (r)}= - G \frac{m_1 m_2}{r} \]
+		\end{theorem}
+		Die Potentielle Energie ist also immer negativ für eine \textbf{Anziehende Kraft}.
+		\begin{theorem}
+			\[V_{(r)} = - G \frac{m_1}{r} \]
+		\end{theorem}
+	Nun stellen wir uns die Frage wie man das ganze Rückwärts machen würde oder ob das überhaupt möglich ist. Die Antwort ist ja, es geht.
+	\subsection{Von Potentieller Energie auf Engergie schließen}
+		\[ \vec{F} \rightarrow E_{pot} \]
+		$E_{pot, B} - E_{pot-A} = \int_{A}^{B} F_x dx  $\\
+		$ dF_{pot} = - F_x dx $\\
+		$ F_x= -\frac{dE_{pot}}{dx}$
+		\begin{theorem}
+			\begin{align*}
+				\vec{F}= - \nabla E_{pot(\vec{r}) }
+			\end{align*}
+			Ableitung des Potentials ist die Kraft.
+		\end{theorem}
+	\subsection{kinetische Energie}
+		\begin{theorem}
+		\begin{align*}
+			\frac{1}{2}m v ^2
+		\end{align*}
+				Wie bereits bekannt ist wird so die Potentielle Energie definiert. Es gibt viele verschiedene Möglichkeiten dies zu beweisen. Folgendes st eine Möglichkeit die wir in der Vorlesung genutzt haben.
+		\end{theorem}
+			\begin{proof}
+				I\begin{align*}
+				F_T = m \frac{dv}{dt}\\
+				\vec{F} d\vec{r} = F_T ds &= m \frac{dv}{dt} ds\\
+				&= m = \frac{ds}{dt}dv\\
+				&= m \cdot v dv\\
+				W = \int_{A}^{B} \vec{F} d\vec{r} = \int_{V_A}^{V_B} m \cdot v dv = \frac{1}{2}mv^2 |_{V_a}^V_B\\
+				= \frac{1}{2} m \left( \vec{v}_B^2 - \vec{v}_A^2 \right)\\
+				E_{kin} = \frac{1}{2} m \vec{v}^2 = \frac{\vec{p}^2}{2m}\\
+				W = E_{kin, B}E_{kin, A}
+				\end{align*}
+			\end{proof}
+ 			\subsection{Energieerhaltung}
+ 				$ W = E_{kin, B} - E_{kin, A} $\\
+ 			$	W = E_{pot, A} - E_{pot, B} $
+ 			\begin{theorem}
+ 				\begin{align*}
+ 					E := E_{pot, A} + E_{pot, A} = E_{pot, B} + E_{pot, B}
+ 				\end{align*}
+ 			\end{theorem}
+ 		Ein Gutes Beispiel dafür wäre mal wieder eine Feder.
+		\subsection{4.10 Drehbewegung}
+			"Drehmoment ist das was das Drehmoment ändert."
+	\begin{align*}
+		\vec{r}_{(t)} = R \left( \begin{matrix}
+		cos (wt)\\
+		sin(wt)
+		\end{matrix} \right)
+	\end{align*}
+	Damit definieren wir nun die Winkelgeschwindigkeit:\\
+	\begin{theorem}
+		$w = \dot{\varphi}$\\
+		Die Winkelgeschwindkeit sagt also aus wie viel sich der Winkel ändert
+	\end{theorem}
+\begin{align*}
+		\vec{v}_{(t)} = \dot{\vec{r}} = \dot{\varphi} R \begin{matrix}
+		-sin \varphi\\
+		cos \varphi
+		\end{matrix}\\
+		\vec{v} = \vec{w} \times \vec{r}\\
+		\vec{a} = \dot{\vec{v}} = \ddot{\varphi} R \begin{matrix}
+		-sin \varphi\\
+		cos \varphi
+		\end{matrix} + \underbrace{\dot{\varphi}^2}_{w^2} R \underbrace{\left(\begin{matrix}
+		- cos \varphi\\
+		- sin \varphi
+		\end{matrix}\right)}_{-\vec{v}}\\
+	=\vec{a} = \underbrace{\dot{w} R \vec{e}_v}_{ \text{erhöht Rotationsgeschwindigkeit} } - \underbrace{w^2 \cdot r}_{ \text{Zentripetalkraft nach innen} }
+\end{align*}
+	
+	
 \end{document}

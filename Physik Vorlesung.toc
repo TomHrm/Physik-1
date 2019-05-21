@@ -1,0 +1,64 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einf\IeC {\"u}hrung}{4}
+\contentsline {subsection}{\numberline {1.1}\IeC {\"U}bungsgruppen}{4}
+\contentsline {subsection}{\numberline {1.2}Klausurbonus}{4}
+\contentsline {subsection}{\numberline {1.3}Buchempfehlungen}{4}
+\contentsline {part}{I\hspace {1em}Vorlesung 1}{4}
+\contentsline {section}{\numberline {2}Was ist Experimentalpyhsik?}{4}
+\contentsline {section}{\numberline {3}Was macht ein gutes Experiment aus?}{4}
+\contentsline {section}{\numberline {4}SI-Einheiten}{4}
+\contentsline {subsection}{\numberline {4.1}Dimension}{5}
+\contentsline {part}{II\hspace {1em}Vorlesung 2}{5}
+\contentsline {section}{\numberline {5}Wiederholung}{5}
+\contentsline {subsection}{\numberline {5.1}Definitionen}{5}
+\contentsline {section}{\numberline {6}Kinematik des Massenpunktes}{5}
+\contentsline {subsection}{\numberline {6.1}Behauptung}{6}
+\contentsline {subsection}{\numberline {6.2}1-dimensionale Bewegung}{6}
+\contentsline {part}{III\hspace {1em}Vorlesung 3}{7}
+\contentsline {section}{\numberline {7}3.3.4 Spezialf\IeC {\"a}lle}{8}
+\contentsline {subsection}{\numberline {7.1}Gleichf\IeC {\"o}rmige Bewegung}{8}
+\contentsline {subsection}{\numberline {7.2}konstante Beschleunigung}{8}
+\contentsline {section}{\numberline {8}3.4 3-Dimensionale Bewegung (Vektoren)}{8}
+\contentsline {part}{IV\hspace {1em}Vorlesung 4}{8}
+\contentsline {part}{V\hspace {1em}Vorlesung 5}{12}
+\contentsline {section}{\numberline {9}Newton Axiome}{12}
+\contentsline {section}{\numberline {10}Inertialsysteme}{12}
+\contentsline {section}{\numberline {11}Gravitation}{12}
+\contentsline {subsection}{\numberline {11.1}Erdbeschleunigung}{12}
+\contentsline {section}{\numberline {12}Tr\mathaccentV {ddot}07F{a}ge und schwere Masse}{13}
+\contentsline {part}{VI\hspace {1em}Vorlesung 6}{13}
+\contentsline {section}{\numberline {13}Impulserhaltung}{14}
+\contentsline {subsection}{\numberline {13.1}Federn}{14}
+\contentsline {subsubsection}{\numberline {13.1.1}Hook'sches Gesetz}{14}
+\contentsline {subsubsection}{\numberline {13.1.2}Taylorentwicklung}{14}
+\contentsline {subsubsection}{\numberline {13.1.3}Seilspannung}{16}
+\contentsline {section}{\numberline {14}Reibung}{16}
+\contentsline {subsubsection}{\numberline {14.0.1}Stokes Reibung}{16}
+\contentsline {subsubsection}{\numberline {14.0.2}Newton-Reibung}{17}
+\contentsline {part}{VII\hspace {1em}Vorlesung 8}{17}
+\contentsline {subsection}{\numberline {14.1}Wiederholung}{17}
+\contentsline {section}{\numberline {15}Schwingungen}{17}
+\contentsline {subsection}{\numberline {15.1}Harmonischer Oszilator}{17}
+\contentsline {subsubsection}{\numberline {15.1.1}Pendel}{17}
+\contentsline {subsection}{\numberline {15.2}allgemeine L\IeC {\"o}sung harmonischer Oszilator:}{18}
+\contentsline {subsubsection}{\numberline {15.2.1}Anfangsbedingungen}{18}
+\contentsline {section}{\numberline {16}4.7 Variable Masse}{19}
+\contentsline {subsection}{\numberline {16.1}Bsp. inelastischer Sto\IeC {\ss }}{19}
+\contentsline {part}{VIII\hspace {1em}Vorlesung 9}{19}
+\contentsline {subsection}{\numberline {16.2}Rakete}{20}
+\contentsline {subsubsection}{\numberline {16.2.1}L\IeC {\"o}sung}{20}
+\contentsline {section}{\numberline {17}4.8 Energie}{20}
+\contentsline {subsection}{\numberline {17.1}Arbeit}{20}
+\contentsline {subsubsection}{\numberline {17.1.1}Beispiel: Der Freie Fall}{21}
+\contentsline {subsubsection}{\numberline {17.1.2}Bsp: Feder}{21}
+\contentsline {subsubsection}{\numberline {17.1.3}Konstante Kraft}{21}
+\contentsline {subsection}{\numberline {17.2}Konservative Kr\IeC {\"a}fte}{21}
+\contentsline {subsubsection}{\numberline {17.2.1}Das gechlossendes Wegintegral}{21}
+\contentsline {part}{IX\hspace {1em}Vorlesung 10}{21}
+\contentsline {section}{\numberline {18}4.9 Potentielle Energie & Potential}{22}
+\contentsline {subsection}{\numberline {18.1}Beispiel}{22}
+\contentsline {subsection}{\numberline {18.2}Gravitation}{22}
+\contentsline {subsection}{\numberline {18.3}Von Potentieller Energie auf Engergie schlie\IeC {\ss }en}{23}
+\contentsline {subsection}{\numberline {18.4}kinetische Energie}{23}
+\contentsline {subsection}{\numberline {18.5}Energieerhaltung}{23}
+\contentsline {subsection}{\numberline {18.6}4.10 Drehbewegung}{24}
