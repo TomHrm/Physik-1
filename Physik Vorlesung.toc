@@ -62,3 +62,11 @@
 \contentsline {subsection}{\numberline {18.4}kinetische Energie}{23}
 \contentsline {subsection}{\numberline {18.5}Energieerhaltung}{23}
 \contentsline {subsection}{\numberline {18.6}4.10 Drehbewegung}{24}
+\contentsline {part}{X\hspace {1em}Vorlesung 11}{24}
+\contentsline {part}{XI\hspace {1em}Vorlesung 12}{26}
+\contentsline {subsection}{\numberline {18.7}4.11 Drehmomente}{26}
+\contentsline {section}{\numberline {19}Scheinkr\IeC {\"a}fte}{26}
+\contentsline {section}{\numberline {20}6 Zweiteilchen Systeme}{26}
+\contentsline {subsection}{\numberline {20.1}Schwerpunktsystem und Relativsystem}{26}
+\contentsline {subsection}{\numberline {20.2}Rechnung}{27}
+\contentsline {subsection}{\numberline {20.3}Gesamtimpuls}{27}

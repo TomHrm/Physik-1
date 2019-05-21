@@ -775,7 +775,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 							\subsection{Zweiteilchensystem}
 								\textbf{Definiere:}\\
 								\[ \vec{ r} = \vec{ r}_{12} = \vec{ r}_1 - \vec{ r}_2 = \text{ Relativkoordinate } \]
-							$ M = m_1 + m_2 = \text{ Gesamtmasse}  \quad M = \frac{m_1 m_2}{m_1+ m_2} = \text{ steht für die reduzierte Masse}}$\\
+							$ M = m_1 + m_2 = \text{ Gesamtmasse}  \quad M = \frac{m_1 m_2}{m_1+ m_2} = \text{ steht für die reduzierte Masse}$\\
 							\[ \vec{R} = \frac{1}{M}(m_1 \vec{ r}_i + m_2 \vec{ r}_2) \text{Steht für den Schwerpunkt} \]
 							Damit gilt
 							\[ \vec{F}(\vec{r}) :=  \underbrace{\vec{F}_{12} }_{\text{ Zentralkraft }} = F(r) = F(r) \hat{\vec{r}} \]
@@ -783,10 +783,64 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 							\[ m_1 \ddot{r}_1 = \vec{F}_{12} \qquad m_2 \ddot{r}_2 = \vec{F}_{21}  \]
 							$ \Rightarrow = 0 \text{ wie im N-Körpersystem } $\\
 							\[ \ddot{\vec{r}} =\ddot{\vec{ r}}_1 - \ddot{\vec{ r }}_2 = \frac{1}{m_1} \vec{ F}_{12} - \frac{1}{m_2} \vec{F}_{21} = \left( \frac{1}{m_1} + \frac{1}{m_2} \right) \vec{F}(\vec{r}) \]
-							$ \Rightarrow $
-					
-					
-					
+							$ \Rightarrow \mu \ddot{\vec{r}}_1	 = \vec{F}(\vec{r}) $\\
+							Ferner:\\
+							\[ \vec{'L}_{total} = \vec{L} _1 + \vec{L}_2 = \vec{L}_s + \vec{L}\]
+							wobei 
+							\[ \vec{L}_s = M \vec{R}\times \dot{\vec{R}} = \vec{R} \times \vec{p} = \text{ Drehimpuls der Schwerpunktbewegung} \]
+							und 
+							\[ \vec{L} = \vec{r} \times \vec{p} = \mu \vec{r} \times  \dot{\vec{r}} = \text{ relativ Drehimpuls} \]
+							
+							
+							
+						\section{Keplerproblem}
+							\subsection{Zentralkraftfelder}
+								Potential $ V(\vec{r}) = V(r) $\\
+							$\vec{F}(\vec{ r }) = - \vec{\nabla} V(r) = - \frac{dV}{dr} \vec{e}_r \qquad \vec{e}_r  = \frac{\vec{ r}}{r} $\\
+							Erhaltungsgrößen:
+							\[ F = E_{kin} + E_{pot} = \frac{m}{2} (\dot{\vec{ r }})^2 + E(\vec{ r }) \] ist dann die Energie
+							\[ \vec{L} = \vec{ r }\times \vec{p} = m \vec{ r } \times \dot{\vec{ r}} \]
+							\begin{align*}
+								\dot{\vec{L}} = m \dot{\vec{ r }} \times \dot{\vec{ r }} + m \vec{ r } \times \ddot{\vec{ r }} = \vec{0} = 0
+							\end{align*}
+							Die Newtonsche Kraft entspricht dann: $ m \ddot{\vec{ r }}  = \vec{ F} (\vec{ r }) = F(r)\vec{e}_r$\\
+							Ebene Polarkoordinaten: $ \dot{\vec{ r }}  = \dot{r} \vec{e}_r + r \dot{\varphi} \vec{e}_\varphi $ 
+							\begin{align*}
+								\Rightarrow E = \frac{m}{2}(\dot{r} \vec{e}_r + r \dot{\varphi} \vec{e}_\varphi) ^2 + E_{pot} (r) = \frac{m}{2}(\dot{r}^2+ r^2 \dot{\varphi}^2) + E_{pot}(r)\\
+								\vec{L} = m \vec{r}x (\dot{r\vec{e}_r} + r \dot{\varphi} \vec{e}_r) = mr\dot{\varphi}\vec{r} \times \vec{e}_\varphi \underbrace{= }_{\vec{r} = r \vec{e}_r} mr^2 \dot{\varphi} \underbrace{\vec{e}_r \times \vec{e}_\varphi}_{\vec{e}_z} = mr^2 \dot{\varphi} \vec{e}_z\\
+								\vec{L}^2 = L^2 = (mr^2 \dot{\varphi})^2 = const \Rightarrow mr^2\dot{\varphi} = const = L \Rightarrow \frac{L}{mr^2}\\
+								\Rightarrow E = \frac{m}{2} \dot{r}^2 + \frac{L^2}{2mr^2} + E_{pot} (r)= \frac{m}{2} \dot{r}^2 + V_{eff}(r)\\
+								V_{eff}(r) = E_{pot}(r) + \underbrace{\frac{L^2}{2mr^2}}_{\text{Drehimpulsbarriere}}\\
+								E= const \Rightarrow \dot{r} = \frac{dr}{dt} = \pm \sqrt{\frac{2}{m} (E - V_{eff}(r))} \qquad \textbf{(1)}\\
+								\Rightarrow \dot{\varphi} = \frac{L}{mr^2} \qquad \textbf{(2)}
+							\end{align*}
+						$t(r) - t(r_0) = \int_{r}^{r_0} dt^\prime = \int_{r_0}^{r} = \frac{dr^\prime}{dr^\prime / dt} \\ = \int_{r_0}^{r} \frac{dr^\prime}{\dot{r(r^\prime)}} = \int_{r_0}^{r} \frac{dr^\prime}{\sqrt{\frac{2}{m}(E - V_{eff}(r^\prime)) } }  $\\
+						\textbf{Ähnlich für Azimentalwinkel:}\\
+						\[ \varphi(r) - \varphi(r_0) = \int_{\varphi(r_0)}^{\varphi(r)} d\varphi^\prime = \int_{r_0}^{r} \frac{d\varphi}{dr} \frac{dt}{dr} dr^\prime = \int_{r_0}^{r} \dot{\varphi} \frac{1}{\dot{r}(r^\prime)} dr^\prime \]
+					$=\frac{L}{\sqrt{2m}} \int_{r_0}^{r} \frac{dr^\prime}{r^{12} \sqrt{E \cdot V_{eff} } }$
+					\[ V_{eff} (r) \leq E \]
+					Im allgemeinen : \quad $\lim\limits_{r \to \infty} E_{pot} (r) = 0$\\
+					$\Rightarrow$ für ungebunde Bahnen(r.B. Meteore die nicht aus unserem Sonnensystem kommen) ist $E \geq 0$\\
+					Für gebundene Bahnen ist $E < 0:$ 
+					\[ r_{max} \geq r \geq r_{min} \]
+					gebundene Bahnen können geschlossen aber ungeschlossen sein.\\\\
+					Für geschlossene Bahnen muß:
+					\[ \Delta \varphi = \frac{2L}{\sqrt{2m}} \int_{r_{min}}^{r_{max}} \frac{dr^\prime}{r^{12} \sqrt{E - V_{eff} (r^\prime)}} = 2 \pi n \]
+					\subsubsection{Beispiele für potentielle Energie}
+						\begin{align*}
+							E_{pot} = - \frac{G_N m_m}{r} \text{ Gravitationspotenzial zwischen M und m}\\
+							E_{pot} = \frac{\vec{e_1} \vec{e_2}}{4 \pi \epsilon_0 r} \text{ elektrisches Potenzial zwischen zwei Ladungen} e_1, e_2\\\\
+							E_{pot}(r) = \alpha\left[ \underbrace{\left(\frac{r_0}{r}^{12} \right)}_{Abstoßung} - \underbrace{2 \left(\frac{r_0}{r} \right)^6}_{Anziehung} \right] \text{ Lennard-Jones Potenzial aus der Kernphysik}
+						\end{align*}
+					\subsection{Keplerproblem}
+					zwei Massen m,M \qquad  i.a. $M \rightarrow m$\\
+					wähle Koordinatensystem so daß der Schwerpunkt sich am Ursprung und in Ruhe befindet
+					\[ \vec{R} = \frac{M \vec{r}, m \vec{r}_2 }M + m}  = 0 \Rightarrow \vec{r}_1 = - \frac{m \vec{r}_2}{M} r.B. \frac{m}{M}  << 1 \]
+				\[ \vec{r}  := \vec{r}_2 - \vec{r}_1 = \frac{M + m}{M}\vec{r}_2  \Rightarrow \vec{r}_2 = \frac{M}{M + m} \vec{r} \quad \vec{r}_1 = \frac{m}{M + m} \]
+				\[ E_{pot}(r) = - \frac{G_NMm}{r} = \frac{G_N (M+m) \mu }{r} \quad \mu = \frac{Mm}{M + m} \text{
+				reduzierte Masse} \]
+				
+						
 					
 					
 					

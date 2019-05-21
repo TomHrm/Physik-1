@@ -603,8 +603,50 @@
 		- cos \varphi\\
 		- sin \varphi
 		\end{matrix}\right)}_{-\vec{v}}\\
-	=\vec{a} = \underbrace{\dot{w} R \vec{e}_v}_{ \text{erhöht Rotationsgeschwindigkeit} } - \underbrace{w^2 \cdot r}_{ \text{Zentripetalkraft nach innen} }
+	=\vec{a} = \underbrace{\dot{w} R \vec{e}_v}_{ \text{erhöht Rotationsgeschwindigkeit} } - \underbrace{w^2 \cdot r}_{ \text{Zentripetalkraft nach innen}}
 \end{align*}
-	
-	
+	\part{Vorlesung 11}
+		\includepdf[pages=-]{./images/Vorlesung12.pdf}
+	\part{Vorlesung 12}
+		\subsection{4.11 Drehmomente}
+			\[ \vec{M} = \vec{r} \times \vec{F} \]
+			\[ \dot{\vec{L}} = \vec{M} \qquad \vec{L} = \vec{r} \times \vec{p}  \]
+		\section{Scheinkräfte}
+			Es gibt verschiedene möglichkeiten sich zu bewegen. Wir nehmen uns nun die Gradlinige Beschleunigung und die Rotation. Dazu haben wir jetzt noch ein Initialsystem $S$ mit der Kraft $\vec{F}$ und der beschleunigung $\vec{a}$. zu diesen größen gibt es dann noch jeweils die $^\prime$ komponente die für das Relativistisch Beschleunigte System steht..\\\\
+			\textbf{Gradlinige Beschleunigung:}\\
+			\[ v_{(t)} = const \quad\vec{r}^\prime = \vec{r} - v \]
+			\[ \vec{v}^\prime =\vec{v} - v \Rightarrow \vec{a}^\prime = \vec{a} \]
+			$ \vec{V}_{(r)} = \text{ nicht konstant} $
+			\[ \vec{a}^\prime = \vec{a} - \vec{A} \text{ gradlinige Beschleunigung } \qquad m \vec{a}^\prime = m \vec{a} - m \vec{A} \]
+			\[ \vec{F}^\prime = \vec{F} - \underbrace{m \vec{A}}_{\text{Trägheitskraft}}  \]
+		\textbf{Rotation}\\
+		\[ \vec{F}^\prime = \vec{F} - \underbrace{2m \vec{w} \times \vec{v}^\prime}_{\text{Corioliskraft}} - \underbrace{m \vec{w} \times (w \times \vec{r}^\prime)}_{\text{Flächenkraft}} \]
+	\section{6 Zweiteilchen Systeme}
+		\subsection{Schwerpunktsystem und Relativsystem}
+			^\begin{itemize}
+					\item Erde $-$ Mond 
+					\item H \quad proton $+$ elektron
+					\item $O_2$ \quad O + O
+					\item Feder von box $1$ zu box $2$
+				\end{itemize}
+		$\vec{F}_{21} = - \vec{F}_{12} \Leftarrow$ innen\\
+		$ \vec{F}_1 , \vec{F}_2 \Leftarrow$ äußere\\
+		$ m_1 \ddot{\vec{r}}_1 = \vec{F}_{12} + \vec{F}_1 $\\
+		$ m_2 \ddot{\vec{r}}_2 = \vec{F}_{12} + \vec{F}_2 $
+		\subsection{Rechnung}
+		\begin{center}
+			\includegraphics[scale=0.2]{IMG_7CD07FD55327-1.jpeg}
+		\end{center}
+		$\vec{v}_{12} = \dot{\vec{r}}_{}12 = \vec{v}_1 - \vec{v}_2 \qquad \vec{V}_S = \dot{\vec{R}}_S = \frac{m_1 \vec{v}_1+ m_2 \vec{v}_2 }{m_1 + m_2} $
+		\[ M = m_1 + m_2 \]
+		Für die reduzierte Masse: \[ \mu = \frac{m_1 \cdot m_2}{m_1 + m_2} [ \mu ] = kg \]
+		für $ m_1 = m_2 \qquad \mu = \frac{1}{2} m_1 = \frac{1}{2} m_2 $\\
+		für $ m_1 >> m_2 \qquad \mu \leq m_2 $
+		\subsection{Gesamtimpuls}
+			\[ \vec{p} = \vec{p} + \vec{p} = m_1 \vec{v}_1 + m_2 \vec{v}_2 \]
+			Also 
+			\[ \vec{p} = \mu \cdot \vec{V}_s \]
+			$ \underbrace{m_1 \ddot{\vec{v}}_1 + m_2 \ddot{\vec{r}}_2}_{\dot{\vec{p}}} = \underbrace{\vec{F}_1 + \vec{F}_2}_\text{ Kraft außen}} $
+		\[ \underbrace{\dot{\vec{p}} = \sum_{i, außen} \vec{F}_i }_{\text{Gesamtimpulsändung}}  \] 
+		
 \end{document}
