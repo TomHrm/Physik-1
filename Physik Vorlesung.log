@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  21 MAY 2019 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  23 MAY 2019 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,68 +722,19 @@ File: uesvect.fd
 )
 (./Physik Vorlesung.toc [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-! Package amsmath Error: \ddot allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...entV {ddot}07F{a}ge und schwere Masse}{13}
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Misplaced alignment tab character &.
-<argument> ...erline {18}4.9 Potentielle Energie &
-                                                   Potential
-l.58 ...8}4.9 Potentielle Energie & Potential}{22}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[2])
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2])
 \tf@toc=\write6
 \openout6 = `"Physik Vorlesung.toc"'.
 
  [3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
-
-
-! Package amsmath Error: \ddot allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 			\item $[$L\ddot{a}
-                           ngen$]$ = SI: m - cgs: cm
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package amsmath Error: \ddot allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 	$[$Fl\ddot{a}
-                    che$] = 1m^2$\\
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[4]
+ [4]
 Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
@@ -827,6 +778,10 @@ Package pdftex.def Info: ./images/IMG_EFF187166B54-1.jpeg  used on input line 1
 65.
 (pdftex.def)             Requested size: 345.09192pt x 257.16273pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
+
+ []
+
 
 ! Package inputenc Error: Unicode character ´ (U+B4)
 (inputenc)                not set up for use with LaTeX.
@@ -836,7 +791,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.170 ...) = x_0 + \int_{t}^{t_0} (v_0 + \int_{t´
-                                                  ´}^{t_0} a_(_t_) dt) dt´...
+                                                  ´}^{t_0} a_(_t_) dt) dt^{...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -850,79 +805,48 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.170 ...= x_0 + \int_{t}^{t_0} (v_0 + \int_{t´´
-                                                  }^{t_0} a_(_t_) dt) dt´´...
+                                                  }^{t_0} a_(_t_) dt) dt^{\p...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 ! Double subscript.
 l.170 ..._{t}^{t_0} (v_0 + \int_{t´´}^{t_0} a_(_
-                                                  t_) dt) dt´´$ \\
+                                                  t_) dt) dt^{\prime \prime} \]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
 l.170 ...t}^{t_0} (v_0 + \int_{t´´}^{t_0} a_(_t_
-                                                  ) dt) dt´´$ \\
+                                                  ) dt) dt^{\prime \prime} \]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
-! Package inputenc Error: Unicode character ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 ...v_0 + \int_{t´´}^{t_0} a_(_t_) dt) dt´
-                                                  ´$ \\
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 ...0 + \int_{t´´}^{t_0} a_(_t_) dt) dt´´
-                                                  $ \\
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
+Underfull \hbox (badness 10000) in paragraph at lines 170--175
 
  []
 
 ! Double subscript.
-l.176 ... -\frac{1}{2} v_0^2 = \int_{x}^{x_0} a_(_
+l.175 ... -\frac{1}{2} v_0^2 = \int_{x}^{x_0} a_(_
                                                   x_)dx \]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.176 ...\frac{1}{2} v_0^2 = \int_{x}^{x_0} a_(_x_
+l.175 ...\frac{1}{2} v_0^2 = \int_{x}^{x_0} a_(_x_
                                                   )dx \]
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
 ! Double subscript.
-l.182 ...0  $\Leftrightarrow v = v_0$ \qquad $x_(_
+l.181 	a = 0  $\Leftrightarrow v = v_0 \qquad x_(_
                                                   t_) = x_0 + v_0(t - t_0)$ \\
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.182 ... $\Leftrightarrow v = v_0$ \qquad $x_(_t_
+l.181 ...0  $\Leftrightarrow v = v_0 \qquad x_(_t_
                                                   ) = x_0 + v_0(t - t_0)$ \\
 I treat `x_1_2' essentially like `x_1{}_2'.
 
@@ -931,121 +855,80 @@ I treat `x_1_2' essentially like `x_1{}_2'.
 File: ./images/IMG_8E3512F499A3-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_8E3512F499A3-1.jpeg>
 Package pdftex.def Info: ./images/IMG_8E3512F499A3-1.jpeg  used on input line 1
-94.
+93.
 (pdftex.def)             Requested size: 451.691pt x 222.83421pt.
 <./images/PHY1-19.pdf, id=54, 597.5067pt x 845.04588pt>
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf>
-Package pdftex.def Info: ./images/PHY1-19.pdf  used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf  used on input line 206.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf>
-Package pdftex.def Info: ./images/PHY1-19.pdf  used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf  used on input line 206.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 <./images/PHY1-19.pdf, id=57, page=1, 597.5067pt x 845.04588pt>
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 1>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 206.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 1>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
  [8 <./images/IMG_8E3512F499A3-1.jpeg>]
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 1>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 1>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 1>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page1 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 
 [9 <./images/PHY1-19.pdf>]
 <./images/PHY1-19.pdf, id=76, page=2, 597.5067pt x 845.04588pt>
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 2>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 2>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 2>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page2 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
  [10 <./images/PHY1-19.pdf>]
 <./images/PHY1-19.pdf, id=80, page=3, 597.5067pt x 845.04588pt>
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 3>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 3>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 File: ./images/PHY1-19.pdf Graphic file (type pdf)
 <use ./images/PHY1-19.pdf, page 3>
-Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 207.
+Package pdftex.def Info: ./images/PHY1-19.pdf , page3 used on input line 206.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
  [11 <./images/PHY1-19.pdf>]
-
-! Package inputenc Error: Unicode character ´ (U+B4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.218 ...bewegt. Die \textbf{Newton´schen Axiome}
-                                                   gelten damit \textbf{nur ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
 
-! Package amsmath Error: \ddot allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.224 				$g$ ist ortsabh\ddot{a}
-                                 ngig, $m$ ist eine intrinsische Eigenschaft.\\
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
 [12]
-
-! Package amsmath Error: \ddot allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.233 				\section{Tr\ddot{a}ge und schwere Masse}
-                                                  	
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--237
+Underfull \hbox (badness 10000) in paragraph at lines 233--236
 
  []
 
@@ -1053,27 +936,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--237
 File: ./images/IMG_E8A9C85E8431-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_E8A9C85E8431-1.jpeg>
 Package pdftex.def Info: ./images/IMG_E8A9C85E8431-1.jpeg  used on input line 2
-42.
+41.
 (pdftex.def)             Requested size: 260.32646pt x 167.57857pt.
 
-Overfull \hbox (89.60994pt too wide) in paragraph at lines 242--243
+Overfull \hbox (89.60994pt too wide) in paragraph at lines 241--242
  [][] 
  []
 
 
-! Package amsmath Error: \ddot allowed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256 ... tr\ddot{a}ge} - m_{2, schwer} g$	\ddot a
-                                                  
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 3690) in paragraph at lines 247--257
+Underfull \hbox (badness 3690) in paragraph at lines 246--256
 \OML/cmm/m/it/10.95 m[]a[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 F[] \OT1/cm
 r/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 F[] \OT1/cmr/m/n/10.95
  =
@@ -1082,17 +953,17 @@ r/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 F[] \OT1/cmr/m/n/10.95
 <./images/NewtonPendell.jpg, id=88, 775.95158pt x 389.49727pt>
 File: ./images/NewtonPendell.jpg Graphic file (type jpg)
 <use ./images/NewtonPendell.jpg>
-Package pdftex.def Info: ./images/NewtonPendell.jpg  used on input line 263.
+Package pdftex.def Info: ./images/NewtonPendell.jpg  used on input line 262.
 (pdftex.def)             Requested size: 310.37512pt x 155.79614pt.
 [13 <./images/IMG_E8A9C85E8431-1.jpeg>]
 <./images/IMG_13C2526BF067-1.jpeg, id=93, 581.17125pt x 300.12125pt>
 File: ./images/IMG_13C2526BF067-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_13C2526BF067-1.jpeg>
 Package pdftex.def Info: ./images/IMG_13C2526BF067-1.jpeg  used on input line 2
-70.
+69.
 (pdftex.def)             Requested size: 145.29245pt x 75.03012pt.
 
-Underfull \hbox (badness 3333) in paragraph at lines 275--280
+Underfull \hbox (badness 3333) in paragraph at lines 274--279
 \OT1/cmr/bx/n/10.95 Differentialgleichung 2. Ord-
  []
 
@@ -1100,17 +971,17 @@ Underfull \hbox (badness 3333) in paragraph at lines 275--280
 File: ./images/IMG_94B96AE1BBE0-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_94B96AE1BBE0-1.jpeg>
 Package pdftex.def Info: ./images/IMG_94B96AE1BBE0-1.jpeg  used on input line 2
-96.
+95.
 (pdftex.def)             Requested size: 222.6278pt x 225.2375pt.
 [14 <./images/NewtonPendell.jpg> <./images/IMG_13C2526BF067-1.jpeg>]
 <./images/IMG_EDD095C56715-1.jpeg, id=98, 877.2775pt x 902.37125pt>
 File: ./images/IMG_EDD095C56715-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_EDD095C56715-1.jpeg>
 Package pdftex.def Info: ./images/IMG_EDD095C56715-1.jpeg  used on input line 3
-02.
+01.
 (pdftex.def)             Requested size: 236.86809pt x 243.6435pt.
 
-Overfull \hbox (37.6988pt too wide) in paragraph at lines 302--303
+Overfull \hbox (37.6988pt too wide) in paragraph at lines 301--302
  [][] 
  []
 
@@ -1119,74 +990,27 @@ Overfull \hbox (37.6988pt too wide) in paragraph at lines 302--303
 File: ./images/IMG_64F74F51264B-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_64F74F51264B-1.jpeg>
 Package pdftex.def Info: ./images/IMG_64F74F51264B-1.jpeg  used on input line 3
-16.
+15.
 (pdftex.def)             Requested size: 376.40533pt x 109.65941pt.
 <./images/IMG_60C9C3799F69-1.jpeg, id=103, 992.70876pt x 309.155pt>
 File: ./images/IMG_60C9C3799F69-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_60C9C3799F69-1.jpeg>
 Package pdftex.def Info: ./images/IMG_60C9C3799F69-1.jpeg  used on input line 3
-27.
+26.
 (pdftex.def)             Requested size: 297.81493pt x 92.74721pt.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.331 		\mu
-            & Haft & Gleit \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.331 		\mu &
-              Haft & Gleit \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.331 		\mu &
-              Haft & Gleit \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.331 		\mu &
-              Haft & Gleit \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 <./images/IMG_972B7A9BCF52-1.jpeg, id=104, 399.4925pt x 402.50375pt>
 File: ./images/IMG_972B7A9BCF52-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_972B7A9BCF52-1.jpeg>
 Package pdftex.def Info: ./images/IMG_972B7A9BCF52-1.jpeg  used on input line 3
 44.
 (pdftex.def)             Requested size: 107.86441pt x 108.67746pt.
-! Undefined control sequence.
-l.352 				$ \Righarrow
-                        v = konst $\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 <./images/IMG_7A852B76F915-1.jpeg, id=105, 505.89pt x 440.64626pt>
 File: ./images/IMG_7A852B76F915-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_7A852B76F915-1.jpeg>
 Package pdftex.def Info: ./images/IMG_7A852B76F915-1.jpeg  used on input line 3
 58.
 (pdftex.def)             Requested size: 151.76816pt x 132.19489pt.
+
 [16 <./images/IMG_64F74F51264B-1.jpeg> <./images/IMG_60C9C3799F69-1.jpeg> <./im
 ages/IMG_972B7A9BCF52-1.jpeg>] [17 <./images/IMG_7A852B76F915-1.jpeg>]
 
@@ -1199,15 +1023,6 @@ LaTeX Warning: Command \ss invalid in math mode on input line 391.
 Underfull \hbox (badness 10000) in paragraph at lines 394--398
 
  []
-
-! Extra }, or forgotten $.
-l.400 ... \cdot sin (wt)- w^2\cdot B\cdot cos(wt)}
-                                                   $\\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 398--402
@@ -1231,15 +1046,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 459--470
  []
 
 [20 <./images/Rakete.png>]
-! Double subscript.
-l.492 ...^{0} F dx = -k \frac{x^2}{2} \right|^0_x_
-                                                  0  = \frac{1}{2} k x^2 \ri...
-I treat `x_1_2' essentially like `x_1{}_2'.
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
-! Extra \right.
-l.492 ...right|^0_x_0  = \frac{1}{2} k x^2 \right]
-                                                  $
-I'm ignoring a \right that had no matching \left.
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 494--495
@@ -1251,202 +1060,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 505--507
 
  []
 
-[21]
-! Misplaced alignment tab character &.
-<argument> 4.9 Potentielle Energie &
-                                     Potential
-l.515 ...tion{4.9 Potentielle Energie & Potential}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Argument of \align* has an extra }.
-<inserted text> 
-                \par 
-l.526 			E_{Pot(h)} - \underbrace{E_{Pot, (0)}} }
-                                                 _{ E_{Pot(h=0)= 0} } = W = ...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
- E_{Pot(h)} - \underbrace {E_{Pot, (0)}} 
-! Paragraph ended before \align* was complete.
-<to be read again> 
-                   \par 
-l.526 			E_{Pot(h)} - \underbrace{E_{Pot, (0)}} }
-                                                 _{ E_{Pot(h=0)= 0} } = W = ...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.526 			E_{Pot(h)} - \underbrace{E_{Pot, (0)}} }
-                                                 _{ E_{Pot(h=0)= 0} } = W = ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.526 			E_{Pot(h)} - \underbrace{E_{Pot, (0)}} }
-                                                 _{ E_{Pot(h=0)= 0} } = W = ...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.526 			E_{Pot(h)} - \underbrace{E_{Pot, (0)}} }
-                                                 _{ E_{Pot(h=0)= 0} } = W = ...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.526 			E_{Pot(h)} - \underbrace{E_{Pot, (0)}} }
-                                                 _{ E_{Pot(h=0)= 0} } = W = ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.526 			E_{Pot(h)} - \underbrace{E_{Pot, (0)}} }_
-                                                  { E_{Pot(h=0)= 0} } = W = ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Misplaced \cr.
-\math@cr@@@ ->\cr 
-                  
-l.527 		\end{align*}
-                    
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
-                                                  {\vskip #1\relax }
-l.527 		\end{align*}
-                    
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.527 		\end{align*}
-                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.527 		\end{align*}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\math@cr@@ ...th@cr@@@ \noalign {\vskip #1\relax }
-                                                  
-l.527 		\end{align*}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced \noalign.
-\black@ #1->\noalign 
-                     {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
-l.527 		\end{align*}
-                    
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (156.58818pt too wide) detected at line 527
-[]
+[21] [22]
+Overfull \hbox (20.87065pt too wide) in paragraph at lines 554--556
+[]\OT1/cmr/m/n/10.95 Wie be-reits be-kannt ist wird so die Po-ten-ti-el-le Ener
+-gie de-fi-niert. Es gibt vie-le ver-schie-de-ne M[]oglichkeiten
  []
 
-! Extra }, or forgotten \endgroup.
-\endalign ->\math@cr \black@ \totwidth@ \egroup 
-                                                \ifingather@ \restorealignst...
-l.527 		\end{align*}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.527 		\end{align*}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.527 		\end{align*}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[22]
-Overfull \hbox (2.4666pt too wide) in paragraph at lines 556--558
-\OT1/cmr/m/it/10.95 Wie be-reits be-kannt ist wird so die Po-ten-ti-el-le Ener-
-gie de-fi-niert. Es gibt vie-le ver-schie-de-ne M[]oglichkeiten
- []
-
-! Double subscript.
-<argument> ...t v dv = \frac {1}{2}mv^2 |_{V_a}^V_
-                                                  B\\ = \frac {1}{2} m \left...
-l.569 				\end{align*}
-                      
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-<argument> ...t v dv = \frac {1}{2}mv^2 |_{V_a}^V_
-                                                  B\\ = \frac {1}{2} m \left...
-l.569 				\end{align*}
-                      
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 587--589
+Underfull \hbox (badness 10000) in paragraph at lines 582--584
 
  []
 
@@ -1454,200 +1075,210 @@ Underfull \hbox (badness 10000) in paragraph at lines 587--589
 <./images/Vorlesung12.pdf, id=133, 597.5067pt x 845.04588pt>
 File: ./images/Vorlesung12.pdf Graphic file (type pdf)
 <use ./images/Vorlesung12.pdf>
-Package pdftex.def Info: ./images/Vorlesung12.pdf  used on input line 609.
+Package pdftex.def Info: ./images/Vorlesung12.pdf  used on input line 604.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: ./images/Vorlesung12.pdf Graphic file (type pdf)
 <use ./images/Vorlesung12.pdf>
-Package pdftex.def Info: ./images/Vorlesung12.pdf  used on input line 609.
+Package pdftex.def Info: ./images/Vorlesung12.pdf  used on input line 604.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 <./images/Vorlesung12.pdf, id=136, page=1, 597.5067pt x 845.04588pt>
 File: ./images/Vorlesung12.pdf Graphic file (type pdf)
 <use ./images/Vorlesung12.pdf, page 1>
 Package pdftex.def Info: ./images/Vorlesung12.pdf , page1 used on input line 60
-9.
+4.
 (pdftex.def)             Requested size: 597.50523pt x 845.04382pt.
 File: ./images/Vorlesung12.pdf Graphic file (type pdf)
 <use ./images/Vorlesung12.pdf, page 1>
 Package pdftex.def Info: ./images/Vorlesung12.pdf , page1 used on input line 60
-9.
+4.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
  [24]
 File: ./images/Vorlesung12.pdf Graphic file (type pdf)
 <use ./images/Vorlesung12.pdf, page 1>
 Package pdftex.def Info: ./images/Vorlesung12.pdf , page1 used on input line 60
-9.
+4.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 File: ./images/Vorlesung12.pdf Graphic file (type pdf)
 <use ./images/Vorlesung12.pdf, page 1>
 Package pdftex.def Info: ./images/Vorlesung12.pdf , page1 used on input line 60
-9.
+4.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
 File: ./images/Vorlesung12.pdf Graphic file (type pdf)
 <use ./images/Vorlesung12.pdf, page 1>
 Package pdftex.def Info: ./images/Vorlesung12.pdf , page1 used on input line 60
-9.
+4.
 (pdftex.def)             Requested size: 562.12135pt x 795.00085pt.
  [25 <./images/Vorlesung12.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 615--617
+Underfull \hbox (badness 10000) in paragraph at lines 610--612
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--617
+Underfull \hbox (badness 10000) in paragraph at lines 610--612
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--623
+Underfull \hbox (badness 10000) in paragraph at lines 616--618
 
  []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.626 			^
-          \begin{itemize}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing { inserted.
-<to be read again> 
-                   \def 
-l.626 			^\begin{itemize}
-                         
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.626 			^\begin{itemize}
-                         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.626 			^\begin{itemize}
-                         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.626 			^\begin{itemize}
-                         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.627 					\item E
-                  rde $-$ Mond
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 627
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.628 					\item H
-                   \quad proton $+$ elektron
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 628
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.629 					\item $
-                  O_2$ \quad O + O
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 629
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.630 					\item F
-                  eder von box $1$ zu box $2$
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 630
-[][]
- []
-
-
-! LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 				\end{itemize}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.631 				\end{itemize}
-                       
-Things are pretty mixed up, but I think the worst is over.
 
 <./images/IMG_7CD07FD55327-1.jpeg, id=156, 1466.47874pt x 1394.20876pt>
 File: ./images/IMG_7CD07FD55327-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_7CD07FD55327-1.jpeg>
 Package pdftex.def Info: ./images/IMG_7CD07FD55327-1.jpeg  used on input line 6
-38.
+33.
 (pdftex.def)             Requested size: 293.29056pt x 278.8368pt.
 [26]
+
+LaTeX Warning: Command \ss invalid in math mode on input line 645.
+
+<./images/IMG_A27E53A8E9C0-1.jpeg, id=160, 1280.785pt x 501.875pt>
+File: ./images/IMG_A27E53A8E9C0-1.jpeg Graphic file (type jpg)
+<use ./images/IMG_A27E53A8E9C0-1.jpeg>
+Package pdftex.def Info: ./images/IMG_A27E53A8E9C0-1.jpeg  used on input line 6
+48.
+(pdftex.def)             Requested size: 384.23846pt x 150.56366pt.
+[27 <./images/IMG_7CD07FD55327-1.jpeg>]
+<./images/IMG_5C671F23ECB9-1.jpeg, id=164, 1259.70625pt x 1505.625pt>
+File: ./images/IMG_5C671F23ECB9-1.jpeg Graphic file (type jpg)
+<use ./images/IMG_5C671F23ECB9-1.jpeg>
+Package pdftex.def Info: ./images/IMG_5C671F23ECB9-1.jpeg  used on input line 6
+62.
+(pdftex.def)             Requested size: 251.93678pt x 301.11966pt.
+
+Overfull \hbox (52.7675pt too wide) in paragraph at lines 662--663
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
+
+ []
+
+[28 <./images/IMG_A27E53A8E9C0-1.jpeg> <./images/IMG_5C671F23ECB9-1.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 681--683
+
+ []
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.692 ... + \underbrace{\frac{1}{2} \mu v^_{12}^2}
+                                                  _{\text{reduzierte  Masse,...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.692 ... + \underbrace{\frac{1}{2} \mu v^_{12}^2}
+                                                  _{\text{reduzierte  Masse,...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 703.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.703 ... + \vec{r}_2 \times \vec{F}_2  = \sum_{ä
+                                                  ußere} \vec{M} \]
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \fontdimen 
+l.703 ... + \vec{r}_2 \times \vec{F}_2  = \sum_{ä
+                                                  ußere} \vec{M} \]
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 703.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.703 ...s \vec{F}_2  = \sum_{äußere} \vec{M} \]
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 704.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.704 ...vec{M}_1 + \vec{M}_2 = \vec{M} = \sum_{ä
+                                                  ußere} \vec{M} \]
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \fontdimen 
+l.704 ...vec{M}_1 + \vec{M}_2 = \vec{M} = \sum_{ä
+                                                  ußere} \vec{M} \]
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 704.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.704 ..._2 = \vec{M} = \sum_{äußere} \vec{M} \]
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 707--708
+
+ []
+
+[29]
+<./images/IMG_34D6AFF7119B-1.jpeg, id=171, 675.52374pt x 570.13pt>
+File: ./images/IMG_34D6AFF7119B-1.jpeg Graphic file (type jpg)
+<use ./images/IMG_34D6AFF7119B-1.jpeg>
+Package pdftex.def Info: ./images/IMG_34D6AFF7119B-1.jpeg  used on input line 7
+19.
+(pdftex.def)             Requested size: 135.10236pt x 114.02397pt.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.733 ...e = \vec{v}_1 - \vec{v}_2 = \vec{v}_{12\]
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 ! Extra }, or forgotten $.
-l.649 ...c{F}_1 + \vec{F}_2}_\text{ Kraft außen}}
-                                                   $
+l.738 ...c{F}_{12}}{m_1} - \frac{\vec{F}_{12}}m_2}
+                                                   = \frac{\vec{F}_{12}}{m_1...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1655,15 +1286,18 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-LaTeX Warning: Command \ss invalid in math mode on input line 650.
+Overfull \hbox (39.513pt too wide) in paragraph at lines 741--743
+\OT1/cmr/m/n/10.95 Als kur-ze zu-sam-men-fas-sung l[]asst sich sa-gen, dass wen
+n es kei-ne []au^^Yeren Kr[]afte gibt sich das Zweik[]orperproblem
+ []
 
-[27 <./images/IMG_7CD07FD55327-1.jpeg>] (./Physik Vorlesung.aux) ) 
+[30 <./images/IMG_34D6AFF7119B-1.jpeg>] (./Physik Vorlesung.aux) ) 
 Here is how much of TeX's memory you used:
- 17670 strings out of 492649
- 342529 string characters out of 6129622
- 425454 words of memory out of 5000000
- 21179 multiletter control sequences out of 15000+600000
- 12345 words of font info for 49 fonts, out of 8000000 for 9000
+ 17692 strings out of 492649
+ 343101 string characters out of 6129622
+ 433454 words of memory out of 5000000
+ 21195 multiletter control sequences out of 15000+600000
+ 13075 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,21n,73p,876b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/t
@@ -1682,10 +1316,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Physik Vorlesung.pdf" (27 pages, 3902980 bytes).
+Output written on "Physik Vorlesung.pdf" (30 pages, 4681382 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
+ 224 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

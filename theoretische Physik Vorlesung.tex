@@ -790,9 +790,71 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 							\[ \vec{L}_s = M \vec{R}\times \dot{\vec{R}} = \vec{R} \times \vec{p} = \text{ Drehimpuls der Schwerpunktbewegung} \]
 							und 
 							\[ \vec{L} = \vec{r} \times \vec{p} = \mu \vec{r} \times  \dot{\vec{r}} = \text{ relativ Drehimpuls} \]
-							
-							
-							
+						\section{Stoßprobleme}
+							Eine Masse $m_1$ mit Geschwindigkeit $\vec{u}_1$ Stoße auf eine Masse $m_2$ in Ruhe\\
+							Dann gilt:
+								\[\frac{1}{2}m_1u_1^2 = \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2 \quad \text{ Energieerhaltung} (1 \]
+								\[ m_1 \vec{u}_1 = m_1 \vec{v}_1 + m_2 \vec{v}_2 \qquad \text{Impulserhaltung} (2) \] 
+								wobei $\vec{v}_1, \vec{v}_2$ die Endgeschwindigkeiten von $m_1$ und $m_2$ sind.\\
+								Die wahl des Koordinatensystems geschieht so, daß der Stoß in $xy-Ebene$ stattfindet mit $\vec{u}_1 = u:1 \vec{e}_x, \xi := P2x = m_2 \vec{v}_2 \cdot \vec{e}_x  ;\eta := P2y = m_2 \vec{v}_2 \cdot \vec{e}_y $
+							\begin{center}
+								\includegraphics[scale=0.5]{Stoßproblem1.png}
+							\end{center}
+						\[ \xi^2 + \eta^2 = m_2^2 v_2^2 (3); \qquad (m_1 u_1 - \xi)^2 + \eta^2 = m_1^2 v_1^2 (4) \]
+						Nun ist 
+						\[ m_1^2 v_1^2 \underbrace{= }_{(1)} m_1^2 (u_1^2 - \frac{m_1}{m_2} v_2^2 \underbrace{=  }_{(3)} m_1^2 u_1^2 - \frac{m_1}{m_2} (\xi^2 + \eta^2) \]
+						Nun kann man in $(4)$ einsetzen um zubekommen:
+						\[ (\xi ^2 + \eta^2 )(1+ \frac{m_1}{m_2}) - 2m_1 u_1 \xi = 0 \]
+						Multiplikation mit $\frac{m_2}{m_1 + m_2}$ gibt:
+						\[ \xi^2 + \eta^2 - 2 \mu u_1 \xi = 0 \text{ oder } (\xi - \mu u_1)^2 + \eta^2 = (\mu u_1)^2 \]
+						wobei $\mu \equiv \frac{m_1 m_2}{m_1 + m_2}$ die reduzierte Masse ist.
+						\begin{center}
+							\includegraphics[scale=0.5]{reduzierteMasse1.png}
+						\end{center} 
+						\subsection{1. zentraler Stoß:}
+							Alle Impuls liegen auf der $x-Achse$ so daß $m_1 u_1 = m_1 v_1 + m_2 v_2$\\
+							Anwendung der vorigen Figur ergibt (abgesehen von der trivialen Lösung $v_1 = u_1, v_2 = 0$)
+						\[ m_2 v_2 = = 2 \mu u_1 \quad \Rightarrow v_2 = \frac{2m_1}{m_1 + m_2 } u_1 \]
+						\[ m_1 v_1 = m_1 u_1 - m_2 v_2 = (m_1 - 2 \mu)u_1  = \frac{m_1^2 + m_1m_2 - 2m_1 m_2}{m_1 + m_2} \]
+						\[] u_1 = \frac{m_1 - m_2}{m_1 + m_2} m_1 u_1 \]
+						In der Tat sind Energie- und Impulserhaltung erfüllt.
+						\[ \frac{1}{2} m_1 v_1^2 + \frac{1}{2} m_2 v_2^2 = \frac{m_1}{2(m_1 + m_2)^2} ((m_1  m_2 )^2 + 4m_1 m_2) u_^2 = \frac{m_1}{2} u_1^2 \]
+						\[ m_1 v_1 + m_2 v_2 = \frac{1}{m_1 + m_2}(m_1^2 - m_1 m_2 + 2m_1 m_2) u_1 = m_1 u_1 \]
+						\subsection{2. $ m_1 = m_2 = m $ (gleiche Massen)}
+						$ \Rightarrow \mu = \frac{m}{2} \quad \mu u:1 = \frac{m}{2} u_1 = \frac{m_1 u_1}{2} \Rightarrow \vec{v}_1 \perp  \vec{v}_2 $\\
+						für einen zentralen Stoß gilt damit $v_2 = u_1 , v_1 = 0$\\
+						$ \rightarrow$ stoßender Körper kommt zur Ruhe $\rightarrow$ z.B. Billardkugel
+						
+						\subsection{$ m_1 >> m_2 $}
+						$ \Rightarrow $
+						\[  \mu \approx m_2 \quad \mu u_1 \approxm_2 u_1 << m_1 u_1 \]
+						für einen zentralen Stoß hat man $ m_2v_2 \approx2m_2 u_1 \Rightarrow v_2 \approx2 u_1 $\\
+						$ m_1 v_1 \approx m_1 u_1 - m_2 2u_1 \Rightarrowv_1 \approx m_1 u_1$ \\
+						Die Energieübertrag ist dann:
+						\[ \frac{\frac{1}{2} m_2 v_2^2 }{\frac{1}{2} m_1 7_1 ^2} \approx 4 \frac{m_2}{m_1} << 1 \]
+						\begin{center}
+							\includegraphics[scale=0.3]{gleichemassenstoß.png}
+						\end{center}
+						
+					\subsection{4. $m_1 << m_2}$
+						$\Rightarrow \mu \approx m_1 \qquad \mu u_1 \approx m_1 u_1$\\
+						\[ m_2v_2 \approx 2 m_1 u_1 \Rightarrow v_2 \approx  2 \frac{m_1}{m_2} u_1 \]
+						\[ m_1 v_1 \approx m_1u_1 - 2m_1 u_1 \Rightarrow v_1 \Rightarrow v_1 \approx - u_1 \Rightarrow \text{ Reflextion mit Impulsübertrag} \]
+						also 
+						\[ \delta p = - 2 m_1 u:1 \right \text{ wichtig in der hinetischen \textbf{Gastheorie}} \]
+						\[ \text{Energieübertrag = } \frac{\frac{1}{2} m_2 v_2^2}{\frac{1}{2} m_1 u_1^2} \approx 4 \frac{m_1}{m_2} << 1 \]
+						\begin{center}
+							\includegraphics[scale=]{mm.png}
+						\end{center}
+					\subsection{Zentraler inelastischer Stoß zweier gleicher Massen}
+					\[ \frac{m}{2} u_^2 = \frac{m}{2} v_1^2 + \frac{m}{2} v_2^2 + \underbrace{Q}_{Wärme} \quad  (1); u_1 = v_1+ v_2  \]
+					Einsetzen von $ v_1 = u_1 - v_2 $in$ (1) $ ergibt
+					\begin{align*}
+					v_2^2 - v_2 u_1 + \frac{\psi}{m} = 0 &\Rightarrow v_2 = \frac{u_1}{2} + \sqrt{\frac{2}_1^2{4 } - \frac{Q}{m}}\\
+					&\Rightarrow v_1 = \frac{u_1}{2} - \sqrt{\frac{u_1^2}{4} - \frac{\psi}{m}}
+					\end{align*}
+					Aus der Wurzel folgt auch
+					\[ Q \leq \frac{m}{4} u_^^2  \text{ und im Maximalfall gilt } v_1 = v_2 \frac{u_1}{2} \]
 						\section{Keplerproblem}
 							\subsection{Zentralkraftfelder}
 								Potential $ V(\vec{r}) = V(r) $\\
@@ -800,9 +862,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 							Erhaltungsgrößen:
 							\[ F = E_{kin} + E_{pot} = \frac{m}{2} (\dot{\vec{ r }})^2 + E(\vec{ r }) \] ist dann die Energie
 							\[ \vec{L} = \vec{ r }\times \vec{p} = m \vec{ r } \times \dot{\vec{ r}} \]
-							\begin{align*}
-								\dot{\vec{L}} = m \dot{\vec{ r }} \times \dot{\vec{ r }} + m \vec{ r } \times \ddot{\vec{ r }} = \vec{0} = 0
-							\end{align*}
+								\[ \dot{\vec{L}} = m \dot{\vec{ r }} \times \dot{\vec{ r }} + m \vec{ r } \times \ddot{\vec{ r }} = \vec{0} = 0 \]
 							Die Newtonsche Kraft entspricht dann: $ m \ddot{\vec{ r }}  = \vec{ F} (\vec{ r }) = F(r)\vec{e}_r$\\
 							Ebene Polarkoordinaten: $ \dot{\vec{ r }}  = \dot{r} \vec{e}_r + r \dot{\varphi} \vec{e}_\varphi $ 
 							\begin{align*}
@@ -829,19 +889,156 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 					\subsubsection{Beispiele für potentielle Energie}
 						\begin{align*}
 							E_{pot} = - \frac{G_N m_m}{r} \text{ Gravitationspotenzial zwischen M und m}\\
-							E_{pot} = \frac{\vec{e_1} \vec{e_2}}{4 \pi \epsilon_0 r} \text{ elektrisches Potenzial zwischen zwei Ladungen} e_1, e_2\\\\
+							E_{pot} = \frac{\vec{e_1} \vec{e_2}}{4 \pi \varepsilon_0 r} \text{ elektrisches Potenzial zwischen zwei Ladungen} e_1, e_2\\\\
 							E_{pot}(r) = \alpha\left[ \underbrace{\left(\frac{r_0}{r}^{12} \right)}_{Abstoßung} - \underbrace{2 \left(\frac{r_0}{r} \right)^6}_{Anziehung} \right] \text{ Lennard-Jones Potenzial aus der Kernphysik}
 						\end{align*}
 					\subsection{Keplerproblem}
 					zwei Massen m,M \qquad  i.a. $M \rightarrow m$\\
 					wähle Koordinatensystem so daß der Schwerpunkt sich am Ursprung und in Ruhe befindet
-					\[ \vec{R} = \frac{M \vec{r}, m \vec{r}_2 }M + m}  = 0 \Rightarrow \vec{r}_1 = - \frac{m \vec{r}_2}{M} r.B. \frac{m}{M}  << 1 \]
+					\[ \vec{R} = \frac{M \vec{r}, m \vec{r}_2 }{M + m}  = 0 \Rightarrow \vec{r}_1 = - \frac{m \vec{r}_2}{M} r.B. \frac{m}{M}  << 1 \]
 				\[ \vec{r}  := \vec{r}_2 - \vec{r}_1 = \frac{M + m}{M}\vec{r}_2  \Rightarrow \vec{r}_2 = \frac{M}{M + m} \vec{r} \quad \vec{r}_1 = \frac{m}{M + m} \]
-				\[ E_{pot}(r) = - \frac{G_NMm}{r} = \frac{G_N (M+m) \mu }{r} \quad \mu = \frac{Mm}{M + m} \text{
+				\[ E_{pot}(r) = \frac{G_N (M+m) \mu }{r} \quad \mu = \frac{Mm}{M + m} \text{
 				reduzierte Masse} \]
-				
-						
-					
-					
-					
+			$\Rightarrow$
+			\[ E = \frac{\mu}{2} \dot{r}^2 + V_{eff} = const. \quad V_{eff}(r) = - \frac{GMm}{r} + \frac{L^2}{2\mu r^2}  \]
+			\[ \vec{L} = \mu \vec{r} \times \dot{\vec{r}} = const \]
+			Für ein $\frac{1}{r}$ Potential ist auch der Lenz-Russe-Vektor erhalten. Dies muss natürlich erstmal beweisen werden wofür wir die Vektoridentitäten benötigen.
+			\[ \vec{A} = \dot{\vec{r}} \times \vec{L} - \frac{G_N Mm}{r}\vec{r} \]
+			damit erhalten wir:
+		\[	\vec{A} = \ddot{\vec{r}} \times \vec{L} + \frac{G_N Mm}{r^2} \dot{r} \vec{r} - \frac{G_N}{M} \dot{\vec{r}}\]
+		\[	= \frac{G_NMm}{r} \left( - \frac{\vec{r}}{\mu r^2} \times (\mu \vec{r} \times \dot{\vec{r}}) + \frac{\dot{r}}{r} \vec{r} - \dot{\vec{r}} \right)\]
+		\[	\text{wobei dies genutzt wird }\mu \ddot{\vec{r}} = \vec{F}(\vec{r})- \vec{\nabla} V (r) = - \frac{G_N Mm}{r^3} \vec{r}\]
+			\[= \frac{G_N Mm}{r} \left(\dot{\vec{r}} - \frac{\dot{r}}{r} \vec{r} + \frac{\dot{r}}{r} \vec{r} - \dot{\vec{r}}  \right) = 0\]
+			wobei wieder gilt
+			\[\vec{r} \times (\vec{r} \times \dot{\vec{r}}) \underbrace{=}_{bac-cab-Regel} \vec{r} (\vec{r} \cdot \dot{\vec{r}}) - \dot{\vec{r}} (\vec{r} \cdot \vec{r}) =\underbrace{=}_{\frac{d}{dt}(r^2 ) = 2 r \dot{r} = \frac{d}{dt} ( \vec{r} \cdot \vec{r}) = 2\vec{r} \cdot \dot{\vec{r}}} \vec{r} r \dot{r} - r^2 \dot{\vec{r}} \]
+			\qed\\
+			Für den Betrag gilt dann:
+			\begin{align*}
+		A^2 = \vec{A} \cdot \vec{A} = (\dot{\vec{r}} \times \vec{L} - \frac{G_N Mm}{r} \vec{r})^2 \underbrace{=}_{|\dot{\vec{r}} \times \vec{L}| = \dot{\vec{r}}^2 \vec{L}^2 \text{ weil } \dot{\vec{r}} \cdot \vec{L} = 0} \dot{\vec{r}}^2 \vec{L}^2 - \frac{2G_N Mm}{r} (\dot{\vec{r}} \times \vec{L} ) \cdot \vec{r} + (G_N Mm)^2
+		\end{align*}
+				\[ \underbrace{=}_{(\dot{\vec{r}} \times \vec{L}) \cdot \vec{r} =(\vec{r} \times \dot{\vec{r}}) \cdot \vec{L} = \frac{\vec{L}^2}{\mu }} L^2(\dot{\vec{r}}^2 - \frac{2G_N Mm }{\mu r}) + (G_N Mm)^2 = \frac{2L^2}{\mu} E + (G_N Mm)^2 \]
+Nun definieren wir die nummerische Exzentrizität:\\
+$\varepsilon := \sqrt{ 1 + \frac{2 L^2 E}{ \mu (G_N Mm)^2}} \quad (1)$
+\[ \Rightarrow A = G_NMm \varepsilon \]
+\begin{center}
+\includegraphics[scale=0.6]{exzentri.png}
+\end{center}
+\[ \vec{A} \cdot \vec{r} = Ar cos \varphi = G_N Mm \varepsilon r cos \varphi \]
+\[ \vec{A} \cdot \vec{r} = (\dot{\vec{r}} \times \vec{L}) \cdot \vec{r} - \frac{G_N Mm}{r} \vec{r} \cdot \vec{r} = \frac{L^2}{\sigma} - G_N Mm r \]
+$\Rightarrow r(\varphi) = \frac{k}{ 1 + \varepsilon cos \varphi} \qquad k = \frac{L^2}{G_N Mm \sigma} \quad (1)$
+\begin{center}
+	\includegraphics[scale=0.5]{ellipseexzen.png}
+\end{center}
+\textbf{1.Definition:} 
+\[ \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \]
+ So kann man zeigen daß dies äquivalent ist zu \\
+ \textbf{Definition 2:}
+\[r_1+r_2 = const = 2a = (a-e) + (a+e ) \]
+ 	$\Rightarrow r_1^2 = (x - e)^2 + y^2 \qquad r_2^2 = (x +e)^2 +y^2$\\
+ 	$\Rightarrow r_1 - r_2 = \frac{2_1^2 - r_2^2}{r_1 + r_2} = \frac{1}{2a} [ (x-e)^2+ y^2 - (x+ e)^2 - y^2 ] = - 2 \frac{e}{a} x = - 2 \varepsilon x $\\
+$ \Rightarrow r_1 = \frac{1}{2} (r_1 + r_2 ) + \frac{1}{2} (r_1 - r_2 ) = a - \varepsilon x = a - \varepsilon (e + r_1 cos \varphi) $\\
+$ \quad = a - \varepsilon e - \varepsilon r_1 cos \varphi = \frac{a^2 - e^2}{a} -\varepsilon r_1 cos \varphi = \frac{b^2}{a} - \ r_1 cos \varphi$\\
+$ \Rightarrow r_1 = \frac{b^2 / a}{1 + \varepsilon cos \varphi} = \frac{k }{1 + \varepsilon cos \varphi} \text{ mit } k = \frac{b^2}{a} $ 
+Spezialfall $e = \varepsilon = 0 \rightarrow$ Kreis\\
+Drücke Halbachsen a und b durch E und L aus$:$
+\[ a = \frac{1}{2} (r(\varphi = 0) + r(e= \pi )) = \frac{k}{2} (\frac{1}{1 + \varepsilon} + \frac{1}{1 - \varepsilon}) = \frac{k}{1 - \varepsilon^2}  \]
+nun setzt man die oben mit $(1)$ markierten Gleichungen ein$:$
+\[ \frac{L^2}{G_N Mm \mu} (- \frac{2L^2 E}{(G_N Mm)^2 \mu} = - \frac{G_N Mm}{2E} > 0 \qquad (3) \]
+$ = \frac{L}{\sqrt{-2 \mu E}}  \qquad (4) $
+Er gilt der Flächensatz$:$ Der Radiusvektor überstreicht in gleichen Zeiten gleiche Fläche (Zweiter Keplerscheres Gesetz)
+	\begin{figure}[htbp]
+	\begin{minipage}[t]{10cm}
+		\vspace{0pt}
+		\centering
+		\includegraphics[scale=0.5]{kepler2.png}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{10cm}
+		\vspace{0pt}
+		$ d\vec{F} = \frac{1}{2} \vec{r \times d\vec{r}} $\\
+		$ \Rightarrow \frac{d\vec{F}}{dt} = \frac{1}{2} \vec{r} \times \dot{\vec{r}} = \frac{\vec{L}}{2\mu } = const $
+	\end{minipage}
+\end{figure}
+	\[ F = \pi ab = \pi a \frac{L}{\sqrt{-2 \mu E}} \]
+	anderseits $ F = \int\limits_{T}^{0} \frac{dF}{dt} dt = \frac{1}{2\mu} \int\limits_{T}^{0} L dt = \frac{LT}{2 \mu} $
+	\[ \Rightarrow T = \pi a \sqrt{ \frac{2\mu }{-E}} \underbrace{=}_{(3): elemeniere E} 2\pi a \sqrt{ \frac{\mu a}{G_N Mm}} \]
+	\[ \Rightarrow \frac{T^2}{a^3} = \frac{4\pi^2 \mu }{G_N Mm} = const  = \frac{4 \pi ^2}{G_N}(M + m) \approx \frac{4 \pi^2}{G_N M} \]
+	$\rightarrow$ \textbf{drittes Keplersches Gesetz}
+	\subsection{2. Hyperbel}
+	\begin{center}
+		\includegraphics[scale=0.5]{Hyperbelproblem.png}
+	\end{center}
+ohne detaillierte Beweise:\\
+\textbf{1- Definition}\\
+\[ \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1 \]
+\textbf{2. Definition:}\\
+\[ |r_1 - r_1| = 2a \]
+\begin{align*}
+	\Rightarrow r_1 \frac{k}{1 + \varepsilon cos \varphi} &\qquad k = \frac{b^2}{a}\\
+	a= \frac{G_N}Mm{2E} > 0&\qquad b = \frac{L}{\sqrt{2\mu E}} 
+\end{align*}
+
+	\begin{figure}[htbp]
+	\begin{minipage}[t]{10cm}
+		\vspace{0pt}
+		\centering
+		\includegraphics[scale=0.5]{Hyperbel1.png}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{10cm}
+		\vspace{0pt}
+		Streuung:\\
+		$ cos \varphi_\infty = - \frac{1}{\varepsilon}$\\
+		$ \theta = 2 \varphi_\infty -\pi \rightarrow $ Streuwinkel\\
+		$ 0 \leq \theta \leq \pi  
+	\end{minipage}
+\end{figure}
+$ \Rightarrow$ sin \frac{ \theta}{2} = sin (\varphi_\infty - \frac{ \pi}{2}) = - cos \varphi_\infty = \frac{1}{\varepsilon}$\\
+$ \Rightarrow tan \frac{\theta}{2} = \frac{sin \frac{\theta}{2}}{\sqrt{1- sin \frac{\theta}{2}}} = (sin ^{-2} \frac{\theta}{2} -1)^{- \frac{1}{2}} $ \\
+$ (\frac{e^2}{a^2} -1)^{-\frac{1}{2}} = (\frac{b^2}{a^2})^{-\frac{1}{2}} = \frac{a}{b} = \frac{G_N Mm}{2b E}  $
+\[ \Rightarrow \theta(b) = = 2 arctan \frac{G_n Mm}{2 b E} \]
+b ist minimaler Abstand der Asymtote vom Kraftzentrum $=$ \textit{Stopparamer}
+\subsection{3. Parabel}
+$\rightarrow$ siehe frühere Übungsaufgabe\\
+\textbf{Anwendung:} Keplerbahnen sind geschlossen; wenn das Potential nicht $\alpha \cdot \frac{1}{r}$ wie z.B. im allgemeiner Relativitätstheorie, dann sind Bahnen nicht geschlossen\\
+z.B. Perihelddrehung des Merkurs
+		\begin{figure}[htbp]
+		\begin{minipage}[t]{10cm}
+			\vspace{0pt}
+			\centering
+			\includegraphics[scale=0.5]{Parabel.png}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{10cm}
+			\vspace{0pt}
+			Streuung:\\
+			Menge aller Punkte, die vom Brennpunkt F und \\einer Graden G den gleichen Abstand haben.
+			\end{minipage}
+			\end{figure}
+		\[ x + \frac{k}{2} = \sqrt{y^2 + (x- \frac{k}{2})^2}   \Leftrightarrow (x + \frac{k}{2})^2 = y^2+(x - \frac{k}{2})^2 \]
+		\[ \Leftrightarrow r(\varphi) = y^2 = 2 kx \]
+		In Polarkoordinaten wäre das:
+		\[ r(\varphi) = x + \frac{k}{2} = \frac{k}{2} - r cos \varphi + \frac{k}{2} = k - r cos \varphi \]
+		\[ \Rightarrow r (\varphi) = \frac{k}{1 + cos \varphi} \]
+	\subsection{Formulierte Keplergesetzt}
+		\begin{enumerate}
+			\item Die Planeten bewegen sich auf Ellipsen, in deren Brennpunkt die Sonne steht
+			\item Der Radiusvektor (Fahrstrahl) von der Sonne zum Planeten überstreicht in gleichen Zeiten gleiche Fläche
+			\item Die Quadrate der Umlaufzeiten der Planeten verhalten sich wie die Kuben ihrer großen Halbachsen $ \frac{T^2}{a^3} = const, \frac{4 \pi^2}{G_N (M + m)} $
+		\end{enumerate}
+\section{Wirkungsquerschnitt und Steuung}
+	Stromdichte $ j = \Box $ einfallende Teulchen pro Zeit und Fläche Raumwinkelelement 
+	\[ DU = sin \theta d \theta d \varphi \]
+	Der Wirkungsquerschnitt ist dann definiert durch:
+	\[ d \sigma = \frac{d \sigma}{dt \eta} d\eta  = \Box \text{ Teilchen getrennt in d $\eta$ pro Zeit} \]
+	\[ =\frac{j b d b d \varphi}{j}  = b d b d \varphi \quad \text{"impact paramer" } b \]
+	\begin{center}
+		\includegraphics[scale=0.5]{winkelquerschnitt.png}
+	\end{center}
+\[ \Rightarrow \frac{d \sigma }{d \eta} = \frac{b d b d \varphi}{sin \theta d \theta d \varphi}  = \frac{b}{sin \theta} \frac{1}{sin^2 \frac{\theta}{2} }  \]
+Strukturwinkel $\theta $ wird mit wachsendem impace b kleiner.
+\[ \frac{db}{d\theta} < 0 \Rightarrow \frac{d \sigma }{d \eta}  = \frac{b}{sin \theta} |\frac{db}{d \theta}| \]
+hier: $b ''= \frac{G_N Mm}{2E} cot \frac{\theta}{2} \Rightarrow \frac{db}{d\theta} = - \frac{G_N Mm}{4E} \frac{1}{sin^2 \frac{\theta}{2}} $ 
+mit $wt \frac{ \theta}{2} = \frac{cos \frac{\theta}{2}}{sin \frac{\theta}{2}} $ und $sin \theta = 2 sin \frac{\theta}{2} cos \frac{\theta}{2} $  
+	
 \end{document}

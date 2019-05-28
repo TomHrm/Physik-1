@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  21 MAY 2019 20:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  24 MAY 2019 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -664,13 +664,13 @@ LaTeX Font Info:    Try loading font information for U+esvect on input line 76.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-(./theoretische Physik Vorlesung.toc [1
-
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2])
+(./theoretische Physik Vorlesung.toc)
 \tf@toc=\write4
 \openout4 = `"theoretische Physik Vorlesung.toc"'.
 
- [3]
+ [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
@@ -684,13 +684,13 @@ Overfull \hbox (31.79877pt too wide) in paragraph at lines 86--87
 rentz-Transformation und ki-ne-ma-ti-sche Kon-se-quen-zen, Minkowski-
  []
 
-<./images/IMG_F483D93DB640-1.jpeg, id=21, 625.33624pt x 501.875pt>
+<./images/IMG_F483D93DB640-1.jpeg, id=13, 625.33624pt x 501.875pt>
 File: ./images/IMG_F483D93DB640-1.jpeg Graphic file (type jpg)
 <use ./images/IMG_F483D93DB640-1.jpeg>
 Package pdftex.def Info: ./images/IMG_F483D93DB640-1.jpeg  used on input line 9
 9.
 (pdftex.def)             Requested size: 312.66736pt x 250.93687pt.
-[4]
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
@@ -700,44 +700,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-[5 <./images/IMG_F483D93DB640-1.jpeg>]
+[3 <./images/IMG_F483D93DB640-1.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 188--190
 
  []
 
-[6]
-<./images/vektorprodukt.png, id=36, 193.72375pt x 132.495pt>
+[4]
+<./images/vektorprodukt.png, id=30, 193.72375pt x 132.495pt>
 File: ./images/vektorprodukt.png Graphic file (type png)
 <use ./images/vektorprodukt.png>
 Package pdftex.def Info: ./images/vektorprodukt.png  used on input line 194.
 (pdftex.def)             Requested size: 58.11757pt x 39.7488pt.
-<./images/vektorprodukt2.png, id=38, 239.89626pt x 156.585pt>
+<./images/vektorprodukt2.png, id=32, 239.89626pt x 156.585pt>
 File: ./images/vektorprodukt2.png Graphic file (type png)
 <use ./images/vektorprodukt2.png>
 Package pdftex.def Info: ./images/vektorprodukt2.png  used on input line 198.
 (pdftex.def)             Requested size: 71.96942pt x 46.97586pt.
- [7 <./images/vektorprodukt.png> <./images/vektorprodukt2.png>]
-<./images/komponentendarstellung.png, id=46, 224.84pt x 171.64125pt>
+ [5 <./images/vektorprodukt.png> <./images/vektorprodukt2.png>]
+<./images/komponentendarstellung.png, id=39, 224.84pt x 171.64125pt>
 File: ./images/komponentendarstellung.png Graphic file (type png)
 <use ./images/komponentendarstellung.png>
 Package pdftex.def Info: ./images/komponentendarstellung.png  used on input lin
 e 220.
 (pdftex.def)             Requested size: 101.17706pt x 77.23784pt.
-<./images/Komponentendarstellung2.png, id=47, 663.47874pt x 342.27875pt>
+<./images/Komponentendarstellung2.png, id=40, 663.47874pt x 342.27875pt>
 File: ./images/Komponentendarstellung2.png Graphic file (type png)
 <use ./images/Komponentendarstellung2.png>
 Package pdftex.def Info: ./images/Komponentendarstellung2.png  used on input li
 ne 224.
 (pdftex.def)             Requested size: 265.3868pt x 136.90906pt.
-<./images/1000px-Parallelepiped2.png, id=48, 1003.75pt x 566.115pt>
+<./images/1000px-Parallelepiped2.png, id=41, 1003.75pt x 566.115pt>
 File: ./images/1000px-Parallelepiped2.png Graphic file (type png)
 <use ./images/1000px-Parallelepiped2.png>
 Package pdftex.def Info: ./images/1000px-Parallelepiped2.png  used on input lin
 e 228.
 (pdftex.def)             Requested size: 301.12732pt x 169.8358pt.
- [8 <./images/komponentendarstellung.png> <./images/Komponentendarstellung2.png
+ [6 <./images/komponentendarstellung.png> <./images/Komponentendarstellung2.png
 > <./images/1000px-Parallelepiped2.png>]
-<./images/Vektorfunktionen.png, id=57, 206.7725pt x 153.57375pt>
+<./images/Vektorfunktionen.png, id=50, 206.7725pt x 153.57375pt>
 File: ./images/Vektorfunktionen.png Graphic file (type png)
 <use ./images/Vektorfunktionen.png>
 Package pdftex.def Info: ./images/Vektorfunktionen.png  used on input line 264.
@@ -758,13 +758,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--275
 
  []
 
-[9 <./images/Vektorfunktionen.png>]
-<./images/integral.png, id=62, 1927.2pt x 1694.33pt>
+[7 <./images/Vektorfunktionen.png>]
+<./images/integral.png, id=56, 1927.2pt x 1694.33pt>
 File: ./images/integral.png Graphic file (type png)
 <use ./images/integral.png>
 Package pdftex.def Info: ./images/integral.png  used on input line 278.
 (pdftex.def)             Requested size: 96.36565pt x 84.72145pt.
-<./images/Integrationbeispiel.png, id=63, 677.53125pt x 466.74374pt>
+<./images/Integrationbeispiel.png, id=57, 677.53125pt x 466.74374pt>
 File: ./images/Integrationbeispiel.png Graphic file (type png)
 <use ./images/Integrationbeispiel.png>
 Package pdftex.def Info: ./images/Integrationbeispiel.png  used on input line 2
@@ -775,8 +775,8 @@ Overfull \hbox (134.16972pt too wide) in paragraph at lines 286--287
  [][] 
  []
 
-[10 <./images/integral.png> <./images/Integrationbeispiel.png>]
-<./images/Differentialrechnung.png, id=69, 377.41pt x 231.86626pt>
+[8 <./images/integral.png> <./images/Integrationbeispiel.png>]
+<./images/Differentialrechnung.png, id=63, 377.41pt x 231.86626pt>
 File: ./images/Differentialrechnung.png Graphic file (type png)
 <use ./images/Differentialrechnung.png>
 Package pdftex.def Info: ./images/Differentialrechnung.png  used on input line 
@@ -802,7 +802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
-[11 <./images/Differentialrechnung.png>]
+[9 <./images/Differentialrechnung.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
@@ -822,7 +822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--371
 
  []
 
-[12]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 373--375
 
  []
@@ -852,7 +852,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--406
 
  []
 
-[13]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 412--414
 
  []
@@ -867,18 +867,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
-[14]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 431--433
 
  []
 
-[15]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 459--461
 
  []
 
-[16]
-<./images/screenshot001.png, id=93, 389.455pt x 279.0425pt>
+[14]
+<./images/screenshot001.png, id=87, 389.455pt x 279.0425pt>
 File: ./images/screenshot001.png Graphic file (type png)
 <use ./images/screenshot001.png>
 Package pdftex.def Info: ./images/screenshot001.png  used on input line 482.
@@ -893,8 +893,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 476--490
 
  []
 
-[17 <./images/screenshot001.png>]
-<./images/screenshot002.png, id=98, 225.84375pt x 176.66pt>
+[15 <./images/screenshot001.png>]
+<./images/screenshot002.png, id=92, 225.84375pt x 176.66pt>
 File: ./images/screenshot002.png Graphic file (type png)
 <use ./images/screenshot002.png>
 Package pdftex.def Info: ./images/screenshot002.png  used on input line 517.
@@ -904,7 +904,7 @@ Overfull \hbox (88.0763pt too wide) in paragraph at lines 514--526
 [][]  [] 
  []
 
-<./images/screenshot3.png, id=99, 216.81pt x 262.9825pt>
+<./images/screenshot3.png, id=93, 216.81pt x 262.9825pt>
 File: ./images/screenshot3.png Graphic file (type png)
 <use ./images/screenshot3.png>
 Package pdftex.def Info: ./images/screenshot3.png  used on input line 536.
@@ -924,36 +924,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 554--555
 
  []
 
-[18 <./images/screenshot002.png> <./images/screenshot3.png>]
-<./images/screenshot004.png, id=105, 579.16376pt x 448.67625pt>
+[16 <./images/screenshot002.png> <./images/screenshot3.png>]
+<./images/screenshot004.png, id=99, 579.16376pt x 448.67625pt>
 File: ./images/screenshot004.png Graphic file (type png)
 <use ./images/screenshot004.png>
 Package pdftex.def Info: ./images/screenshot004.png  used on input line 560.
 (pdftex.def)             Requested size: 289.58116pt x 224.33757pt.
- [19 <./images/screenshot004.png>]
-<./images/Weltkugel.png, id=112, 539.01375pt x 436.63126pt>
+ [17 <./images/screenshot004.png>]
+<./images/Weltkugel.png, id=105, 539.01375pt x 436.63126pt>
 File: ./images/Weltkugel.png Graphic file (type png)
 <use ./images/Weltkugel.png>
 Package pdftex.def Info: ./images/Weltkugel.png  used on input line 575.
 (pdftex.def)             Requested size: 269.50621pt x 218.3151pt.
-<./images/michelsan.png, id=113, 698.61pt x 224.84pt>
+<./images/michelsan.png, id=106, 698.61pt x 224.84pt>
 File: ./images/michelsan.png Graphic file (type png)
 <use ./images/michelsan.png>
 Package pdftex.def Info: ./images/michelsan.png  used on input line 585.
 (pdftex.def)             Requested size: 349.30414pt x 112.41972pt.
- [20 <./images/Weltkugel.png> <./images/michelsan.png>]
-<./images/Inertialsystem1.png, id=119, 424.58624pt x 100.375pt>
+ [18 <./images/Weltkugel.png> <./images/michelsan.png>]
+<./images/Inertialsystem1.png, id=112, 424.58624pt x 100.375pt>
 File: ./images/Inertialsystem1.png Graphic file (type png)
 <use ./images/Inertialsystem1.png>
 Package pdftex.def Info: ./images/Inertialsystem1.png  used on input line 602.
 (pdftex.def)             Requested size: 212.2926pt x 50.18736pt.
-<./images/Beobachterquelle.png, id=120, 370.38374pt x 89.33376pt>
+<./images/Beobachterquelle.png, id=113, 370.38374pt x 89.33376pt>
 File: ./images/Beobachterquelle.png Graphic file (type png)
 <use ./images/Beobachterquelle.png>
 Package pdftex.def Info: ./images/Beobachterquelle.png  used on input line 607.
 
 (pdftex.def)             Requested size: 185.1914pt x 44.66676pt.
-<./images/Lichtgeschwindigkeit2.png, id=121, 169.63374pt x 136.51pt>
+<./images/Lichtgeschwindigkeit2.png, id=114, 169.63374pt x 136.51pt>
 File: ./images/Lichtgeschwindigkeit2.png Graphic file (type png)
 <use ./images/Lichtgeschwindigkeit2.png>
 Package pdftex.def Info: ./images/Lichtgeschwindigkeit2.png  used on input line
@@ -964,18 +964,18 @@ Overfull \hbox (88.0763pt too wide) in paragraph at lines 616--628
 [][]  [] 
  []
 
-[21 <./images/Inertialsystem1.png> <./images/Beobachterquelle.png>]
+[19 <./images/Inertialsystem1.png> <./images/Beobachterquelle.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 639--645
 
  []
 
-[22 <./images/Lichtgeschwindigkeit2.png>]
+[20 <./images/Lichtgeschwindigkeit2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 686--689
 
  []
 
-[23]
-<./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png, id=134, 606.265pt 
+[21]
+<./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png, id=128, 606.265pt 
 x 290.08376pt>
 File: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png Graphic file (
 type png)
@@ -983,7 +983,7 @@ type png)
 Package pdftex.def Info: ./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1
 .png  used on input line 703.
 (pdftex.def)             Requested size: 242.5017pt x 116.03143pt.
-<./images/Mathependell.png, id=135, 237.88875pt x 182.6825pt>
+<./images/Mathependell.png, id=129, 237.88875pt x 182.6825pt>
 File: ./images/Mathependell.png Graphic file (type png)
 <use ./images/Mathependell.png>
 Package pdftex.def Info: ./images/Mathependell.png  used on input line 719.
@@ -998,7 +998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 733--735
 
  []
 
-[24 <./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png (PNG copy)> <./
+[22 <./images/Jetsteam_gradientkraft_vom_aequator_zum_pol_1.png (PNG copy)> <./
 images/Mathependell.png>]
 
 LaTeX Warning: Command \ss invalid in math mode on input line 740.
@@ -1008,7 +1008,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 756--759
 
  []
 
-[25]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 769--771
 
  []
@@ -1033,66 +1033,487 @@ Underfull \hbox (badness 10000) in paragraph at lines 785--788
 
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 816--819
+[24]
+
+LaTeX Warning: File `Sto\IeC {\ss }problem1.png' not found on input line 801.
+
+
+! Package pdftex.def Error: File `Sto\OT1\ss problem1.png' not found: using dra
+ft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.801 ...udegraphics[scale=0.5]{Stoßproblem1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./images/reduzierteMasse1.png, id=141, 556.0775pt x 206.7725pt>
+File: ./images/reduzierteMasse1.png Graphic file (type png)
+<use ./images/reduzierteMasse1.png>
+Package pdftex.def Info: ./images/reduzierteMasse1.png  used on input line 812.
+
+(pdftex.def)             Requested size: 278.03807pt x 103.38599pt.
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.821 ... + m_2)^2} ((m_1  m_2 )^2 + 4m_1 m_2) u_^
+                                                  2 = \frac{m_1}{2} u_1^2 \]
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.821 ...+ 4m_1 m_2) u_^2 = \frac{m_1}{2} u_1^2 \]
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[25 <./images/reduzierteMasse1.png>]
+! Undefined control sequence.
+l.830 ...[  \mu \approx m_2 \quad \mu u_1 \approxm
+                                                  _2 u_1 << m_1 u_1 \]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Double subscript.
+l.830 ...  \mu \approx m_2 \quad \mu u_1 \approxm_
+                                                  2 u_1 << m_1 u_1 \]
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Undefined control sequence.
+l.832 ...1 \approx m_1 u_1 - m_2 2u_1 \Rightarrowv
+                                                  _1 \approx m_1 u_1$ \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Double subscript.
+l.832 ... \approx m_1 u_1 - m_2 2u_1 \Rightarrowv_
+                                                  1 \approx m_1 u_1$ \\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+LaTeX Warning: File `gleichemassensto\IeC {\ss }.png' not found on input line 8
+36.
+
+
+! Package pdftex.def Error: File `gleichemassensto\OT1\ss .png' not found: usin
+g draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.836 ...aphics[scale=0.3]{gleichemassenstoß.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.839 					\subsection{4. $m_1 << m_2}
+                                      $
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.840 						$\Rightarrow
+                         \mu \approx m_1 \qquad \mu u_1 \approx m_1 u_1$\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 839--841
 
  []
 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   {
+l.844 ...g in der hinetischen \textbf{Gastheorie}}
+                                                   \]
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 825--828
+! Extra \right.
+<to be read again> 
+                   {
+l.844 ...g in der hinetischen \textbf{Gastheorie}}
+                                                   \]
+I'm ignoring a \right that had no matching \left.
+
+<./images/mm.png, id=148, 187.70125pt x 153.57375pt>
+File: ./images/mm.png Graphic file (type png)
+<use ./images/mm.png>
+Package pdftex.def Info: ./images/mm.png  used on input line 847.
+(pdftex.def)             Requested size: 187.70079pt x 153.57336pt.
+! Missing { inserted.
+<to be read again> 
+                   ^
+l.850 					\[ \frac{m}{2} u_^
+                             2 = \frac{m}{2} v_1^2 + \frac{m}{2} v_2^2 + \un...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 850.
+
+! Please use \mathaccent for accents in math mode.
+<recently read> \accent 
+                        
+l.850 ...+ \frac{m}{2} v_2^2 + \underbrace{Q}_{Wä
+                                                  rme} \quad  (1); u_1 = v_1...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   \fontdimen 
+l.850 ...+ \frac{m}{2} v_2^2 + \underbrace{Q}_{Wä
+                                                  rme} \quad  (1); u_1 = v_1...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.850 ...}_{Wärme} \quad  (1); u_1 = v_1+ v_2  \]
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.850 ...}_{Wärme} \quad  (1); u_1 = v_1+ v_2  \]
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.855 					\end{align*}
+                       
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.855 					\end{align*}
+                       
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.855 					\end{align*}
+                       
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.855 					\end{align*}
+                       
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+[26 <./images/mm.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 876--879
 
  []
 
 [27]
+Underfull \hbox (badness 10000) in paragraph at lines 885--888
 
-LaTeX Warning: Command \ss invalid in math mode on input line 834.
+ []
 
 
-LaTeX Warning: Command \ss invalid in math mode on input line 834.
+LaTeX Warning: Command \ss invalid in math mode on input line 894.
+
+
+LaTeX Warning: Command \ss invalid in math mode on input line 894.
+
+[28]
+<./images/exzentri.png, id=159, 664.4825pt x 188.705pt>
+File: ./images/exzentri.png Graphic file (type png)
+<use ./images/exzentri.png>
+Package pdftex.def Info: ./images/exzentri.png  used on input line 924.
+(pdftex.def)             Requested size: 398.69257pt x 113.22386pt.
+<./images/ellipseexzen.png, id=160, 773.89125pt x 295.1025pt>
+File: ./images/ellipseexzen.png Graphic file (type png)
+<use ./images/ellipseexzen.png>
+Package pdftex.def Info: ./images/ellipseexzen.png  used on input line 930.
+(pdftex.def)             Requested size: 386.94467pt x 147.55087pt.
+ [29 <./images/exzentri.png> <./images/ellipseexzen.png>]
+<./images/kepler2.png, id=166, 212.795pt x 63.23625pt>
+File: ./images/kepler2.png Graphic file (type png)
+<use ./images/kepler2.png>
+Package pdftex.def Info: ./images/kepler2.png  used on input line 953.
+(pdftex.def)             Requested size: 106.39723pt x 31.61804pt.
+
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 950--961
+[][]  [] 
+ []
+
+<./images/Hyperbelproblem.png, id=167, 578.16pt x 318.18875pt>
+File: ./images/Hyperbelproblem.png Graphic file (type png)
+<use ./images/Hyperbelproblem.png>
+Package pdftex.def Info: ./images/Hyperbelproblem.png  used on input line 969.
+(pdftex.def)             Requested size: 289.07928pt x 159.09398pt.
+[30 <./images/kepler2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 971--973
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 973--975
+
+ []
+
+<./images/Hyperbel1.png, id=172, 309.155pt x 212.795pt>
+File: ./images/Hyperbel1.png Graphic file (type png)
+<use ./images/Hyperbel1.png>
+Package pdftex.def Info: ./images/Hyperbel1.png  used on input line 985.
+(pdftex.def)             Requested size: 154.57712pt x 106.39723pt.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.994 	\end{minipage}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 982--995
+[][]  [] 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.996 $ \Rightarrow$ sin \frac{ \theta}{2}
+                                           = sin (\varphi_\infty - \frac{ \p...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.996 $ \Rightarrow$ sin \frac{ \theta}{2}
+                                           = sin (\varphi_\infty - \frac{ \p...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.996 $ \Rightarrow$ sin \frac{ \theta}{2}
+                                           = sin (\varphi_\infty - \frac{ \p...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.838 ...R} = \frac{M \vec{r}, m \vec{r}_2 }M + m}
-                                                    = 0 \Rightarrow \vec{r}_...
+\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
+                                                 
+l.996 $ \Rightarrow$ sin \frac{ \theta}{2}
+                                           = sin (\varphi_\infty - \frac{ \p...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[28] (./theoretische Physik Vorlesung.aux) ) 
+<./images/Parabel.png, id=173, 371.3875pt x 257.96375pt>
+File: ./images/Parabel.png Graphic file (type png)
+<use ./images/Parabel.png>
+Package pdftex.def Info: ./images/Parabel.png  used on input line 1009.
+(pdftex.def)             Requested size: 185.69328pt x 128.98155pt.
+
+Overfull \hbox (88.0763pt too wide) in paragraph at lines 1006--1017
+[][]  [] 
+ []
+
+[31 <./images/Hyperbelproblem.png> <./images/Hyperbel1.png>]
+! Argument of \language@active@arg" has an extra }.
+<inserted text> 
+                \par 
+l.1034 ...d \varphi \quad \text{"impact paramer" }
+                                                   b \]
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \language@active@arg" was complete.
+<to be read again> 
+                   \par 
+l.1034 ...d \varphi \quad \text{"impact paramer" }
+                                                   b \]
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \language@active@arg" has an extra }.
+<inserted text> 
+                \par 
+l.1034 ...d \varphi \quad \text{"impact paramer" }
+                                                   b \]
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \language@active@arg" was complete.
+<to be read again> 
+                   \par 
+l.1034 ...d \varphi \quad \text{"impact paramer" }
+                                                   b \]
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \language@active@arg" has an extra }.
+<inserted text> 
+                \par 
+l.1034 ...d \varphi \quad \text{"impact paramer" }
+                                                   b \]
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \language@active@arg" was complete.
+<to be read again> 
+                   \par 
+l.1034 ...d \varphi \quad \text{"impact paramer" }
+                                                   b \]
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \language@active@arg" has an extra }.
+<inserted text> 
+                \par 
+l.1034 ...d \varphi \quad \text{"impact paramer" }
+                                                   b \]
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \language@active@arg" was complete.
+<to be read again> 
+                   \par 
+l.1034 ...d \varphi \quad \text{"impact paramer" }
+                                                   b \]
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+<./images/winkelquerschnitt.png, id=180, 605.26125pt x 372.39125pt>
+File: ./images/winkelquerschnitt.png Graphic file (type png)
+<use ./images/winkelquerschnitt.png>
+Package pdftex.def Info: ./images/winkelquerschnitt.png  used on input line 103
+6.
+(pdftex.def)             Requested size: 302.62987pt x 186.19516pt.
+[32 <./images/Parabel.png>] [33 <./images/winkelquerschnitt.png>]
+(./theoretische Physik Vorlesung.aux) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 996 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 15084 strings out of 492649
- 286137 string characters out of 6129622
+ 15132 strings out of 492649
+ 287318 string characters out of 6129622
  396649 words of memory out of 5000000
- 18624 multiletter control sequences out of 15000+600000
- 14756 words of font info for 58 fonts, out of 8000000 for 9000
+ 18661 multiletter control sequences out of 15000+600000
+ 14924 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,20n,63p,487b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msbm10.pfb>
-Output written on "theoretische Physik Vorlesung.pdf" (28 pages, 1612392 bytes)
+ 55i,20n,63p,487b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+mextra/cmex8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+
+Output written on "theoretische Physik Vorlesung.pdf" (33 pages, 2486991 bytes)
 .
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 257 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
