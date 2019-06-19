@@ -8,6 +8,7 @@
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{listings}
+\usepackage{dsfont}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{esvect}
@@ -650,6 +651,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 						Dabei ist zu beachten: Für $\frac{v}{c_0} \rightarrow 0 $ ist $ \gamma = 1 + 0(v^2) \Rightarrow $ In erster Ordnung in v erhält man Galilei-Transformation: 
 						\[ v^\prime = x -vt + 0(v^2) \quad t^\prime = t - \frac{vx}{c_0^2} + 0(v^2) \]
 						\newpage
+					\part{Vorlesung 9}
 						\subsection{Anwendung- Relativitätstheorie}
 							 \subsubsection{Geschwindigkeitsaddition oder subtraktion}
 							In System $\sum$ bewegt sich ein Teilchen mit Geschwindigkeit\\
@@ -681,7 +683,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 							$ E = \sqrt{m_0^2 + \vec{p}^2} = m_0 \sqrt{1 + \frac{\vec{p}^2}{m_0^2}} = m_0 (1 + \frac{1}{2} \frac{\vec{p}^2}{m_0^2} + 0 (p^4))\\
 							E = \gamma m_0 = \frac{m_0}{\sqrt{1 - v^2}} - m_0 (1 + \frac{1}{2} v^2 + 0(v^2)) $\\
 							$ \approx m_0 + \underbrace{\frac{1}{2} m_0 v_0^2}_{\text{ nicht relativistische kinetische Energie}}$
-							
+						\part{Vorlesung 10}
 							\subsection{Allgemeine Form der Newtonschen Bewegungsgleichung:}
 								m$\ddot{\vec{ r}} = \vec{f}(\vec{r} , t) \rightarrow 
 								\text{ gewöhnlicghe Differentialgleichung zweiter. Ordnung}$\\
@@ -752,6 +754,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 									mit $w_0 =\sqrt{\frac{g}{l}}$,aber $T = \frac{2 \pi}{w_0} = 2\pi \sqrt{\frac{l}{g}}$\\
 									Dies entspricht dem Federpendel
 									\[ m \ddot{x} + hk = 0 \text{ mit } E_{pot} = \frac{h}{2}x^2 \quad F = - \frac{d E_{pot}}{dx} = - hx \] 
+							\part{Vorlesung 11}
 								\subsection{Erhaltung von Impuls und Drehimpuls}
 									Impuls eines Teilchens := $\vec{p} = m \vec{ v} = m \dot{\vec{r}}$\\
 									Dabei ist m eine Ruhemasse in Newtonscher Physik ansonsten $m \rightarrow m \gamma \text{\textit{ bzw. bewegte Masse}}$\\
@@ -811,6 +814,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 						\begin{center}
 							\includegraphics[scale=0.5]{reduzierteMasse1.png}
 						\end{center} 
+					\part{Vorlesung 12}
 						\subsection{1. zentraler Stoß:}
 							Alle Impuls liegen auf der $x-Achse$ so daß $m_1 u_1 = m_1 v_1 + m_2 v_2$\\
 							Anwendung der vorigen Figur ergibt (abgesehen von der trivialen Lösung $v_1 = u_1, v_2 = 0$)
@@ -886,6 +890,7 @@ Das Spatprodukt $(\vec a, \vec b, \vec c)$ dreier Vektoren $\vec{a}, \vec{b}$ un
 					gebundene Bahnen können geschlossen aber ungeschlossen sein.\\\\
 					Für geschlossene Bahnen muß:
 					\[ \Delta \varphi = \frac{2L}{\sqrt{2m}} \int_{r_{min}}^{r_{max}} \frac{dr^\prime}{r^{12} \sqrt{E - V_{eff} (r^\prime)}} = 2 \pi n \]
+				\part{Vorlesung 13}
 					\subsubsection{Beispiele für potentielle Energie}
 						\begin{align*}
 							E_{pot} = - \frac{G_N m_m}{r} \text{ Gravitationspotenzial zwischen M und m}\\
@@ -972,7 +977,7 @@ ohne detaillierte Beweise:\\
 \textbf{1- Definition}\\
 \[ \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1 \]
 \textbf{2. Definition:}\\
-\[ |r_1 - r_1| = 2a \]
+\[ |r_1 - r_\mathds{1} = 2a \]
 \begin{align*}
 	\Rightarrow r_1 \frac{k}{1 + \varepsilon cos \varphi} &\qquad k = \frac{b^2}{a}\\
 	a= \frac{G_N}Mm{2E} > 0&\qquad b = \frac{L}{\sqrt{2\mu E}} 
@@ -1026,6 +1031,7 @@ z.B. Perihelddrehung des Merkurs
 			\item Der Radiusvektor (Fahrstrahl) von der Sonne zum Planeten überstreicht in gleichen Zeiten gleiche Fläche
 			\item Die Quadrate der Umlaufzeiten der Planeten verhalten sich wie die Kuben ihrer großen Halbachsen $ \frac{T^2}{a^3} = const, \frac{4 \pi^2}{G_N (M + m)} $
 		\end{enumerate}
+	\part{Vorlesung 14}
 \section{Wirkungsquerschnitt und Steuung}
 	Stromdichte $ j = \Box $ einfallende Teulchen pro Zeit und Fläche Raumwinkelelement 
 	\[ DU = sin \theta d \theta d \varphi \]
@@ -1039,6 +1045,279 @@ z.B. Perihelddrehung des Merkurs
 Strukturwinkel $\theta $ wird mit wachsendem impace b kleiner.
 \[ \frac{db}{d\theta} < 0 \Rightarrow \frac{d \sigma }{d \eta}  = \frac{b}{sin \theta} |\frac{db}{d \theta}| \]
 hier: $b ''= \frac{G_N Mm}{2E} cot \frac{\theta}{2} \Rightarrow \frac{db}{d\theta} = - \frac{G_N Mm}{4E} \frac{1}{sin^2 \frac{\theta}{2}} $ 
-mit $wt \frac{ \theta}{2} = \frac{cos \frac{\theta}{2}}{sin \frac{\theta}{2}} $ und $sin \theta = 2 sin \frac{\theta}{2} cos \frac{\theta}{2} $  
-	
-\end{document}
+mit $wt \frac{ \theta}{2} = \frac{cos \frac{\theta}{2}}{sin \frac{\theta}{2}} $ und $sin \theta = 2 sin \frac{\theta}{2} cos \frac{\theta}{2} $\\
+$\Rightarrow\frac{dv}{du} = \frac{(G_N Mm)^2}{IGE^2} \frac{1}{sin^4 \frac{\theta}{2}}$ \\
+Rutherfordsches Gesetz (im Schwerpunktsystem) = coulomb Streuung (Rutherfordsches Atommodell)
+\[ \theta für: \frac{dv}{du}  cx  \frac{1}{E^2} \]
+\[ E für \frac{dv}{du} cx \frac{1}{\theta^4} für \theta << 1 \]
+
+\section{Matrizen und Tensoren}
+msn-Matrix A = $ \left(\begin{array}{ccccc}
+a_{11} & a_{12} & ... & a_{1j} & a_{1n} \\ 
+a_{21} & a_{22} & ... & a_{2j} & a_{2n} \\ 
+... & ... & ... & ... & ... \\ 
+a_{i1} & a_{i2} & ... & a_{ij} & a_{in} \\ 
+a_{m1} & a_{m2} & ... & a_{mj} & a_{mn}
+\end{array}\right)  \rightarrow i-te Zeile $\\
+j-te Spalte 
+\[ A = (a_{ij}) \]
+Rechenoptionen:
+\begin{itemize}
+	\item Addition \qquad $C = A + B \qquad c_{ij} = a_{ij} + b_{ij}$ nur gleichartige mxn-Matrizen können addiert werden
+	\item skalare Multiplikation \[ C = \lambda A  \quad c_{ij} = \lambda a_{ij} \]
+	\item Matrix-Multiplikation:\\
+	Sei $ A = (a_{ij}) = mxn-Matix , B = (b_{kl}) = nxr-Matrix  $\\
+	$ \Rightarrow C = AB \quad c_{ij} = \sum_{k=1}^{n} a_{ik} b_{kj} = \text{mxr-Matrix} $
+\end{itemize}
+\textbf{Spezialfall:} $ B = x = nxl-Matrix  = $ Vektor mit n -komponenten\\
+$ \qquad \Rightarrow Ax= mxl-Matrix = $ Vektor mit m Komponenten\\
+z.B. $m = n \rightarrow$  quadratische Matrix 
+ \[ A\vec{x} = \vec{b}  \quad  \left(\begin{array}{cccc}
+ a_{11} & a_{12} & ... & a_{1n} \\ 
+ a_{21} & a_{22} & ... & a_{2n} \\ 
+ ... & ... & ... & ... \\ 
+ a_{n2} & a_{n1} & ... & a_{nn}
+ \end{array}\right)   \left( \begin{array}{c}
+ x_1 \\ 
+ x_2 \\ 
+ ... \\ 
+ x_n
+ \end{array}  \right) =  \left( \begin{array}{c}
+ b_1 \\ 
+ b_2 \\ 
+ ... \\ 
+ b_n
+ \end{array}  \right) \]
+ Darauf entsteht dann ein Lineares Gleichungssystem:
+ \[ a_{11} x_1 + a_{12} x_2 + ... a_{1n} x_n = b_1 \]
+ \[ a_{21} x_1 + a_{22} x_2 + ... a_{2n} x_n = b_2 \]
+ \[ ... \]
+ \[ a_{n1} x_1 + a_{n2} x_2 + ... a_{nn} x_n = b_n \]
+ Rechenregeln:
+ \[ A + B = B+A \qquad \text{kommutativ} \]
+ \[ A(B+C) = AB + AC \qquad \text{ assozitiv} \]
+ \[ A(BC) = (AB)C = ABC \qquad \text{distributiv} \]
+ aber: 
+ \[ AB \neq BA \text{ im allgemeinen } \]
+ \[ [A,B] := AB- BA \qquad \text{Kommutator} \]
+ Spielt wichtige Rolle in der Quantenmechanik\\
+ Die $"$Transponierte$" A^T$ einer Matrix A erhält man durch Vertauschen von Zeilen und Spalten: $ (AT)_{ij} = A_{ji} $\\
+ Es gilt: $ (AB)^T = B^T A^T $
+ \part{Vorlesung 15}
+\subsection{Quadratische nxn Matrizen}
+	bilden einer $"$Algebra$"$ unter Addition und Multiplikation mit Zahlen sowie Matrixmultiplikationen.\\
+	Einheitsmatrix:
+	\[ E = \mathds{1} (\delta_{ij}) = \left( \begin{array}{cccc}
+	1 & 0 & ... & 0 \\ 
+	0 & 1 & ... & 0 \\ 
+	... & ... & ... & ... \\ 
+	0 & .... & ... & 1
+	\end{array}  \right) \]
+	\[ EA = EAE = A \forall A\]
+Die Determinante ist damit:
+\[ |A| = det A =\underbrace{ \sum}_{\text{Permutation} P(1,2,...,n)} (-1^P a_{1P1} a_{2P2} ... a_{ipi} ... a_{npn} \]
+\[( -1 ^P  = \begin{cases}
+1  \text{ grade Permuatitionen  }\\
+-1 \text{ ungrade Permuationen}
+\end{cases}\]
+$\textbf{n=2}$	
+\[\left| \begin{array}{cc}
+a_{11} & a_{12} \\ 
+a_{21} & a_{22}
+\end{array}  \right|  = a_{11} a_{22} - a_{12} a_{21} \]
+$\textbf{n = 3}$
+\[ \left| \begin{array}{ccc}
+a_{11} & a_{12} & a_{13} \\ 
+a_{21} & a_{22} & a_{23} \\ 
+a_{31} & a_{32} & a_{33}
+\end{array}  \right| = a_{11} a_{22} a_{33} + a_{12} a_{23} a_{31} + a_{13} a_{21} a_{32} - a_{11} a_{23} a_{32}  - a_{11} a_{23} a_{32} - a_{12} a_{21} a_{33} - a_{13} a_{22} a_{31} \]
+Man kann zeigen:
+\[|AT| = |A| \]
+\[ |AB| = |BA| = |A||B| \]
+Wenn $|A| \neq 0 $ dann gibt es eine invere Matrix $A^{-1}$ mit
+\[ A^{-1} A = AA^{-1} = \mathds{1} = E\]
+In diesem Fall hat ein lineares Gleichungsystem 
+\[ A \vec{x} = \vec{b} \text{ die eindeutige Lösung } \vec{x} = A^{-1} \vec{b} \]
+Anwendung: Taylorentwicklung im $\mathbb{R}^n$
+\[ f(\vec{r}) = f(\vec{r}_0) + \sum_{i = 1}^{n} \frac{\partial f }{\partial x_i} (\vec{r}_0) (x_i - x_{0i}  \]
+\[ + \frac{1}{2} \sum_{i,j = 1}^{n} \frac{\partial^2 f}{\partial x_i \partial x_j } (\vec{r}_0) (x_j - x_{0i}) (x_j - x_{oj})+...  \]
+\[ \vec{r} = (x_i) \qquad \vec{r}_0 = (x_{0i}) \]
+kann geschrieben werden als
+\[ f(\vec{r}) = f(\vec{r}_0) + \vec{\nabla} f (\vec{r}_0) \cdot (\vec{r} - \vec{r}_0) + \frac{1}{2} (\vec{r} - \vec{r}_0)^T Q (\vec{r} - \vec{r}_0)   \]
+mit $ Q_{ij} = \frac{\partial^2 f}{\partial x_i \partial x_j} (\vec{r}_0) $
+Beipsiel: Entwicklung des Potentials $\frac{1}{| \vec{r} - \vec{a} |}$ einer Punktquelle bei $\vec{a}$ um $\vec{r} = 0$
+\[ \frac{\partial}{ \partial x_i} \frac{1}{| \vec{r} - \vec{a} |} = - \frac{1}{| \vec{r}- \vec{a} |^2} \frac{\partial}{\partial x_i} | \vec{r}-\vec{a}| = . \frac{x_i - a_i}{| \vec{r}-\vec{a} |^3}  \]
+\[ \frac{\partial^2}{\partial_{xi} \partial_{xj}} \frac{1}{| \vec{r}-\vec{a} |} = - \frac{\delta_{ij}}{| \vec{r}-\vec{a} |^3 } + \frac{3(x_i - a_i) (x_j - a_j)}{| \vec{r}-\vec{a} |^5} \]
+\[ \Rightarrow \frac{1}{| \vec{r}-\vec{a} |} = \frac{1}{a} + \frac{\vec{a} \cdot \vec{r}}{a^3} + \frac{\vec{r}^TQ\vec{r} }{2a^5} \]
+mit $ Q_{ij} = 3 a_i a_j - a^2 \delta_{ij} $
+Eigenschaften: $ Q_{ij} = Q_{ji} \text{Symmetrie} $
+\[ \text{ Sput(trace) } \underbrace{Tr Q}_{\text{Summe der Diagonalelemente}} \equiv \sum_{j} Q_{jj} = \sum_{i} (3a_ja_j - a^2 \delta_{ij}) = 3a^2 - 3a^2 = 0  \]
+Tensoren sind Objekte mit n Indizes die sich für jeden Index wie ein Vektor transformieren (\textit{Koordinatentransformationen siehe später})\\
+Also: 
+\[ \text{Skalar = Zahl = Tenser 0-ter Stufe} \]
+\[ \text{ Vektor = Tensor 1-ster Stufe} \]
+\[ \text{ Matrix = Tensor 2-ter Stufe } \]
+\[ \varepsilon_{ij}k \text{ Tensor 3-ter Stufe } \]
+$\vec{x}$ heißt \textbf{Eigenvektor} zum \textbf{Eigenvektor} $\lambda$ wenn 
+\[ A\vec{x} = \lambda \vec{x} für \vec{x} \neq 0 \]
+\[ \lambda \text{ Eigenwert } \Leftrightarrow |A - \lambda \mathds{1} | = 0  \]
+wenn A nxn Matrix, dann ist 
+\[ |A - \lambda \mathds{1} = a_0 + a_1 \lambda + ... + (-1)^n \lambda^n  = x_n (\lambda) \]
+das \textbf{charakteristische Polynom} n-ten Grades mit n (u.U. auch -mehrfallnullstellen ) 
+\[ x_n(\lambda  = #(\lambda_1 - \lambda)( \lambda_2 - \lambda) .. ( \lambda_n - \lambda ) \]
+also sind $\lambda_i$ die Eigenwerte von A\\
+\textbf{Satz:} Die Eigenwerte einer reellen symmetrischen Matrix sind reell.\\
+\begin{proof}
+	\[ \sum_{i,j} (a_{ij} - \lambda \delta_{ij} ) x_i x_j = 0  \]
+	dabei multiplizieren multiplizieren wir: $ \sum_{j} a_{ij} x_j  = \lambda x_i$ mit $x_i^*$\\
+	$ \underbrace{\Rightarrow}_{\text{komplexe Konjungation}} (a_{ij} \lambda^* \dashleftarrow_{ij}) x_i x_j^* = 0 $
+	subtrahiere und verwende Symmetrie um $a_{ij}$ und $\delta_{ij}$
+	\[ \Rightarrow \sum_{i,j} (-\lambda + \lambda^*) \delta_{ij} x_i^* x_j = (\lambda^* - \lambda ) \sum_{i} |\alpha_i|^2 = 0 \Rightarrow \lemda
+	^* = \lambda \]
+da $ | \vec{x} | \neq 0  $ 
+\end{proof}
+\textbf{Satz:} \quad Die Eigenvektoren einer reellen, symmetrischen Matrix zuverschiedenen Eigenvektoren sind orthogonal
+\begin{proof}
+	I\[ \sum_{i} a_{ij} x_j = \alpha x_i \qquad \sum_{i} a_{ij} y_j = \beta y_i \qquad \alpha \neq \beta \]
+	multipliziere mit $y_i$ bzw. $x_i$ und summiere über i
+	\[ \Rightarrow \sum_{ij} a_{ij} y_i x_j = \alpha \sum_{j} x_i y_i \]
+	\[ \sum_{ij} a_{ij} x_i y_j = \beta \sum x_i y_i  \]
+	\[ \underbrace{\Rightarrow}_{\text{Subtraktion mit} a_{ij} = a_{ji}} 0 ##= (\alpha - \beta ) \sum_{i} x_i y_i = (\alpha .  \beta) \vec{x} \cdot \vec{y} \Rightarrow \vec{x} \cdot \vec{y} = 0 \text{ da } \alpha \neq \beta \]
+\end{proof}
+	\subsection{Beispiel} Trägheitstensor einer Massenverteilung
+	\[ \underbrace{I_{ij}}_{\text{reell und symmetrisches}} = \underbrace{\int dV}_{\text{Volumen-Integral}} \underbrace{\rho}_{\text{Massendichte}}  (\delta_{ij} r^2 - x_i x_j ) \quad \vec{r} = (x_1,x_2,x_3)  \]
+	Eigenwerte sind reell und heißen Hauptträgheitsmomente mit entsprechender Hauptträgheitstensoren $( \widehat{=} $ Eigenvektoren $ \vec{x}_i  )$
+	\subsection{Beispiel}\\
+	asymmetrische Matrix \[A = \left( \begin{matrix} 
+	1 & 4\\1 & 1
+	\end{matrix} \right) \Rightarrow |A - \lambda \mathds{1} | = \left| \begin{matrix}
+	1-\lambda & 4 \\ 1 & 1 - \lambda
+	\end{matrix} \right| = (1-\lambda)^2 - 4 = 0 \]
+	$ \Rightarrow \lambda_\pm = 3_1 - 1 $
+	\[ \text{Eigenvektoren } \left( \begin{matrix}
+	1-\lambda_\pm & 4 \\1 & 1-\lambda_\pm 
+	\end{matrix} \right) \left( x_{\pm 1} \\ x_{\pm 2} = 0 \right)  \]
+	$ \lambda = \lambda_+ \Rightarrow -2x_{+1} + 4x_{+2} = 0 \Rightarrow x_{+1} = 2x_{+2} \Rightarrow \alpha \left( \begin{matrix}
+	2 \\ 1
+	\end{matrix} \right) $ sind Eigenvektoren zu $ \lambda_+ = 3$ 
+analog: $ \alpha \left( \begin{matrix}
+-2 \\ 1
+\end{matrix} \right) $  sind Eigenvektoren zu $ \lambda_- = -1  $
+\subsection{Beispiel symmetrische Matrix}
+\[ A = \left( \begin{matrix}
+1 & 2 \\ 2 & 1  
+\end{matrix} \right) \Rightarrow |a - \lambda \mathds{1} | = \left| \begin{matrix}
+1- \lambda & 2 \\ 2 & 1-\lambda
+\end{matrix} \right| = (1 - \lambda)^2 -4  = 0 \]
+$ \Rightarrow \lambda_\pm = 3_1 - 1  $ wie vorher auch
+\[ \text{Eigenvektoren:} \left( \begin{matrix}
+-2 & 2 \\ 2 & -2 
+\end{matrix} \right) \left( \begin{matrix}
+x_{\pm 1} \\ x_{\pm 2}
+\end{matrix} \right) = 0 \Rightarrow -2x_{\pm 1} + 2x_{\pm 2} = 0 \]
+\[ \Rightarrow x_.{+1 } = x_{+2} \Rightarrow \alpha \left( \begin{matrix}
+1 \\ 1 
+\end{matrix} \right) \text{ sind Eigenvektoren zu} \lambda = \lambda_ü+ \]
+\[ \left(\begin{matrix}
+2 & 2 \\ 2 & 2
+\end{matrix}\right) \left( \begin{matrix}
+x_{-1} \\ x_{-2}
+\end{matrix} \right) = 0 \Rightarrow x_{-1} = -x_{-2}  \]
+$ \Rightarrow \alpha\left(\begin{matrix}
+1 \\ -1
+\end{matrix}\right)$ sind Eigenvektoren zu $\lambda = \lambda_-$
+Die Eigenvektoren sind nun orthogonal, wie erwartet
+\[ (1,1) \cdot \left( \begin{matrix}
+1 \\ -1
+\end{matrix} \right) = 1 - 1 = 0 \]
+\section{physikalische Rolle des Trägheitstensors}
+Starrer Körper rotiere mit Winkelgeschwindigkeit $ \vec{w} $ \\ Ein Massenelement $ dm = \delta dV $ am Ort $\vec{r}$ macht dann folgenden Beitrag zum Drehimpuls
+\[ d\vec{L} = dm \vec{r} \times \vec{v} \underbrace{= }_}{\vec{v}= \vec{w} \times \vec{r}}  \delta  \vec{r } \times (\vec{w} \times \vec{r}) dV \underbrace{=}_{\text{bac-cab Regel}} \delta \left[ \vec{r}^2 \vec{w} - (\vec{w} \cdot \vec{r}) \vec{r} \right]  \] dV
+\[ \Rightarrow DL_i = \delta \left[ r^2 w_i - x_i \sum_{j}  w_j x_j \right] dV \]
+$ \Rightarrow L_i = \sum_{i} I_{ij} w_j $\\
+mit dem Trägheitstensor:
+\[ I_{ij} = \int DV \delta(\delta_{ij} r^2  - x_i x_j) \qquad \vec{r} = (x_{1}, x_2 , x_3 )  \]
+Beitrag des Massenelements dm zur Kinetischen Energie:
+\[ d E_{kin} = \frac{1}{2} dm \vec{v}^2 = \frac{1}{2} \delta (\vec{w} \times \vec{r})^2 dv \]
+\[ \underbrace{= }_{(\vec{a} \times \vec{b}) \cdot ( \vec{c} \times \vec{d}) = (\vec{a} \cdot \vec{c}) ( \vec{b}\cdot \vec{d} ) - ( \vec{b} \cdot \vec{c} )  ( \vec{a \cdot \vec{d}} )  }  \]
+\[ \frac{1}{2} \delta \left[ w^2 r^2 - (\vec{w} \cdot \vec{r})^2 \right] dV \]
+\[ \frac{1}{2} \delta \left[ (\sum_{i} w_i^2) (\sum_{j} x_j^2) - ( \sum_{i} w_i x_j) ( \sum_{j} w_j x_j )  \right] dV \]
+$ \Rightarrow E_{kin} = \frac{1}{2} \sum_{ij}  I_{ij} w_i w_j  $ mit $I_{ij}$ wieder dem Trägheitstensor
+\section{Vektoren und Koordiantentransformationen}
+\includegraphics[scale=0.5]{Koordinatentransformationen.png}
+Drehung:
+\[ \vec{e}_i^\prime = \sum_{j = 1}^{3} D_{ij} \vec{e}_j \]
+Eigenschaften:
+\[ (1) cos \varphi_{ik} = \vec{e}_k \cdot \vec{e}_i^\prime = \vec{e}_k \cdot \sum_{j} D_{ij} \vec{e}_j  = D_{jk} \]
+\[ (2) \delta_{ik} = \vec{e}_i^\prime \cdot \vec{e}_k^\prime = (\sum_{j} D_{ij} \vec{e}_j) \cdot (\sum_{l} D_{kl} \vec{e}_l ) = \sum_{jl} D_{ij} D_{kl} \underbrace{\vec{e}_j \cdot \vec{e}_l}_{\delta_{jl} = \sum_{j} D_{ij} D_{kj} \]
+$ \Rightarrow$  D bildet paarweise orthogonale Spaltenvektoren\\
+\[ (3) \Rightarrow D \left| \begin{matrix}
+\vec{e}_1^\prime \cdot \vec{e}_1 & \vec{e}_2^\prime \cdot \vec{e}_1 & \vec{e}_3^\prime \cdot \vec{e}_1\\
+\vec{e}_1^\prime \cdot \vec{e}_2 & \vec{e}_2^\prime \cdot \vec{e}_2 & \vec{e}_3^\prime \cdot \vec{e}_3\\
+\vec{e}_1^\prime \cdot \vec{e}_3 & \vec{e}_2^\prime \cdot \vec{e}_3 & \vec{e}_3^\prime \cdot \vec{e}_3
+\end{matrix} \right|  \vec{e}_1^\prime \cdot (\vec{e_2^\prime \times e_3^\prime} \underbrace{= }_{\text{orthogonales Rechtssystem}} 1 \]
+\[ (4) \delta_{ik} = \sum_{i} D_{ij} D_{kj} = \sum_{i} D_{ij} (D^T)_{jk} \]
+\[ \Rightarrow D^{-1} = D^T \Rightarrow DD^T = D^TD = \mathds{1} \]
+\[ \text{ Dist} " orthogonale Matrix  \] 
+\subsection{Beispiel: zweidimensionale Drehungen}
+\[ D(\varphi) = \left( \begin{matrix}
+cos \varphi & sin \varphi\\ - sin \varphi & cos \varphi
+\end{matrix} \right) \] 
+\[ \left( \begin{matrix}
+\vec{e}_1^\prime \\ \vec{e}_2^\prime 
+\end{matrix} \right) = \left( \begin{matrix}
+cos \varphi & sin \varphi \\ - sin \varphi & cos \varphi
+\end{matrix} \right) \left( \begin{matrix}
+\vec{e}_1 \\ \vec{e}_2
+\end{matrix} \right)  \]
+\[ D(\varphi_2) D(\varphi_1) = D(\varphi_1) D(\varphi_2)  = D(\varphi_1 + \varphi_2) \]
+für $\leq 3$ Dimensionen kommutieren Drehungen i.a. nicht!\\
+\textbf{Transformation von Vektorzenpunkten: }
+\[ \vec{r} = \sum_{i} x_i \vec{e}_i  = \sum_{i} x_i^\prime \vec{e}_i^\prime \]
+\[ \Rightarrow x_j^\prime = \vec{e}_j^\orime \cdot \vec{r} = \sum_{i} x_i \vec{e}_j ^\prime \cdot \vec{e}_i = \sum_{i} D_{ji} x_i \]
+also $ \vec{x}^\prime = D \vec{x} \Rightarrow$ Komponenten transformieren wie Einheitsvektoren\\
+\textbf{Ausblick:}\\
+ Bei nicht-orthogonalen Transformationen ist dies nicht der Fall und man unterscheidet ko. und kontravariante Vekoren.\\
+ \textbf{Anwendung:}\\
+$ |\vec{x}^\prime |^2 = \vec{x}^\prime \cdot \vec{x}^\prime = \vec{x}^{\prime T } \vec{x}^\prime = \vec{x}^T \underbrace{D^T D}_{\mathds{1 }   \vec{x} = \vec{x}^R \vec{x} = \vec{x} \cdot \vec{x} = |\vec{x}|^2 $ \\
+	$ \Rightarrow $ Norm erhalten
+\section{Lineare Differentialgleichungen}
+Betrachte die gewöhnliche Differentialgleichung
+\[ \ddot{x} + a(t) \dot{x} + b(t) x = f(t) \qquad (1)  \]
+mit zeitabhängigen Koeffizenten. Wichtig z.B. zur Beschreibung von Schwingungen. \\
+Gleichung 2.Ordnung kann in 2 Gleichungen 1.Ordnung umgeschrieben werden$_$
+\[  \dot{x} = v \]
+\[ \dot{v} = f(t) - b(t) x - a (t) v  \]
+beschreibt z.B- Trajektorien im Phasenraum\\
+$Gleichung (1)$ heißt \textit{inhomogene} wenn $ f(t) \neq 0$, ansonsten \textit{homogen}\\
+Die Lösungen von homogenen Differentialgleichungen bilden einen linearen Vektorraum, d.h.Linearkombinationen von Lösungen sind wieder Lösungen, Fernen ist die Lösung für jede Anfangsbedingung $ x(t_0) = x_0, \dot{x} (t_0) = v_o  $ eindeutig.\\
+\textbf{Satz}\\
+\[ \text{Seien } x_1(t),x_2(t) \text{ zwei Lösungen der homogenen Differentialgleichung } \ddot{x} + a(t) \dot{x} + b(t) x = 0 \]
+So erfüllt die Wronstzi-Determinante
+\[ w(t) = x_1(t) \dot{x}_2 (t) - \dot{x}_1 (t) x_2 (t)   \]
+die lineare Differentialgleichung 1. Ordnung
+\[ \dot{w} (t) = -a(t) w(t) \]
+\textbf{Beweis:}\\
+\[ \dot{w} = x_1 \ddot{x}_2 - \ddot{x}_1 x_2 \underbrace{= }_{\text{Einfache Difgleichung.}} x_1(-a \dot{x}_2 - bx_2) - ( -a\dot{x}_1 - b x_1 )x_2  \]
+\[ = - a (x_1 \dot{x}_2 - \dot{x}_1 x_2)  = - a W \] 
+\textbf{Lösung dieser Gleichung:}
+\[ \frac{dw}{w} = - a(t) dt \quad \Rightarrow ln \frac{w(t)}{w(t_0)} = - \int_{t_0}^{t} dt^\prime a (t^\prime) \]
+$ \Rightarrow w(t) = w(t_0) e^{- \int_{t_0}^{t} dt^\prime a (t^\prime)} $\\
+\textbf{Satz:}\\
+Zwei Lösungen $x_1(t), x_2 (t)$ sind genau dann linear abhängig, wenn $ w(t) = x_1 (t)  \dot{x}_2 (t) - \dot{x}_1 x_2 (t) \equiv 0 $ \\
+\textbf{Beweis:}
+\[ \text{Sei } \lambda_1 x_1 + \lambda_2 x_2 \equiv 0 \text{ mit } \lambda_1 \neq 0 \]
+\[ \Rightarrow x_1 = \frac{\lambda_2}{\lambda_1} x_2 \quad ; \quad \dot{x}_1 = \frac{\lambda_2}{\lambda_1} \dot{x}_2 \]
+\[ \Rightarrow w = - \frac{\lambda_2}{\lambda_1}x_2 \dot{x}_2 + \frac{\lambda_2}{\lambda_1} \dot{x}_2 x_2 = 0  \]
+für $ \lambda_2 \neq 0 $ analog\\
+Sei $ w(t) \equiv 0 $. Wenn auf einem Integral $ x_1 , x_2 \neq 0 $
+\[ \frac{\dot{x}_1}{x_1} = \frac{\dot{x}_2}{x_2} \Rightarrow \frac{dx_1}{x_1} = \frac{dx_2}{x_2} \Rightarrow ln x_1 (t) = ln x_2 (t) + const \]
+\[ \Rightarrow x_1 (t) = const \cdot x_2 (t) \Rightarrow x_1 , x_2 \text{ linear abhängig} \]
+\textbf{Satz:}\\
+Sei $ x(t)$ eine auf einem Integral nicht verschiedene Lösung der homogenen Differentialgleichung, Dann ist
+\[ y(t) = x(t) \int^{t} \frac{w(t^\prime)}{x^2(t^\prime) } dt^\prime \qquad ≥\text{mit} w(t) = e ^{\int^{t} a(t^\prime)dt^\prime}   \]
+eine linear unabhängige Lösung, wobei die unteren Integrationsgrenzen beliebig sind.\\
+\textbf{Beweis:}
+\[ \dot{y} = \dot{x}  \]
+
+\end{document} 

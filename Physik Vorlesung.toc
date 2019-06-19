@@ -74,3 +74,4 @@
 \contentsline {subsection}{\numberline {20.4}kinetische Energie}{29}
 \contentsline {subsection}{\numberline {20.5}sonderfall: Abgeschlossene Systeme}{30}
 \contentsline {subsection}{\numberline {20.6}Das Schwerpunktsystem}{30}
+\contentsline {part}{XIII\hspace {1em}Vorlesung 13}{30}

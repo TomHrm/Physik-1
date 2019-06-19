@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  23 MAY 2019 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.15)  4 JUN 2019 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,35 +1291,156 @@ Overfull \hbox (39.513pt too wide) in paragraph at lines 741--743
 n es kei-ne []au^^Yeren Kr[]afte gibt sich das Zweik[]orperproblem
  []
 
-[30 <./images/IMG_34D6AFF7119B-1.jpeg>] (./Physik Vorlesung.aux) ) 
+<./images/190528-Hag.pdf, id=172, 845.1575pt x 597.23125pt>
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf>
+Package pdftex.def Info: ./images/190528-Hag.pdf  used on input line 744.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf>
+Package pdftex.def Info: ./images/190528-Hag.pdf  used on input line 744.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+<./images/190528-Hag.pdf, id=175, page=1, 845.1575pt x 597.23125pt>
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 1>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page1 used on input line 744
+.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 1>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page1 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+[30 <./images/IMG_34D6AFF7119B-1.jpeg>]
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 1>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page1 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 1>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page1 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 1>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page1 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+ [31 <./images/190528-Hag.pdf, page is rotated 270 degrees>]
+<./images/190528-Hag.pdf, id=186, page=2, 845.1575pt x 597.23125pt>
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 2>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page2 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 2>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page2 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 2>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page2 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+ [32 <./images/190528-Hag.pdf, page is rotated 270 degrees>]
+<./images/190528-Hag.pdf, id=190, page=3, 845.1575pt x 597.23125pt>
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 3>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page3 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 3>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page3 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 3>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page3 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+ [33 <./images/190528-Hag.pdf, page is rotated 270 degrees>]
+<./images/190528-Hag.pdf, id=194, page=4, 845.1575pt x 597.23125pt>
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 4>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page4 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 4>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page4 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 4>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page4 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+ [34 <./images/190528-Hag.pdf, page is rotated 270 degrees>]
+<./images/190528-Hag.pdf, id=198, page=5, 845.1575pt x 597.23125pt>
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 5>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page5 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 5>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page5 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 5>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page5 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+ [35 <./images/190528-Hag.pdf, page is rotated 270 degrees>]
+<./images/190528-Hag.pdf, id=202, page=6, 845.1575pt x 597.23125pt>
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 6>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page6 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 6>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page6 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+File: ./images/190528-Hag.pdf Graphic file (type pdf)
+<use ./images/190528-Hag.pdf, page 6>
+Package pdftex.def Info: ./images/190528-Hag.pdf , page6 used on input line 744
+.
+(pdftex.def)             Requested size: 614.40643pt x 434.1708pt.
+ [36 <./images/190528-Hag.pdf, page is rotated 270 degrees>] (./Physik Vorlesun
+g.aux) ) 
 Here is how much of TeX's memory you used:
- 17692 strings out of 492649
- 343101 string characters out of 6129622
+ 17716 strings out of 492649
+ 343990 string characters out of 6129622
  433454 words of memory out of 5000000
- 21195 multiletter control sequences out of 15000+600000
+ 21217 multiletter control sequences out of 15000+600000
  13075 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,21n,73p,876b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Physik Vorlesung.pdf" (30 pages, 4681382 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Physik Vorlesung.pdf" (36 pages, 4983478 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 255 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
