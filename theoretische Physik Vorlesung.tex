@@ -1318,6 +1318,13 @@ Sei $ x(t)$ eine auf einem Integral nicht verschiedene Lösung der homogenen Dif
 \[ y(t) = x(t) \int^{t} \frac{w(t^\prime)}{x^2(t^\prime) } dt^\prime \qquad ≥\text{mit} w(t) = e ^{\int^{t} a(t^\prime)dt^\prime}   \]
 eine linear unabhängige Lösung, wobei die unteren Integrationsgrenzen beliebig sind.\\
 \textbf{Beweis:}
-\[ \dot{y} = \dot{x}  \]
+\[ \dot{y} = \dot{x} \underbrace{\int^{t} \frac{w(t^\prime)}{x^2(t^\prime)} dt^\prime}_{ = \frac{y}{x}} + x \frac{w}{x^2} = \frac{1 }{x} (y \dot{x} + w) \Rightarroww = x \dot{y} - \dot{x} y \neq 0 \]
+\[ \Rightarrow \text{ x und y linear unabhängig. Fernen:} \]
+\[ w=x\dot{y} - \dot{x} y \Rightarrow x \ddot{y} - \ddot{x}y = \dot{w} = -aw = -a ( x \dot{y} - \dot{x} y ) \]
+\[ \Rightarrow x (\ddot{y} + a \dot{y} - y (\ddot{x} + a\dot{x}) = 0 \]
+da $ \ddot{x} + a \dot{x} = -bx \Rightarrow x (\ddot{y} + a \dot{y} + by = 0)  $, also ist $ y(t) $ eine Lösung.\\
+Eine allgemeine Kösung $  x(t) = \lambda_1 x_1 (t) + \lambda_2 x_2 (t) $ einer homogenen Differentialgleichung 2. Ordnung kann durch Wahl geeigneter Koeffizenten $ \lambda_1 , \lambda_2 $ jede Anfangsbedingung $ x(t_0) = x_0,  \dot{x} (t_0) = v_0  $ erfüllen:
+\[ x_0 = \lambda_1 x_1 (t_0) + \lambda_2 x_2(t_0) \]
+\[ v_0 = \lambda_1 \dot{x}_1 (t_0) + \lambda_2 \dot{x}_2 (t_0) \]
 
 \end{document} 
